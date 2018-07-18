@@ -10,6 +10,58 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
+        <!--Swipe RightVC-->
+        <scene sceneID="zEf-8t-XTI">
+            <objects>
+                <viewController id="TEZ-Jl-hA4" customClass="swipeRightVC" customModule="CLDangerZone" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="7sC-d9-4j0">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="dugtrioAnnotate" translatesAutoresizingMaskIntoConstraints="NO" id="7HY-sh-QLm">
+                                <rect key="frame" x="0.0" y="20" width="414" height="58"/>
+                                <gestureRecognizers/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="g5L-O5-uyX" appends="YES" id="icu-dH-WhU"/>
+                                </connections>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gqa-Qn-3aR">
+                                <rect key="frame" x="170" y="641" width="75" height="75"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="75" id="Pni-ES-zX0"/>
+                                </constraints>
+                                <state key="normal" backgroundImage="alolaDiglett"/>
+                                <connections>
+                                    <action selector="takePhotoPress:" destination="TEZ-Jl-hA4" eventType="touchUpInside" id="NF8-uf-7Rq"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="7HY-sh-QLm" firstAttribute="leading" secondItem="7sC-d9-4j0" secondAttribute="leading" id="8Ev-zb-InD"/>
+                            <constraint firstAttribute="bottom" secondItem="gqa-Qn-3aR" secondAttribute="bottom" constant="20" symbolic="YES" id="Pvb-F9-JSi"/>
+                            <constraint firstAttribute="trailing" secondItem="7HY-sh-QLm" secondAttribute="trailing" id="UPQ-8q-lp8"/>
+                            <constraint firstItem="gqa-Qn-3aR" firstAttribute="centerX" secondItem="7HY-sh-QLm" secondAttribute="centerX" id="agR-DA-F5L"/>
+                            <constraint firstItem="7HY-sh-QLm" firstAttribute="top" secondItem="OjX-qZ-V6p" secondAttribute="top" id="gZA-Yu-pbk"/>
+                            <constraint firstItem="OjX-qZ-V6p" firstAttribute="bottom" secondItem="7HY-sh-QLm" secondAttribute="bottom" constant="658" id="h24-gS-Cjh"/>
+                            <constraint firstItem="gqa-Qn-3aR" firstAttribute="leading" secondItem="OjX-qZ-V6p" secondAttribute="leading" constant="170" id="pEV-bS-EZU"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="OjX-qZ-V6p"/>
+                    </view>
+                    <connections>
+                        <segue destination="1Be-e8-A6J" kind="unwind" identifier="unwindToVC" unwindAction="unwindToVCWithSegue:" id="F1V-Gq-VZi"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="vaN-1R-OeA" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <exit id="1Be-e8-A6J" userLabel="Exit" sceneMemberID="exit"/>
+                <swipeGestureRecognizer direction="down" id="g5L-O5-uyX">
+                    <connections>
+                        <action selector="bottomSwipeGesture:" destination="TEZ-Jl-hA4" id="HCz-ie-OPs"/>
+                    </connections>
+                </swipeGestureRecognizer>
+            </objects>
+            <point key="canvasLocation" x="63.768115942028992" y="931.79347826086962"/>
+        </scene>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
@@ -19,67 +71,82 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" showsUserLocation="YES" translatesAutoresizingMaskIntoConstraints="NO" id="rg6-iR-Db1">
-                                <rect key="frame" x="0.0" y="20" width="414" height="716"/>
+                                <rect key="frame" x="0.0" y="20" width="414" height="659"/>
                                 <gestureRecognizers/>
                                 <connections>
                                     <outletCollection property="gestureRecognizers" destination="kmo-0U-RmL" appends="YES" id="UtE-ae-NPc"/>
                                 </connections>
                             </mapView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NIz-wa-D6G" userLabel="Text">
-                                <rect key="frame" x="338" y="652" width="68" height="68"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="68" id="Aob-fz-led"/>
-                                    <constraint firstAttribute="height" constant="68" id="tDa-Ud-7HE"/>
-                                </constraints>
-                                <state key="normal" backgroundImage="flare alert"/>
-                                <connections>
-                                    <action selector="messageButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Vyd-ol-b8W"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eD5-ZT-yfK" userLabel="119">
-                                <rect key="frame" x="338" y="576" width="68" height="68"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="68" id="s4k-eb-NTx"/>
-                                    <constraint firstAttribute="width" constant="68" id="woL-jq-ngD"/>
-                                </constraints>
+                            <button opaque="NO" contentMode="scaleAspectFit" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eD5-ZT-yfK" userLabel="119">
+                                <rect key="frame" x="328" y="479" width="70" height="70"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" backgroundImage="119"/>
                                 <connections>
                                     <action selector="callButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="maM-cJ-sFy"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" verticalCompressionResistancePriority="749" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NIz-wa-D6G" userLabel="Text">
+                                <rect key="frame" x="328" y="557" width="70" height="70"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" backgroundImage="flare alert"/>
+                                <connections>
+                                    <action selector="messageButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Vyd-ol-b8W"/>
+                                </connections>
+                            </button>
+                            <imageView contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="diglettAnnotate" translatesAutoresizingMaskIntoConstraints="NO" id="j1e-FQ-ng5">
+                                <rect key="frame" x="0.0" y="678" width="414" height="58"/>
+                                <gestureRecognizers/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="Ebj-5c-r1t" appends="YES" id="gZV-gC-xfr"/>
+                                </connections>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XPH-Dp-wkG">
+                                <rect key="frame" x="284" y="678" width="130" height="58"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <action selector="invisbleButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="zhF-ja-LBB"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="NIz-wa-D6G" firstAttribute="top" secondItem="eD5-ZT-yfK" secondAttribute="bottom" constant="8" id="5dV-3O-oqw"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="NIz-wa-D6G" secondAttribute="trailing" constant="8" id="6vE-sl-dWE"/>
-                            <constraint firstItem="rg6-iR-Db1" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="7MK-Wz-a7P"/>
-                            <constraint firstItem="NIz-wa-D6G" firstAttribute="top" secondItem="eD5-ZT-yfK" secondAttribute="bottom" constant="8" id="IrT-q3-B4m"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="rg6-iR-Db1" secondAttribute="bottom" id="JH7-RV-f2p"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="eD5-ZT-yfK" secondAttribute="trailing" constant="8" id="KEp-VF-hvO"/>
-                            <constraint firstItem="eD5-ZT-yfK" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="PFX-Zh-5bN"/>
-                            <constraint firstItem="rg6-iR-Db1" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="XSP-eR-gwm"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="rg6-iR-Db1" secondAttribute="trailing" id="kdi-y4-d2Q"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="NIz-wa-D6G" secondAttribute="bottom" constant="16" id="r5U-tB-SSE"/>
-                            <constraint firstItem="eD5-ZT-yfK" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="556" id="xUQ-kG-VSv"/>
+                            <constraint firstItem="rg6-iR-Db1" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="1ix-Cb-nTp"/>
+                            <constraint firstItem="j1e-FQ-ng5" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="RCX-TJ-Ahi"/>
+                            <constraint firstItem="j1e-FQ-ng5" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="658" id="RO8-35-rlp"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="j1e-FQ-ng5" secondAttribute="trailing" id="cm8-Jg-jzf"/>
+                            <constraint firstItem="j1e-FQ-ng5" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="fhv-6e-ONA"/>
+                            <constraint firstItem="rg6-iR-Db1" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="hlY-G4-gRb"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="rg6-iR-Db1" secondAttribute="bottom" constant="57" id="nLb-yc-QQH"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="rg6-iR-Db1" secondAttribute="trailing" id="tIC-na-Cnw"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="j1e-FQ-ng5" secondAttribute="bottom" id="tX7-me-3CT"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
                         <outlet property="mapView" destination="rg6-iR-Db1" id="8EF-EG-rL7"/>
+                        <segue destination="TEZ-Jl-hA4" kind="presentation" identifier="swipeRightSegue" id="VyV-qx-v0W"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
-                <pongPressGestureRecognizer allowableMovement="10" minimumPressDuration="0.5" id="kmo-0U-RmL">
+                <pongPressGestureRecognizer allowableMovement="10" minimumPressDuration="0.10000000000000001" numberOfTapsRequired="1" numberOfTouchesRequired="0" id="kmo-0U-RmL">
                     <connections>
                         <action selector="longTouchPressed:" destination="BYZ-38-t0r" id="C7Q-je-B9u"/>
                     </connections>
                 </pongPressGestureRecognizer>
+                <swipeGestureRecognizer direction="up" id="Ebj-5c-r1t">
+                    <connections>
+                        <action selector="swipeRightGesture:" destination="BYZ-38-t0r" id="yJO-nu-zaN"/>
+                    </connections>
+                </swipeGestureRecognizer>
             </objects>
-            <point key="canvasLocation" x="68" y="118.29085457271366"/>
+            <point key="canvasLocation" x="65.217391304347828" y="115.7608695652174"/>
         </scene>
     </scenes>
     <resources>
         <image name="119" width="1024" height="768"/>
+        <image name="alolaDiglett" width="260" height="300"/>
+        <image name="diglettAnnotate" width="250" height="250"/>
+        <image name="dugtrioAnnotate" width="250" height="242"/>
         <image name="flare alert" width="280" height="280"/>
     </resources>
 </document>

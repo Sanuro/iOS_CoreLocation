@@ -7,23 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		090AC06D20FF2AE70092A1CC /* CustomPointAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 090AC06C20FF2AE70092A1CC /* CustomPointAnnotation.swift */; };
+		0953A1B720FFB56500C3CE9E /* swipeRightVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0953A1B620FFB56500C3CE9E /* swipeRightVC.swift */; };
+		0953A1BC20FFC25000C3CE9E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0953A1BB20FFC25000C3CE9E /* LaunchScreen.storyboard */; };
+		0953A1BE20FFC7C600C3CE9E /* PhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0953A1BD20FFC7C600C3CE9E /* PhotoViewController.swift */; };
+		0953A1C020FFCE3500C3CE9E /* JYogurt.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0953A1BF20FFCE3500C3CE9E /* JYogurt.mp3 */; };
+		09D53BC820FF35BD0080B915 /* CLDangerZone.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 09D53BC620FF35BD0080B915 /* CLDangerZone.xcdatamodeld */; };
 		FEB4368820FE93E800D62C04 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEB4368720FE93E800D62C04 /* AppDelegate.swift */; };
 		FEB4368A20FE93E800D62C04 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEB4368920FE93E800D62C04 /* ViewController.swift */; };
 		FEB4368D20FE93E800D62C04 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FEB4368B20FE93E800D62C04 /* Main.storyboard */; };
-		FEB4369020FE93E800D62C04 /* CLDangerZone.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FEB4368E20FE93E800D62C04 /* CLDangerZone.xcdatamodeld */; };
 		FEB4369220FE93E900D62C04 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FEB4369120FE93E900D62C04 /* Assets.xcassets */; };
-		FEB4369520FE93E900D62C04 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FEB4369320FE93E900D62C04 /* LaunchScreen.storyboard */; };
 		FEB4369E20FE980200D62C04 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FEB4369D20FE980200D62C04 /* MapKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		090AC06C20FF2AE70092A1CC /* CustomPointAnnotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomPointAnnotation.swift; sourceTree = "<group>"; };
+		0953A1B620FFB56500C3CE9E /* swipeRightVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swipeRightVC.swift; sourceTree = "<group>"; };
+		0953A1BB20FFC25000C3CE9E /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0953A1BD20FFC7C600C3CE9E /* PhotoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoViewController.swift; sourceTree = "<group>"; };
+		0953A1BF20FFCE3500C3CE9E /* JYogurt.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = JYogurt.mp3; sourceTree = "<group>"; };
+		09D53BC720FF35BD0080B915 /* CLDangerZone.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CLDangerZone.xcdatamodel; sourceTree = "<group>"; };
 		FEB4368420FE93E800D62C04 /* CLDangerZone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CLDangerZone.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FEB4368720FE93E800D62C04 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FEB4368920FE93E800D62C04 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		FEB4368C20FE93E800D62C04 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		FEB4368F20FE93E800D62C04 /* CLDangerZone.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CLDangerZone.xcdatamodel; sourceTree = "<group>"; };
 		FEB4369120FE93E900D62C04 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		FEB4369420FE93E900D62C04 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FEB4369620FE93E900D62C04 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FEB4369D20FE980200D62C04 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
@@ -43,6 +51,7 @@
 		FEB4367B20FE93E800D62C04 = {
 			isa = PBXGroup;
 			children = (
+				0953A1BD20FFC7C600C3CE9E /* PhotoViewController.swift */,
 				FEB4368620FE93E800D62C04 /* CLDangerZone */,
 				FEB4368520FE93E800D62C04 /* Products */,
 				FEB4369C20FE980200D62C04 /* Frameworks */,
@@ -62,11 +71,14 @@
 			children = (
 				FEB4368720FE93E800D62C04 /* AppDelegate.swift */,
 				FEB4368920FE93E800D62C04 /* ViewController.swift */,
+				09D53BC620FF35BD0080B915 /* CLDangerZone.xcdatamodeld */,
+				090AC06C20FF2AE70092A1CC /* CustomPointAnnotation.swift */,
 				FEB4368B20FE93E800D62C04 /* Main.storyboard */,
+				0953A1B620FFB56500C3CE9E /* swipeRightVC.swift */,
 				FEB4369120FE93E900D62C04 /* Assets.xcassets */,
-				FEB4369320FE93E900D62C04 /* LaunchScreen.storyboard */,
+				0953A1BF20FFCE3500C3CE9E /* JYogurt.mp3 */,
+				0953A1BB20FFC25000C3CE9E /* LaunchScreen.storyboard */,
 				FEB4369620FE93E900D62C04 /* Info.plist */,
-				FEB4368E20FE93E800D62C04 /* CLDangerZone.xcdatamodeld */,
 			);
 			path = CLDangerZone;
 			sourceTree = "<group>";
@@ -137,7 +149,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FEB4369520FE93E900D62C04 /* LaunchScreen.storyboard in Resources */,
+				0953A1BC20FFC25000C3CE9E /* LaunchScreen.storyboard in Resources */,
+				0953A1C020FFCE3500C3CE9E /* JYogurt.mp3 in Resources */,
 				FEB4369220FE93E900D62C04 /* Assets.xcassets in Resources */,
 				FEB4368D20FE93E800D62C04 /* Main.storyboard in Resources */,
 			);
@@ -151,8 +164,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				FEB4368A20FE93E800D62C04 /* ViewController.swift in Sources */,
+				09D53BC820FF35BD0080B915 /* CLDangerZone.xcdatamodeld in Sources */,
+				0953A1B720FFB56500C3CE9E /* swipeRightVC.swift in Sources */,
 				FEB4368820FE93E800D62C04 /* AppDelegate.swift in Sources */,
-				FEB4369020FE93E800D62C04 /* CLDangerZone.xcdatamodeld in Sources */,
+				090AC06D20FF2AE70092A1CC /* CustomPointAnnotation.swift in Sources */,
+				0953A1BE20FFC7C600C3CE9E /* PhotoViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -165,14 +181,6 @@
 				FEB4368C20FE93E800D62C04 /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		FEB4369320FE93E900D62C04 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				FEB4369420FE93E900D62C04 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -304,7 +312,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.rodbaluyot.CLDangerZone;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Jaewon.CLDangerZone;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -323,7 +331,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.rodbaluyot.CLDangerZone;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Jaewon.CLDangerZone;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -354,12 +362,12 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		FEB4368E20FE93E800D62C04 /* CLDangerZone.xcdatamodeld */ = {
+		09D53BC620FF35BD0080B915 /* CLDangerZone.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				FEB4368F20FE93E800D62C04 /* CLDangerZone.xcdatamodel */,
+				09D53BC720FF35BD0080B915 /* CLDangerZone.xcdatamodel */,
 			);
-			currentVersion = FEB4368F20FE93E800D62C04 /* CLDangerZone.xcdatamodel */;
+			currentVersion = 09D53BC720FF35BD0080B915 /* CLDangerZone.xcdatamodel */;
 			path = CLDangerZone.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;

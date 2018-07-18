@@ -12,12 +12,13 @@ import MapKit
 import AVFoundation
 import CallKit
 import MessageUI
+import Contacts
 
-class ViewController: UIViewController,MFMessageComposeViewControllerDelegate {
+class ViewController: UIViewController, MKMapViewDelegate, MFMessageComposeViewControllerDelegate {
     func messageComposeViewController(_ controller: MFMessageComposeViewController, didFinishWith result: MessageComposeResult) {
         self.dismiss(animated: true, completion: nil)
     }
-    
+    var musicEffect: AVAudioPlayer = AVAudioPlayer()
     
     @IBAction func messageButtonPressed(_ sender: UIButton) {
         if MFMessageComposeViewController.canSendText(){
@@ -34,6 +35,16 @@ class ViewController: UIViewController,MFMessageComposeViewControllerDelegate {
         let url: NSURL = URL(string: "TEL://119")! as NSURL
         UIApplication.shared.open(url as URL, options: [:], completionHandler: nil)
     }
+    @IBAction func swipeRightGesture(_ sender: UISwipeGestureRecognizer) {
+        performSegue(withIdentifier: "swipeRightSegue", sender: sender)
+    }
+    
+    @IBAction func unwindToVC(segue: UIStoryboardSegue){
+        
+    }
+    
+    
+    
     
     let locationManager = CLLocationManager()
     
@@ -46,12 +57,26 @@ class ViewController: UIViewController,MFMessageComposeViewControllerDelegate {
         enableBasicLocationServices()
 
         let longPressGesture = UILongPressGestureRecognizer(target: self, action: #selector(addAnnotationOnLongPress(gesture:)))
-        longPressGesture.minimumPressDuration = 0.5
+        longPressGesture.minimumPressDuration = 0.1
         self.mapView.addGestureRecognizer(longPressGesture)
+        
+        let musicFile = Bundle.main.path(forResource:"JYogurt", ofType:".mp3")
+        
+        do{
+            try musicEffect = AVAudioPlayer(contentsOf: URL(fileURLWithPath: musicFile!))
+        }
+        catch{
+            print(error)
+        }
 
     }
     
     
+    @IBAction func invisbleButtonPressed(_ sender: UIButton) {
+        print("musicButton Pressed")
+        musicEffect.play()
+
+    }
     @IBOutlet weak var mapView: MKMapView!
     
     
@@ -81,7 +106,10 @@ class ViewController: UIViewController,MFMessageComposeViewControllerDelegate {
     @objc func addAnnotationOnLongPress(gesture: UILongPressGestureRecognizer) {
         
         if gesture.state == .ended {
+            
+            
             let point = gesture.location(in: self.mapView)
+            
             let coordinate = self.mapView.convert(point, toCoordinateFrom: self.mapView)
             print(coordinate)
             //Now use this coordinate to add annotation on map.
@@ -89,17 +117,40 @@ class ViewController: UIViewController,MFMessageComposeViewControllerDelegate {
             annotation.coordinate = coordinate
             //Set title and subtitle if you want
             annotation.title = "DANGER ZONE"
-            annotation.subtitle = "details"
+            
+            let location = CLLocation(latitude: coordinate.latitude, longitude: coordinate.longitude)
+            let geocoder = CLGeocoder()
+            geocoder.reverseGeocodeLocation(location) {(clPlacemarks, error) in
+                if error != nil{
+                    print(error?.localizedDescription)
+                } else if let placemarks = clPlacemarks, placemarks.count > 0{
+                    let placemark = placemarks[0]
+                    annotation.subtitle = "\(placemark.postalAddress!.street), \(placemark.postalAddress!.city), \(placemark.postalAddress!.state),  \(placemark.postalAddress!.postalCode), \(placemark.postalAddress!.country)"
+//                    "Latitude: \(coordinate.latitude) Longitude: \(coordinate.longitude)"
+                }
+            }
+           
+            
+//            annotation.subtitle = "Latitude: \(coordinate.latitude) Longitude: \(coordinate.longitude)"
+            
+            
             self.mapView.addAnnotation(annotation)
         }
     }
-    
+//    func getPlacemarkFromLocation(location: CLLocation){
+//        CLGeocoder().reverseGeocodeLocation(location, completionHandler:
+//            {(placemarks, error) in
+//                if error {println("reverse geodcode fail: \(error.localizedDescription)")}
+//                let pm = placemarks as [CLPlacemark]
+//                if pm.count > 0 { self.showAddPinViewController(placemarks[0] as CLPlacemark) }
+//        })
+//    }
     
     
     
     func startMonitoringLocation(){
         locationManager.desiredAccuracy = kCLLocationAccuracyBest
-        locationManager.distanceFilter = 1.0  // In meters.
+        locationManager.distanceFilter = 10.0  // In meters.
         locationManager.startUpdatingLocation()
         locationManager.startUpdatingHeading()
     }
@@ -116,10 +167,6 @@ class ViewController: UIViewController,MFMessageComposeViewControllerDelegate {
 //        annotation.subtitle = "description"
 //
 //        self.mapView.addAnnotation(annotation)
-//
-        
-        
-        
     }
     
     
@@ -162,7 +209,7 @@ extension ViewController: CLLocationManagerDelegate {
     }
     
     func locationManager(_ manager: CLLocationManager, didUpdateHeading newHeading: CLHeading) {
-        UIView.animate(withDuration: 0.5) {
+        UIView.animate(withDuration: 0.1) {
             let angle = newHeading.trueHeading // convert from degrees to radians
        //     print(angle)
         }
@@ -173,4 +220,5 @@ extension Double {
     var toRadians: Double { return self * .pi / 180 }
     var toDegrees: Double { return self * 180 / .pi }
 }
+
 
