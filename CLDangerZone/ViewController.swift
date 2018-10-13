@@ -14,22 +14,47 @@ import CallKit
 import MessageUI
 import Contacts
 
+import Foundation
+import Alamofire
+
+
 class ViewController: UIViewController, MKMapViewDelegate, MFMessageComposeViewControllerDelegate {
     func messageComposeViewController(_ controller: MFMessageComposeViewController, didFinishWith result: MessageComposeResult) {
         self.dismiss(animated: true, completion: nil)
     }
     var musicEffect: AVAudioPlayer = AVAudioPlayer()
     
+//if let accountSID = ProcessInfo.processInfo.environment["ACb6c0bd9c0d0c11b1a3fdeb58155e9c26"],
+//let authToken = ProcessInfo.processInfo.environment["cb0a0209127d60edc8deb39f696242e4"] {
+    
+    
+//    let url = "https://api.twilio.com/2010-04-01/Accounts/\(ACb6c0bd9c0d0c11b1a3fdeb58155e9c26)/Messages"
+//    let parameters = ["From": "4155490878", "To": "2488607630", "Body": "Hello from Swift!"]
+    
+//    Alamofire.request(url, method: .post, parameters: parameters)
+//        .authenticate(user: ACb6c0bd9c0d0c11b1a3fdeb58155e9c26, password: cb0a0209127d60edc8deb39f696242e4)
+//        .responseJSON { response in
+//            debugPrint(response)
+//    }
+//
+//    RunLoop.main.run()
+//}
+    
+    
     @IBAction func messageButtonPressed(_ sender: UIButton) {
-        if MFMessageComposeViewController.canSendText(){
-            let controller = MFMessageComposeViewController()
-            controller.body = "HELP! I'm currently in a DangerZone!"
-            controller.recipients = ["2488609463"]
-            controller.messageComposeDelegate = self
-            self.present(controller, animated: true, completion: nil)
-        }else{
-            print("Cannot send text")
-        }
+        
+        
+        
+        
+//        if MFMessageComposeViewController.canSendText(){
+//            let controller = MFMessageComposeViewController()
+//            controller.body = "HELP! I'm currently in a DangerZone!"
+//            controller.recipients = ["2488609463"]
+//            controller.messageComposeDelegate = self
+//            self.present(controller, animated: true, completion: nil)
+//        }else{
+//            print("Cannot send text")
+//        }
     }
     @IBAction func callButtonPressed(_ sender: UIButton) {
         let url: NSURL = URL(string: "TEL://119")! as NSURL
