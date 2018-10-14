@@ -14,6 +14,7 @@
 		0953A1C020FFCE3500C3CE9E /* JYogurt.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0953A1BF20FFCE3500C3CE9E /* JYogurt.mp3 */; };
 		09D53BC820FF35BD0080B915 /* CLDangerZone.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 09D53BC620FF35BD0080B915 /* CLDangerZone.xcdatamodeld */; };
 		0ED76F77217273A100B79967 /* pod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ED76F76217273A100B79967 /* pod.swift */; };
+		0ED76F79217301E600B79967 /* cameraPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ED76F78217301E600B79967 /* cameraPage.swift */; };
 		41BA5861DA289E5A543A36CD /* Pods_CLDangerZone.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DC73B0E6074BD67E66A6EA0 /* Pods_CLDangerZone.framework */; };
 		FEB4368820FE93E800D62C04 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEB4368720FE93E800D62C04 /* AppDelegate.swift */; };
 		FEB4368A20FE93E800D62C04 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEB4368920FE93E800D62C04 /* ViewController.swift */; };
@@ -30,6 +31,7 @@
 		0953A1BF20FFCE3500C3CE9E /* JYogurt.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = JYogurt.mp3; sourceTree = "<group>"; };
 		09D53BC720FF35BD0080B915 /* CLDangerZone.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CLDangerZone.xcdatamodel; sourceTree = "<group>"; };
 		0ED76F76217273A100B79967 /* pod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pod.swift; sourceTree = "<group>"; };
+		0ED76F78217301E600B79967 /* cameraPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cameraPage.swift; sourceTree = "<group>"; };
 		7D4FE51E6ADDD8B40716AB5D /* Pods-CLDangerZone.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CLDangerZone.release.xcconfig"; path = "Pods/Target Support Files/Pods-CLDangerZone/Pods-CLDangerZone.release.xcconfig"; sourceTree = "<group>"; };
 		8DC73B0E6074BD67E66A6EA0 /* Pods_CLDangerZone.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CLDangerZone.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E512C8E182960C9541B5DB00 /* Pods-CLDangerZone.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CLDangerZone.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CLDangerZone/Pods-CLDangerZone.debug.xcconfig"; sourceTree = "<group>"; };
@@ -93,6 +95,7 @@
 				090AC06C20FF2AE70092A1CC /* CustomPointAnnotation.swift */,
 				FEB4368B20FE93E800D62C04 /* Main.storyboard */,
 				0953A1B620FFB56500C3CE9E /* swipeRightVC.swift */,
+				0ED76F78217301E600B79967 /* cameraPage.swift */,
 				FEB4369120FE93E900D62C04 /* Assets.xcassets */,
 				0953A1BF20FFCE3500C3CE9E /* JYogurt.mp3 */,
 				0953A1BB20FFC25000C3CE9E /* LaunchScreen.storyboard */,
@@ -250,6 +253,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FEB4368A20FE93E800D62C04 /* ViewController.swift in Sources */,
+				0ED76F79217301E600B79967 /* cameraPage.swift in Sources */,
 				09D53BC820FF35BD0080B915 /* CLDangerZone.xcdatamodeld in Sources */,
 				0953A1B720FFB56500C3CE9E /* swipeRightVC.swift in Sources */,
 				FEB4368820FE93E800D62C04 /* AppDelegate.swift in Sources */,
