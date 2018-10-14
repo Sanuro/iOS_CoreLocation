@@ -1,16 +1,53 @@
 PODS:
   - Alamofire (4.7.3)
+  - StitchCore (4.0.5):
+    - StitchCoreSDK (~> 4.0.5)
+  - StitchCoreRemoteMongoDBService (4.0.5):
+    - StitchCoreSDK (~> 4.0.5)
+  - StitchCoreSDK (4.0.6)
+  - StitchCoreTwilioService (4.0.5):
+    - StitchCoreSDK (~> 4.0.5)
+  - StitchRemoteMongoDBService (4.0.5):
+    - StitchCore (~> 4.0.5)
+    - StitchCoreRemoteMongoDBService (~> 4.0.5)
+  - StitchSDK (4.0.5):
+    - StitchSDK/StitchSDK (= 4.0.5)
+  - StitchSDK/StitchRemoteMongoDBService (4.0.5):
+    - StitchRemoteMongoDBService (~> 4.0.5)
+  - StitchSDK/StitchSDK (4.0.5):
+    - StitchSDK/StitchRemoteMongoDBService
+  - StitchSDK/StitchTwilioService (4.0.5):
+    - StitchTwilioService (~> 4.0.5)
+  - StitchTwilioService (4.0.5):
+    - StitchCore (~> 4.0.5)
+    - StitchCoreTwilioService (~> 4.0.5)
 
 DEPENDENCIES:
   - Alamofire (~> 4.7)
+  - StitchSDK (~> 4.0.5)
+  - StitchSDK/StitchTwilioService (~> 4.0.5)
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
     - Alamofire
+    - StitchCore
+    - StitchCoreRemoteMongoDBService
+    - StitchCoreSDK
+    - StitchCoreTwilioService
+    - StitchRemoteMongoDBService
+    - StitchSDK
+    - StitchTwilioService
 
 SPEC CHECKSUMS:
   Alamofire: c7287b6e5d7da964a70935e5db17046b7fde6568
+  StitchCore: 93969ed38c0777c9d12f3497a0fc37776e618ad5
+  StitchCoreRemoteMongoDBService: ea279f1595bd4bd08fd7b0154a2265cf160adbc3
+  StitchCoreSDK: 6a045e7ef542377efc402177535619e7d5a6b164
+  StitchCoreTwilioService: 0170ed5294010fb799f27e35d424b932b196102f
+  StitchRemoteMongoDBService: e647002187b90bafcf83b7d2d5600016f6712417
+  StitchSDK: 066c767799237d3ddf49ba702f8fdc4199e7e68e
+  StitchTwilioService: 6372189650b7ad73b68cf6cb1968238c63ea4d45
 
-PODFILE CHECKSUM: 2d2004aeb428eb5f29ff8ffe289e1cdad7c81bce
+PODFILE CHECKSUM: ed0020878766a7dae135d8431371a3996631411e
 
 COCOAPODS: 1.5.3

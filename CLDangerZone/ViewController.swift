@@ -17,8 +17,19 @@ import Contacts
 import Foundation
 import Alamofire
 
+import StitchCore
+import StitchRemoteMongoDBService
+
+
+
+
 
 class ViewController: UIViewController, MKMapViewDelegate, MFMessageComposeViewControllerDelegate {
+    
+    private lazy var stitchClient = Stitch.defaultAppClient!
+    private var mongoClient: RemoteMongoClient?
+    
+    
     func messageComposeViewController(_ controller: MFMessageComposeViewController, didFinishWith result: MessageComposeResult) {
         self.dismiss(animated: true, completion: nil)
     }
@@ -42,9 +53,56 @@ class ViewController: UIViewController, MKMapViewDelegate, MFMessageComposeViewC
     
     
     @IBAction func messageButtonPressed(_ sender: UIButton) {
+        let client = Stitch.defaultAppClient!
+        
+        client.auth.login(withCredential: AnonymousCredential()) { result in
+            switch result {
+            case .success(let user):
+                print("logged in anonymous as user \(user.id)")
+                DispatchQueue.main.async {
+                    // update UI accordingly
+                }
+            case .failure(let error):
+                print("Failed to log in: \(error)")
+            }
+        }
+
         
         
         
+        
+        
+        let coordinate = locationManager.location?.coordinate
+        
+        let location = CLLocation(latitude: coordinate?.latitude ?? 0, longitude: coordinate?.longitude ?? 0)
+        let geocoder = CLGeocoder()
+        var whole_address = ""
+        geocoder.reverseGeocodeLocation(location) {(clPlacemarks, error) in
+            if error != nil{
+                print(error?.localizedDescription)
+            } else if let placemarks = clPlacemarks, placemarks.count > 0{
+                let placemark = placemarks[0]
+                whole_address = "\(placemark.postalAddress!.street), \(placemark.postalAddress!.city), \(placemark.postalAddress!.state),  \(placemark.postalAddress!.postalCode), \(placemark.postalAddress!.country)"
+                client.callFunction(withName: "sendlocation", withArgs: [whole_address], withRequestTimeout: 5.0
+                ) { (result: StitchResult<String>) in
+                    switch result {
+                    case .success(let stringResult):
+                        print("String result: \(stringResult)")
+                    case .failure(let error):
+                        print("Error retrieving String: \(String(describing: error))")
+                    }
+                }
+                //                    "Latitude: \(coordinate.latitude) Longitude: \(coordinate.longitude)"
+            }
+        }
+
+        
+        
+        
+        print("logging in anonymously")
+        
+        
+//
         
 //        if MFMessageComposeViewController.canSendText(){
 //            let controller = MFMessageComposeViewController()
@@ -66,6 +124,18 @@ class ViewController: UIViewController, MKMapViewDelegate, MFMessageComposeViewC
     
     @IBAction func unwindToVC(segue: UIStoryboardSegue){
         
+    }
+    
+    func captureScreenshot(){
+        let layer = UIApplication.shared.keyWindow!.layer
+        let scale = UIScreen.main.scale
+        // Creates UIImage of same size as view
+        UIGraphicsBeginImageContextWithOptions(layer.frame.size, false, scale);
+        layer.render(in: UIGraphicsGetCurrentContext()!)
+        let screenshot = UIGraphicsGetImageFromCurrentImageContext()
+        UIGraphicsEndImageContext()
+        // THIS IS TO SAVE SCREENSHOT TO PHOTOS
+        UIImageWriteToSavedPhotosAlbum(screenshot!, nil, nil, nil)
     }
     
     
@@ -93,6 +163,10 @@ class ViewController: UIViewController, MKMapViewDelegate, MFMessageComposeViewC
         catch{
             print(error)
         }
+
+        
+        
+        
 
     }
     
