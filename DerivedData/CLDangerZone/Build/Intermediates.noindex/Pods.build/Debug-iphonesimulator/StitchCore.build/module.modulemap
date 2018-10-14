@@ -1,0 +1,11 @@
+framework module StitchCore {
+  umbrella header "StitchCore-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+module StitchCore.Swift {
+    header "StitchCore-Swift.h"
+    requires objc
+}

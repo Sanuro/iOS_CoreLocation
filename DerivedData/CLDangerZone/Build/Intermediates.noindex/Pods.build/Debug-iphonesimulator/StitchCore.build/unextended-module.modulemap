@@ -1,0 +1,10 @@
+framework module StitchCore {
+  umbrella header "StitchCore-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+module StitchCore.__Swift {
+    exclude header "StitchCore-Swift.h"
+}

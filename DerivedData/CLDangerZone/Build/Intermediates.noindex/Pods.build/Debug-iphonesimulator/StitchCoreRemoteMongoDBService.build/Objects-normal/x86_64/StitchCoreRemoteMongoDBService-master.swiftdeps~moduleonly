@@ -1,0 +1,16 @@
+version: "Apple Swift version 4.2 (swiftlang-1000.11.37.1 clang-1000.11.45.1)"
+options: "078c70d814fc33d9f9534ec590a3208c"
+build_time: [1539479501, 831925000]
+inputs:
+  "/Users/katielee/Desktop/iOS_CoreLocation/Pods/StitchCoreRemoteMongoDBService/Core/Services/StitchCoreRemoteMongoDBService/Sources/StitchCoreRemoteMongoDBService/Internal/CoreRemoteMongoClient.swift": [1539478925, 0]
+  "/Users/katielee/Desktop/iOS_CoreLocation/Pods/StitchCoreRemoteMongoDBService/Core/Services/StitchCoreRemoteMongoDBService/Sources/StitchCoreRemoteMongoDBService/Internal/CoreRemoteMongoCollection.swift": [1539478925, 0]
+  "/Users/katielee/Desktop/iOS_CoreLocation/Pods/StitchCoreRemoteMongoDBService/Core/Services/StitchCoreRemoteMongoDBService/Sources/StitchCoreRemoteMongoDBService/Internal/CoreRemoteMongoCursor.swift": [1539478925, 0]
+  "/Users/katielee/Desktop/iOS_CoreLocation/Pods/StitchCoreRemoteMongoDBService/Core/Services/StitchCoreRemoteMongoDBService/Sources/StitchCoreRemoteMongoDBService/Internal/CoreRemoteMongoDatabase.swift": [1539478925, 0]
+  "/Users/katielee/Desktop/iOS_CoreLocation/Pods/StitchCoreRemoteMongoDBService/Core/Services/StitchCoreRemoteMongoDBService/Sources/StitchCoreRemoteMongoDBService/Internal/CoreRemoteMongoReadOperation.swift": [1539478925, 0]
+  "/Users/katielee/Desktop/iOS_CoreLocation/Pods/StitchCoreRemoteMongoDBService/Core/Services/StitchCoreRemoteMongoDBService/Sources/StitchCoreRemoteMongoDBService/RemoteCountOptions.swift": [1539478925, 0]
+  "/Users/katielee/Desktop/iOS_CoreLocation/Pods/StitchCoreRemoteMongoDBService/Core/Services/StitchCoreRemoteMongoDBService/Sources/StitchCoreRemoteMongoDBService/RemoteDeleteResult.swift": [1539478925, 0]
+  "/Users/katielee/Desktop/iOS_CoreLocation/Pods/StitchCoreRemoteMongoDBService/Core/Services/StitchCoreRemoteMongoDBService/Sources/StitchCoreRemoteMongoDBService/RemoteFindOptions.swift": [1539478925, 0]
+  "/Users/katielee/Desktop/iOS_CoreLocation/Pods/StitchCoreRemoteMongoDBService/Core/Services/StitchCoreRemoteMongoDBService/Sources/StitchCoreRemoteMongoDBService/RemoteInsertManyResult.swift": [1539478925, 0]
+  "/Users/katielee/Desktop/iOS_CoreLocation/Pods/StitchCoreRemoteMongoDBService/Core/Services/StitchCoreRemoteMongoDBService/Sources/StitchCoreRemoteMongoDBService/RemoteInsertOneResult.swift": [1539478925, 0]
+  "/Users/katielee/Desktop/iOS_CoreLocation/Pods/StitchCoreRemoteMongoDBService/Core/Services/StitchCoreRemoteMongoDBService/Sources/StitchCoreRemoteMongoDBService/RemoteUpdateOptions.swift": [1539478925, 0]
+  "/Users/katielee/Desktop/iOS_CoreLocation/Pods/StitchCoreRemoteMongoDBService/Core/Services/StitchCoreRemoteMongoDBService/Sources/StitchCoreRemoteMongoDBService/RemoteUpdateResult.swift": [1539478925, 0]

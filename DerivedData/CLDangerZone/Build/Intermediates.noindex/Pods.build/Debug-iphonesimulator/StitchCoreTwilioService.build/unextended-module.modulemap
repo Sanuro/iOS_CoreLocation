@@ -1,0 +1,10 @@
+framework module StitchCoreTwilioService {
+  umbrella header "StitchCoreTwilioService-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+module StitchCoreTwilioService.__Swift {
+    exclude header "StitchCoreTwilioService-Swift.h"
+}

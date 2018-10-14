@@ -206,6 +206,19 @@ class ViewController: UIViewController, MKMapViewDelegate, MFMessageComposeViewC
     @objc func addAnnotationOnLongPress(gesture: UILongPressGestureRecognizer) {
         
         if gesture.state == .ended {
+            let client = Stitch.defaultAppClient!
+            
+            client.auth.login(withCredential: AnonymousCredential()) { result in
+                switch result {
+                case .success(let user):
+                    print("logged in anonymous as user \(user.id)")
+                    DispatchQueue.main.async {
+                        // update UI accordingly
+                    }
+                case .failure(let error):
+                    print("Failed to log in: \(error)")
+                }
+            }
             
             
             let point = gesture.location(in: self.mapView)
@@ -226,9 +239,36 @@ class ViewController: UIViewController, MKMapViewDelegate, MFMessageComposeViewC
                 } else if let placemarks = clPlacemarks, placemarks.count > 0{
                     let placemark = placemarks[0]
                     annotation.subtitle = "\(placemark.postalAddress!.street), \(placemark.postalAddress!.city), \(placemark.postalAddress!.state),  \(placemark.postalAddress!.postalCode), \(placemark.postalAddress!.country)"
-//                    "Latitude: \(coordinate.latitude) Longitude: \(coordinate.longitude)"
+                    client.callFunction(withName: "update_pin", withArgs: [annotation.subtitle ?? "UPDATE"], withRequestTimeout: 5.0
+                    ) { (result: StitchResult<String>) in
+                        switch result {
+                        case .success(let stringResult):
+                            print("String result: \(stringResult)")
+                        case .failure(let error):
+                            print("Error retrieving String: \(String(describing: error))")
+                        }
+                    }
+                
                 }
             }
+        
+            let title = "Zone"
+            
+            
+            client.callFunction(withName: "add_danger", withArgs: [title, coordinate.latitude.description, coordinate.longitude.description], withRequestTimeout: 5.0
+            ) { (result: StitchResult<String>) in
+                switch result {
+                case .success(let stringResult):
+                    print("String result: \(stringResult)")
+                case .failure(let error):
+                    print("Error retrieving String: \(String(describing: error))")
+                }
+            }
+            
+            
+            
+            
+            
            
             
 //            annotation.subtitle = "Latitude: \(coordinate.latitude) Longitude: \(coordinate.longitude)"

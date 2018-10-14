@@ -1,0 +1,13 @@
+version: "Apple Swift version 4.2 (swiftlang-1000.11.37.1 clang-1000.11.45.1)"
+options: "f4f898898a2635a157db6033540db7dc"
+build_time: [1539485769, 618008000]
+inputs:
+  "/Users/katielee/Desktop/iOS_CoreLocation/CLDangerZone/ViewController.swift": [1539485769, 0]
+  "/Users/katielee/Desktop/iOS_CoreLocation/CLDangerZone/swipeRightVC.swift": [1539449226, 0]
+  "/Users/katielee/Desktop/iOS_CoreLocation/CLDangerZone/AppDelegate.swift": [1539479338, 0]
+  "/Users/katielee/Desktop/iOS_CoreLocation/CLDangerZone/CustomPointAnnotation.swift": [1539449226, 0]
+  "/Users/katielee/Desktop/iOS_CoreLocation/PhotoViewController.swift": [1539449226, 0]
+  "/Users/katielee/Desktop/iOS_CoreLocation/CLDangerZone/pod.swift": [1539478925, 0]
+  "/Users/katielee/Desktop/iOS_CoreLocation/DerivedData/CLDangerZone/Build/Intermediates.noindex/CLDangerZone.build/Debug-iphonesimulator/CLDangerZone.build/DerivedSources/CoreDataGenerated/CLDangerZone/CLAnnotate+CoreDataClass.swift": [1539479505, 0]
+  "/Users/katielee/Desktop/iOS_CoreLocation/DerivedData/CLDangerZone/Build/Intermediates.noindex/CLDangerZone.build/Debug-iphonesimulator/CLDangerZone.build/DerivedSources/CoreDataGenerated/CLDangerZone/CLAnnotate+CoreDataProperties.swift": [1539479505, 0]
+  "/Users/katielee/Desktop/iOS_CoreLocation/DerivedData/CLDangerZone/Build/Intermediates.noindex/CLDangerZone.build/Debug-iphonesimulator/CLDangerZone.build/DerivedSources/CoreDataGenerated/CLDangerZone/CLDangerZone+CoreDataModel.swift": [1539479505, 0]

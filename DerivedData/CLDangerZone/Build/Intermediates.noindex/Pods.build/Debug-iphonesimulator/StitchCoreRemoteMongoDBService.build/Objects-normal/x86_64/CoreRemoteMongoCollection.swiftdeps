@@ -1,0 +1,332 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "CoreRemoteMongoCollection"
+provides-nominal:
+- "30StitchCoreRemoteMongoDBService0bcD10CollectionC"
+provides-member:
+- ["30StitchCoreRemoteMongoDBService0bcD10CollectionC", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "=="
+- !private "Array"
+- "AssignmentPrecedence"
+- "Bool"
+- !private "BooleanLiteralType"
+- !private "BsonEncoder"
+- "Codable"
+- "CoreRemoteMongoCollection"
+- "CoreRemoteMongoReadOperation"
+- "CoreStitchServiceClient"
+- !private "Dictionary"
+- "Document"
+- "Int"
+- !private "ObjectId"
+- "RemoteCountOptions"
+- "RemoteDeleteResult"
+- "RemoteFindOptions"
+- "RemoteInsertManyResult"
+- "RemoteInsertOneResult"
+- "RemoteUpdateOptions"
+- "RemoteUpdateResult"
+- "String"
+- "StringLiteralType"
+- "TernaryPrecedence"
+- !private "_findStringSwitchCase"
+- !private "~="
+depends-member:
+- !private ["Sa", "map"]
+- !private ["s13ArrayProtocolP", "map"]
+- ["SK", "init"]
+- ["SK", "init"]
+- !private ["SK", "map"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["10MongoSwift11BsonEncoderC", "encode"]
+- !private ["10MongoSwift11BsonEncoderC", "init"]
+- !private ["10MongoSwift9BsonValueP", "_getBuiltinLogicValue"]
+- ["10MongoSwift9BsonValueP", "init"]
+- ["10MongoSwift9BsonValueP", "init"]
+- !private ["10MongoSwift9BsonValueP", "map"]
+- !private ["10MongoSwift9BsonValueP", "subscript"]
+- !private ["s7CVarArgP", "_getBuiltinLogicValue"]
+- ["s7CVarArgP", "init"]
+- ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "map"]
+- ["Sl", "init"]
+- ["Sl", "init"]
+- !private ["Sl", "map"]
+- ["SL", "init"]
+- ["SL", "init"]
+- ["30StitchCoreRemoteMongoDBService0bcD10CollectionC", "Bool"]
+- !private ["30StitchCoreRemoteMongoDBService0bcD10CollectionC", "BsonEncoder"]
+- ["30StitchCoreRemoteMongoDBService0bcD10CollectionC", "Codable"]
+- ["30StitchCoreRemoteMongoDBService0bcD10CollectionC", "CollectionType"]
+- ["30StitchCoreRemoteMongoDBService0bcD10CollectionC", "CoreRemoteMongoCollection"]
+- ["30StitchCoreRemoteMongoDBService0bcD10CollectionC", "CoreRemoteMongoReadOperation"]
+- ["30StitchCoreRemoteMongoDBService0bcD10CollectionC", "CoreStitchServiceClient"]
+- ["30StitchCoreRemoteMongoDBService0bcD10CollectionC", "Document"]
+- ["30StitchCoreRemoteMongoDBService0bcD10CollectionC", "Int"]
+- !private ["30StitchCoreRemoteMongoDBService0bcD10CollectionC", "ObjectId"]
+- ["30StitchCoreRemoteMongoDBService0bcD10CollectionC", "RemoteCountOptions"]
+- !private ["30StitchCoreRemoteMongoDBService0bcD10CollectionC", "RemoteCountOptionsKeys"]
+- ["30StitchCoreRemoteMongoDBService0bcD10CollectionC", "RemoteDeleteResult"]
+- ["30StitchCoreRemoteMongoDBService0bcD10CollectionC", "RemoteFindOptions"]
+- !private ["30StitchCoreRemoteMongoDBService0bcD10CollectionC", "RemoteFindOptionsKeys"]
+- ["30StitchCoreRemoteMongoDBService0bcD10CollectionC", "RemoteInsertManyResult"]
+- ["30StitchCoreRemoteMongoDBService0bcD10CollectionC", "RemoteInsertOneResult"]
+- ["30StitchCoreRemoteMongoDBService0bcD10CollectionC", "RemoteUpdateOptions"]
+- !private ["30StitchCoreRemoteMongoDBService0bcD10CollectionC", "RemoteUpdateOptionsKeys"]
+- ["30StitchCoreRemoteMongoDBService0bcD10CollectionC", "RemoteUpdateResult"]
+- ["30StitchCoreRemoteMongoDBService0bcD10CollectionC", "String"]
+- ["30StitchCoreRemoteMongoDBService0bcD10CollectionC", "T"]
+- !private ["30StitchCoreRemoteMongoDBService0bcD10CollectionC", "_findStringSwitchCase"]
+- ["30StitchCoreRemoteMongoDBService0bcD10CollectionC", "aggregate"]
+- !private ["30StitchCoreRemoteMongoDBService0bcD10CollectionC", "baseOperationArgs"]
+- !private ["30StitchCoreRemoteMongoDBService0bcD10CollectionC", "baseOperationArgs.storage"]
+- ["30StitchCoreRemoteMongoDBService0bcD10CollectionC", "count"]
+- ["30StitchCoreRemoteMongoDBService0bcD10CollectionC", "databaseName"]
+- ["30StitchCoreRemoteMongoDBService0bcD10CollectionC", "deleteMany"]
+- ["30StitchCoreRemoteMongoDBService0bcD10CollectionC", "deleteOne"]
+- !private ["30StitchCoreRemoteMongoDBService0bcD10CollectionC", "executeDelete"]
+- !private ["30StitchCoreRemoteMongoDBService0bcD10CollectionC", "executeUpdate"]
+- ["30StitchCoreRemoteMongoDBService0bcD10CollectionC", "find"]
+- !private ["30StitchCoreRemoteMongoDBService0bcD10CollectionC", "generateObjectIdIfMissing"]
+- ["30StitchCoreRemoteMongoDBService0bcD10CollectionC", "init"]
+- !private ["30StitchCoreRemoteMongoDBService0bcD10CollectionC", "init"]
+- ["30StitchCoreRemoteMongoDBService0bcD10CollectionC", "insertMany"]
+- ["30StitchCoreRemoteMongoDBService0bcD10CollectionC", "insertOne"]
+- ["30StitchCoreRemoteMongoDBService0bcD10CollectionC", "name"]
+- !private ["30StitchCoreRemoteMongoDBService0bcD10CollectionC", "service"]
+- ["30StitchCoreRemoteMongoDBService0bcD10CollectionC", "updateMany"]
+- ["30StitchCoreRemoteMongoDBService0bcD10CollectionC", "updateOne"]
+- ["30StitchCoreRemoteMongoDBService0bcD10CollectionC", "withCollectionType"]
+- !private ["30StitchCoreRemoteMongoDBService0bcD13ReadOperationC", "init"]
+- !private ["30StitchCoreRemoteMongoDBService0bcD13ReadOperationC", "init"]
+- !private ["13StitchCoreSDK0bA13ServiceClientP", "callFunction"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "map"]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- ["s29CustomPlaygroundQuickLookableP", "init"]
+- ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- ["s17CustomReflectableP", "init"]
+- ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "map"]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- ["s23CustomStringConvertibleP", "init"]
+- ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "map"]
+- !private ["s23CustomStringConvertibleP", "subscript"]
+- !private ["Se", "_getBuiltinLogicValue"]
+- ["Se", "init"]
+- ["Se", "init"]
+- !private ["Se", "map"]
+- !private ["Se", "subscript"]
+- !private ["10MongoSwift8DocumentV", "subscript"]
+- !private ["SE", "_getBuiltinLogicValue"]
+- ["SE", "init"]
+- ["SE", "init"]
+- !private ["SE", "map"]
+- !private ["SE", "subscript"]
+- ["SQ", "RawValue"]
+- !private ["SQ", ""]
+- ["SQ", "_Default_RawValue"]
+- !private ["SQ", "_findStringSwitchCase"]
+- !private ["SQ", "_getBuiltinLogicValue"]
+- ["SQ", "hash"]
+- ["SQ", "hashValue"]
+- ["SQ", "init"]
+- ["SQ", "init"]
+- !private ["SQ", "limit"]
+- !private ["SQ", "map"]
+- !private ["SQ", "projection"]
+- ["SQ", "rawValue"]
+- !private ["SQ", "sort"]
+- !private ["SQ", "subscript"]
+- !private ["SQ", "upsert"]
+- !private ["s25ExpressibleByArrayLiteralP", "map"]
+- !private ["s25ExpressibleByArrayLiteralP", "subscript"]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "subscript"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- ["s26ExpressibleByStringLiteralP", "init"]
+- ["s26ExpressibleByStringLiteralP", "init"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- ["SH", "RawValue"]
+- !private ["SH", ""]
+- ["SH", "_Default_RawValue"]
+- !private ["SH", "_findStringSwitchCase"]
+- !private ["SH", "_getBuiltinLogicValue"]
+- ["SH", "hash"]
+- ["SH", "hashValue"]
+- ["SH", "init"]
+- ["SH", "init"]
+- !private ["SH", "limit"]
+- !private ["SH", "map"]
+- !private ["SH", "projection"]
+- ["SH", "rawValue"]
+- !private ["SH", "sort"]
+- !private ["SH", "upsert"]
+- !private ["s6HasherV", "combine"]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- ["s25LosslessStringConvertibleP", "init"]
+- ["s25LosslessStringConvertibleP", "init"]
+- ["s10MirrorPathP", "init"]
+- ["s10MirrorPathP", "init"]
+- !private ["SM", "map"]
+- !private ["10MongoSwift8ObjectIdV", "init"]
+- !private ["Sk", "map"]
+- ["Sm", "init"]
+- ["Sm", "init"]
+- !private ["Sm", "map"]
+- ["SY", "RawValue"]
+- !private ["SY", ""]
+- ["SY", "_Default_RawValue"]
+- !private ["SY", "_findStringSwitchCase"]
+- ["SY", "hash"]
+- ["SY", "hashValue"]
+- ["SY", "init"]
+- !private ["SY", "limit"]
+- !private ["SY", "projection"]
+- ["SY", "rawValue"]
+- !private ["SY", "sort"]
+- !private ["SY", "upsert"]
+- !private ["30StitchCoreRemoteMongoDBService0C12CountOptionsV", "limit"]
+- !private ["30StitchCoreRemoteMongoDBService0C12DeleteResultV", "deinit"]
+- !private ["30StitchCoreRemoteMongoDBService0C11FindOptionsV", "limit"]
+- !private ["30StitchCoreRemoteMongoDBService0C11FindOptionsV", "projection"]
+- !private ["30StitchCoreRemoteMongoDBService0C11FindOptionsV", "sort"]
+- !private ["30StitchCoreRemoteMongoDBService0C16InsertManyResultV", "deinit"]
+- !private ["30StitchCoreRemoteMongoDBService0C15InsertOneResultV", "deinit"]
+- !private ["30StitchCoreRemoteMongoDBService0C13UpdateOptionsV", "upsert"]
+- !private ["30StitchCoreRemoteMongoDBService0C12UpdateResultV", "deinit"]
+- ["ST", "init"]
+- ["ST", "init"]
+- !private ["ST", "map"]
+- !private ["ST", "subscript"]
+- !private ["s12StaticStringV", "init"]
+- !private ["s12StaticStringV", "init"]
+- ["SS", "init"]
+- ["SS", "init"]
+- ["Sy", "init"]
+- ["Sy", "init"]
+- ["s16TextOutputStreamP", "init"]
+- ["s16TextOutputStreamP", "init"]
+- ["s20TextOutputStreamableP", "init"]
+- ["s20TextOutputStreamableP", "init"]
+- !private ["s24_DestructorSafeContainerP", "map"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- ["s33_ExpressibleByStringInterpolationP", "init"]
+- ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "map"]
+- !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
+- ["s21_ObjectiveCBridgeableP", "init"]
+- ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "map"]
+- ["s16_SwiftStringViewP", "init"]
+- ["s16_SwiftStringViewP", "init"]
+depends-nominal:
+- !private "Sa"
+- !private "s13ArrayProtocolP"
+- "SK"
+- !private "Sb"
+- !private "10MongoSwift11BsonEncoderC"
+- "10MongoSwift9BsonValueP"
+- "s7CVarArgP"
+- "Sl"
+- "SL"
+- "30StitchCoreRemoteMongoDBService0bcD10CollectionC"
+- !private "30StitchCoreRemoteMongoDBService0bcD13ReadOperationC"
+- !private "13StitchCoreSDK0bA13ServiceClientP"
+- "s28CustomDebugStringConvertibleP"
+- "s29CustomPlaygroundQuickLookableP"
+- "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- "Se"
+- !private "10MongoSwift8DocumentV"
+- "SE"
+- "SQ"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s27ExpressibleByBooleanLiteralP"
+- !private "s30ExpressibleByDictionaryLiteralP"
+- "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- "s26ExpressibleByStringLiteralP"
+- "s33ExpressibleByUnicodeScalarLiteralP"
+- "SH"
+- !private "s6HasherV"
+- "s25LosslessStringConvertibleP"
+- "s10MirrorPathP"
+- !private "SM"
+- !private "10MongoSwift8ObjectIdV"
+- !private "Sk"
+- "Sm"
+- "SY"
+- !private "30StitchCoreRemoteMongoDBService0C12CountOptionsV"
+- !private "30StitchCoreRemoteMongoDBService0C12DeleteResultV"
+- !private "30StitchCoreRemoteMongoDBService0C11FindOptionsV"
+- !private "30StitchCoreRemoteMongoDBService0C16InsertManyResultV"
+- !private "30StitchCoreRemoteMongoDBService0C15InsertOneResultV"
+- !private "30StitchCoreRemoteMongoDBService0C13UpdateOptionsV"
+- !private "30StitchCoreRemoteMongoDBService0C12UpdateResultV"
+- "ST"
+- !private "s12StaticStringV"
+- "SS"
+- "Sy"
+- "s16TextOutputStreamP"
+- "s20TextOutputStreamableP"
+- !private "s24_DestructorSafeContainerP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- "s34_ExpressibleByBuiltinStringLiteralP"
+- "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- "s33_ExpressibleByStringInterpolationP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- "s21_ObjectiveCBridgeableP"
+- "s16_SwiftStringViewP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Users/katielee/Desktop/iOS_CoreLocation/DerivedData/CLDangerZone/Build/Products/Debug-iphonesimulator/StitchCoreSDK/StitchCoreSDK.framework/Modules/StitchCoreSDK.swiftmodule/x86_64.swiftmodule"
+- "/Users/katielee/Desktop/iOS_CoreLocation/Pods/StitchCoreSDK/Frameworks/ios/MongoSwift.framework/Modules/MongoSwift.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/katielee/Desktop/iOS_CoreLocation/Pods/Target Support Files/StitchCoreSDK/StitchCoreSDK-umbrella.h"
+- "/Users/katielee/Desktop/iOS_CoreLocation/Pods/Target Support Files/StitchCoreRemoteMongoDBService/StitchCoreRemoteMongoDBService-umbrella.h"
+- "/Users/katielee/Desktop/iOS_CoreLocation/DerivedData/CLDangerZone/Build/Products/Debug-iphonesimulator/StitchCoreSDK/StitchCoreSDK.framework/Headers/StitchCoreSDK-Swift.h"
+- "/Users/katielee/Desktop/iOS_CoreLocation/DerivedData/CLDangerZone/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/StitchCoreRemoteMongoDBService.build/unextended-module.modulemap"
+- "/Users/katielee/Desktop/iOS_CoreLocation/DerivedData/CLDangerZone/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/StitchCoreSDK.build/module.modulemap"
+- "/Users/katielee/Desktop/iOS_CoreLocation/Pods/StitchCoreSDK/Frameworks/ios/libmongoc.framework/Modules/module.modulemap"
+- "/Users/katielee/Desktop/iOS_CoreLocation/Pods/StitchCoreSDK/Frameworks/ios/libbson.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "1b2a42b088ea12585940d7d740c70fc7"

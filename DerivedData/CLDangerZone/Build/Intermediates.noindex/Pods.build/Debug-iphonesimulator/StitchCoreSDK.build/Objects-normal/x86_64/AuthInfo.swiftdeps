@@ -1,0 +1,246 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "APIAuthInfo"
+- "ExtendedAuthInfo"
+- "AuthInfo"
+provides-nominal:
+- "13StitchCoreSDK11APIAuthInfoP"
+- "13StitchCoreSDK16ExtendedAuthInfoP"
+- "13StitchCoreSDK8AuthInfoP"
+provides-member:
+- ["13StitchCoreSDK11APIAuthInfoP", ""]
+- ["13StitchCoreSDK16ExtendedAuthInfoP", ""]
+- ["13StitchCoreSDK8AuthInfoP", ""]
+- ["13StitchCoreSDK8AuthInfoP", "read"]
+- ["13StitchCoreSDK8AuthInfoP", "write"]
+- ["13StitchCoreSDK8AuthInfoP", "clear"]
+- ["13StitchCoreSDK8AuthInfoP", "merge"]
+- ["13StitchCoreSDK8AuthInfoP", "refresh"]
+provides-dynamic-lookup:
+depends-top-level:
+- "APIAccessToken"
+- "APIAuthInfo"
+- "AuthInfo"
+- "CastingPrecedence"
+- "Codable"
+- !private "Data"
+- "ExtendedAuthInfo"
+- !private "JSONDecoder"
+- !private "JSONEncoder"
+- "StitchProviderType"
+- "StitchUserProfile"
+- "Storage"
+- !private "StoreAuthInfo"
+- "String"
+- !private "StringLiteralType"
+depends-member:
+- ["13StitchCoreSDK11APIAuthInfoP", "APIAccessToken"]
+- ["13StitchCoreSDK11APIAuthInfoP", "APIAuthInfo"]
+- ["13StitchCoreSDK11APIAuthInfoP", "AuthInfo"]
+- !private ["13StitchCoreSDK11APIAuthInfoP", "Data"]
+- !private ["13StitchCoreSDK11APIAuthInfoP", "JSONDecoder"]
+- !private ["13StitchCoreSDK11APIAuthInfoP", "JSONEncoder"]
+- ["13StitchCoreSDK11APIAuthInfoP", "Storage"]
+- !private ["13StitchCoreSDK11APIAuthInfoP", "StoreAuthInfo"]
+- ["13StitchCoreSDK11APIAuthInfoP", "String"]
+- ["13StitchCoreSDK11APIAuthInfoP", ""]
+- ["13StitchCoreSDK11APIAuthInfoP", "accessToken"]
+- ["13StitchCoreSDK11APIAuthInfoP", "deviceID"]
+- !private ["13StitchCoreSDK11APIAuthInfoP", "init"]
+- !private ["13StitchCoreSDK11APIAuthInfoP", "init"]
+- ["13StitchCoreSDK11APIAuthInfoP", "refreshToken"]
+- ["13StitchCoreSDK11APIAuthInfoP", "userID"]
+- ["13StitchCoreSDK8AuthInfoP", "APIAccessToken"]
+- ["13StitchCoreSDK8AuthInfoP", "APIAuthInfo"]
+- ["13StitchCoreSDK8AuthInfoP", "AuthInfo"]
+- !private ["13StitchCoreSDK8AuthInfoP", "Data"]
+- !private ["13StitchCoreSDK8AuthInfoP", "JSONDecoder"]
+- !private ["13StitchCoreSDK8AuthInfoP", "JSONEncoder"]
+- ["13StitchCoreSDK8AuthInfoP", "Storage"]
+- !private ["13StitchCoreSDK8AuthInfoP", "StoreAuthInfo"]
+- ["13StitchCoreSDK8AuthInfoP", "clear"]
+- !private ["13StitchCoreSDK8AuthInfoP", "init"]
+- !private ["13StitchCoreSDK8AuthInfoP", "init"]
+- ["13StitchCoreSDK8AuthInfoP", "merge"]
+- ["13StitchCoreSDK8AuthInfoP", "read"]
+- ["13StitchCoreSDK8AuthInfoP", "refresh"]
+- ["13StitchCoreSDK8AuthInfoP", "write"]
+- !private ["SK", "init"]
+- !private ["SK", "init"]
+- !private ["10MongoSwift9BsonValueP", "init"]
+- !private ["10MongoSwift9BsonValueP", "init"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "init"]
+- !private ["Sl", "init"]
+- !private ["Sl", "init"]
+- !private ["SL", "init"]
+- !private ["SL", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- ["Se", "APIAccessToken"]
+- ["Se", "APIAuthInfo"]
+- ["Se", "AuthInfo"]
+- !private ["Se", "Data"]
+- !private ["Se", "JSONDecoder"]
+- !private ["Se", "JSONEncoder"]
+- ["Se", "Storage"]
+- !private ["Se", "StoreAuthInfo"]
+- ["Se", "String"]
+- ["Se", ""]
+- !private ["Se", "init"]
+- !private ["Se", "init"]
+- ["SE", "APIAccessToken"]
+- ["SE", "APIAuthInfo"]
+- ["SE", "AuthInfo"]
+- !private ["SE", "Data"]
+- !private ["SE", "JSONDecoder"]
+- !private ["SE", "JSONEncoder"]
+- ["SE", "Storage"]
+- !private ["SE", "StoreAuthInfo"]
+- ["SE", "String"]
+- ["SE", ""]
+- !private ["SE", "init"]
+- !private ["SE", "init"]
+- !private ["SQ", "init"]
+- !private ["SQ", "init"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- ["13StitchCoreSDK16ExtendedAuthInfoP", "APIAccessToken"]
+- ["13StitchCoreSDK16ExtendedAuthInfoP", "APIAuthInfo"]
+- ["13StitchCoreSDK16ExtendedAuthInfoP", "AuthInfo"]
+- !private ["13StitchCoreSDK16ExtendedAuthInfoP", "Data"]
+- !private ["13StitchCoreSDK16ExtendedAuthInfoP", "JSONDecoder"]
+- !private ["13StitchCoreSDK16ExtendedAuthInfoP", "JSONEncoder"]
+- ["13StitchCoreSDK16ExtendedAuthInfoP", "StitchProviderType"]
+- ["13StitchCoreSDK16ExtendedAuthInfoP", "StitchUserProfile"]
+- ["13StitchCoreSDK16ExtendedAuthInfoP", "Storage"]
+- !private ["13StitchCoreSDK16ExtendedAuthInfoP", "StoreAuthInfo"]
+- ["13StitchCoreSDK16ExtendedAuthInfoP", "String"]
+- ["13StitchCoreSDK16ExtendedAuthInfoP", ""]
+- !private ["13StitchCoreSDK16ExtendedAuthInfoP", "init"]
+- !private ["13StitchCoreSDK16ExtendedAuthInfoP", "init"]
+- ["13StitchCoreSDK16ExtendedAuthInfoP", "loggedInProviderName"]
+- ["13StitchCoreSDK16ExtendedAuthInfoP", "loggedInProviderType"]
+- ["13StitchCoreSDK16ExtendedAuthInfoP", "userProfile"]
+- !private ["SH", "init"]
+- !private ["SH", "init"]
+- !private ["10Foundation11JSONDecoderC", "decode"]
+- !private ["10Foundation11JSONDecoderC", "init"]
+- !private ["10Foundation11JSONEncoderC", "encode"]
+- !private ["10Foundation11JSONEncoderC", "init"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["Sm", "init"]
+- !private ["Sm", "init"]
+- !private ["ST", "init"]
+- !private ["ST", "init"]
+- !private ["13StitchCoreSDK7StorageP", "set"]
+- !private ["13StitchCoreSDK7StorageP", "value"]
+- !private ["13StitchCoreSDK13StoreAuthInfoV", "deinit"]
+- !private ["13StitchCoreSDK13StoreAuthInfoV", "init"]
+- !private ["13StitchCoreSDK13StoreAuthInfoV", "init"]
+- !private ["SS", "init"]
+- !private ["SS", "init"]
+- !private ["Sy", "init"]
+- !private ["Sy", "init"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s16_SwiftStringViewP", "init"]
+- !private ["s16_SwiftStringViewP", "init"]
+depends-nominal:
+- "13StitchCoreSDK11APIAuthInfoP"
+- "13StitchCoreSDK8AuthInfoP"
+- !private "SK"
+- !private "10MongoSwift9BsonValueP"
+- !private "s7CVarArgP"
+- !private "Sl"
+- !private "SL"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- !private "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- "Se"
+- "SE"
+- !private "SQ"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- "13StitchCoreSDK16ExtendedAuthInfoP"
+- !private "SH"
+- !private "10Foundation11JSONDecoderC"
+- !private "10Foundation11JSONEncoderC"
+- !private "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
+- !private "Sm"
+- !private "ST"
+- !private "13StitchCoreSDK7StorageP"
+- !private "13StitchCoreSDK13StoreAuthInfoV"
+- !private "SS"
+- !private "Sy"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s33_ExpressibleByStringInterpolationP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s16_SwiftStringViewP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Users/katielee/Desktop/iOS_CoreLocation/Pods/StitchCoreSDK/Frameworks/ios/MongoSwift.framework/Modules/MongoSwift.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/katielee/Desktop/iOS_CoreLocation/Pods/Target Support Files/StitchCoreSDK/StitchCoreSDK-umbrella.h"
+- "/Users/katielee/Desktop/iOS_CoreLocation/DerivedData/CLDangerZone/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/StitchCoreSDK.build/unextended-module.modulemap"
+- "/Users/katielee/Desktop/iOS_CoreLocation/Pods/StitchCoreSDK/Frameworks/ios/libmongoc.framework/Modules/module.modulemap"
+- "/Users/katielee/Desktop/iOS_CoreLocation/Pods/StitchCoreSDK/Frameworks/ios/libbson.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "334dad351816a112296e266e43d239e4"

@@ -1,0 +1,11 @@
+framework module StitchRemoteMongoDBService {
+  umbrella header "StitchRemoteMongoDBService-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+module StitchRemoteMongoDBService.Swift {
+    header "StitchRemoteMongoDBService-Swift.h"
+    requires objc
+}

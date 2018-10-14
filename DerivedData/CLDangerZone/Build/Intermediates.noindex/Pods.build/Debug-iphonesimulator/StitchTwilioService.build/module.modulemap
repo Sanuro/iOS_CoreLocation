@@ -1,0 +1,11 @@
+framework module StitchTwilioService {
+  umbrella header "StitchTwilioService-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+module StitchTwilioService.Swift {
+    header "StitchTwilioService-Swift.h"
+    requires objc
+}

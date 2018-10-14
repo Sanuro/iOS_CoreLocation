@@ -1,0 +1,6 @@
+version: "Apple Swift version 4.2 (swiftlang-1000.11.37.1 clang-1000.11.45.1)"
+options: "a6dec187f3e42324c24cb15530ce67f4"
+build_time: [1539479504, 93217000]
+inputs:
+  "/Users/katielee/Desktop/iOS_CoreLocation/Pods/StitchTwilioService/Darwin/Services/StitchTwilioService/StitchTwilioService/TwilioServiceClient.swift": [1539478926, 0]
+  "/Users/katielee/Desktop/iOS_CoreLocation/Pods/StitchTwilioService/Darwin/Services/StitchTwilioService/StitchTwilioService/Internal/TwilioServiceClientImpl.swift": [1539478926, 0]

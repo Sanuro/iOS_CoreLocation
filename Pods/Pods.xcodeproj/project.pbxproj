@@ -7,283 +7,283 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		002608F6158001F3FAD582DFFDF9C7CB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E5C6467495727A5ABDCBF761158C518 /* Foundation.framework */; };
-		012713681125C7695E5F85D67CADAC37 /* OperationDispatcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2E50E7CE94A1EC12B101F79457F76DF /* OperationDispatcher.swift */; };
-		0210225D49CEAA39B098F8B94085A025 /* RemoteDeleteResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC4C68E4DA52A45B16E432D5B3105B28 /* RemoteDeleteResult.swift */; };
-		02465014D70320A54F4DF877FBD8614D /* UserAPIKeyAuthProviderClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2469F016200370EF0BCD806156D921F8 /* UserAPIKeyAuthProviderClient.swift */; };
-		06C9433A8D554EA8FABFDC1E6381B88A /* StitchAuthImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843899169CF5207C92CCC752BC1ABCC6 /* StitchAuthImpl.swift */; };
-		07A71A49D7264A89417B12D00399847E /* CoreStitchPushClientImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3EE1B20E6F17D3B146270C8FA3DFF11 /* CoreStitchPushClientImpl.swift */; };
-		0948F66EF0AE1D363C5238C2DE28C23C /* StitchCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DAB1D1E883502D37C478720BD797732 /* StitchCore.framework */; };
-		0A926DA2FA36F69FE012B428DD03F545 /* CoreTwilioServiceClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45051856BE0C6D5EB49554E41FBC27C4 /* CoreTwilioServiceClient.swift */; };
-		0AE02C676A1A7D54910820DD83D8C0ED /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E5C6467495727A5ABDCBF761158C518 /* Foundation.framework */; };
-		0AED370D0B47D47A05F15070D3CE412C /* StitchError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46622C4AEAD50237E18EF8523D108FB1 /* StitchError.swift */; };
-		0D14211A18B5FAA25AB493D3652C8FC0 /* StitchDocRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8419BD6198E4DDC40C740D0D90896C4 /* StitchDocRequest.swift */; };
-		0D80C95CCA0E5B6E566664E2D4802B8A /* StitchAppClientInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE9B2DD55CD8C61717082A01606186F9 /* StitchAppClientInfo.swift */; };
-		12D6797ECA28E9CCC3D84A6E2A8370F3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E5C6467495727A5ABDCBF761158C518 /* Foundation.framework */; };
-		131D596333D231B116C3F1379229F31C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E5C6467495727A5ABDCBF761158C518 /* Foundation.framework */; };
-		13914170E269FD6668FEB28EDE8DC6B6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E5C6467495727A5ABDCBF761158C518 /* Foundation.framework */; };
-		155FBFE3B4C1D20AAEC91DA45D147D10 /* UserAPIKeyAuthProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE7EF93D48F88CF30D4B3F5563E8D931 /* UserAPIKeyAuthProvider.swift */; };
-		178FEA50AFCF9632C956868E7B9D9F9B /* StitchRequestClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 499003E8EDA823DE39F07E158AAC7594 /* StitchRequestClient.swift */; };
-		17DCFA1FFC6ABF37D9324E2CE22DC7D6 /* CoreStitchAuth.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE76FA3E66834F7EA6BE9610805C097 /* CoreStitchAuth.swift */; };
-		19ADB8AEED8E67196516AF3DB40341F1 /* CoreRemoteMongoClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0E86221E82FDBAAD841642F0D702B57 /* CoreRemoteMongoClient.swift */; };
-		1A8348CD33D3034EAB19E430A6DC2903 /* StitchAuthDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3FE8C197DC8AE51385661C354D64317 /* StitchAuthDelegate.swift */; };
-		1AACF79B3900E726D1804232778C3F4C /* StoreAuthInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1015667635D5279E98D83860D9CD3188 /* StoreAuthInfo.swift */; };
-		1FC3FD39157C2FFFF3869A1300730086 /* SessionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE0F0FF73B1CCDB32F7CF4169DD8462B /* SessionDelegate.swift */; };
-		223192C57309CDF378F1884BC5F5FC98 /* CoreRemoteMongoCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = F84703D65004DF93373CED1065744056 /* CoreRemoteMongoCollection.swift */; };
-		232186F2DA64B11B8089A89AEEB5BABB /* StitchAppClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48E0C5F6932E971CE7B9ED9089C08DE7 /* StitchAppClient.swift */; };
-		2413400A9B099E6D3B840B39CEDE74EA /* RemoteUpdateResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD90C7830487521F21962FEA589630A3 /* RemoteUpdateResult.swift */; };
-		27DAEBC048ED5D1F368D7C8098509480 /* ServiceClientFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4674EA0B03CB300626D57890B7A4A2B9 /* ServiceClientFactory.swift */; };
-		27E619795421A6F4128CB7338F303178 /* NamedPushClientFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2056406B54C4394BB5967D0EE652D3DC /* NamedPushClientFactory.swift */; };
-		2C60883D8E319BD028D69BB370AC5DDF /* StitchServiceClientImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93332D0F53AD0F3F016432DF521EAA19 /* StitchServiceClientImpl.swift */; };
-		2FC92ACBAA77CFF25DBD2545EDE27F2B /* StoreCoreUserProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD3C0194018F92CFF1FA9EB350BACA60 /* StoreCoreUserProfile.swift */; };
-		3368570D787BA9DF251F89CB53DF3B8F /* NamedServiceClientFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 672C9B6BDA77DA6A2DBCECA55107D602 /* NamedServiceClientFactory.swift */; };
-		352D0AD68C243A3CF1BE78C99E2C463D /* StitchUserIdentity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FB31653EE132216C9510DE4FEBB9325 /* StitchUserIdentity.swift */; };
-		35DF72092AAE09E737BCECF3C02DE270 /* UserAPIKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF3EC78F42C307B2AA1F9FBB20EECE05 /* UserAPIKey.swift */; };
-		365D01EBE52809311B845CEE02F66113 /* StitchUserFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E48FF549100E0F43B523CA574D75243 /* StitchUserFactory.swift */; };
-		36FF8853CB34A9297AFAA8F5F7456324 /* TaskDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0377E01C6E9498823146833A02521E25 /* TaskDelegate.swift */; };
-		3720585C1F327D490A29BF345394B558 /* AuthInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1328C6F938DA475F56878D3F02CEC796 /* AuthInfo.swift */; };
-		3D39A924103BA47ABF473ECCF28DF064 /* StitchAuthRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 112765016F5F1918BED7D85C3A0EA66D /* StitchAuthRequest.swift */; };
-		3DAE3F03E05237E1018B0C400231777B /* GoogleCredential.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB8B4BB7B505F4D93E653B4074106CFB /* GoogleCredential.swift */; };
-		3FC0F6F9911035F0BF97FAE6D6D6F290 /* RemoteInsertOneResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 936A1C239C2287FD4565FD35C19E7102 /* RemoteInsertOneResult.swift */; };
-		3FDE55A185AC405B1424B4613E90B717 /* StitchCoreSDK-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0176B9E4CC39D520D345BACA453A8C1C /* StitchCoreSDK-dummy.m */; };
-		40927656A7696005A1E7EDAD5ACE7DEC /* APIAccessToken.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B8ECDDD58968A84046A9E87EDDE84CF /* APIAccessToken.swift */; };
-		4199F8998C64A4BB9827C390E7FBBE48 /* ServerAPIKeyCredential.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AF7F8180A67D1D22A817D3355B02603 /* ServerAPIKeyCredential.swift */; };
-		4204A3C3DF321442AC6554F0BBFFB03F /* StitchCore-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 82BB48727A11D959FFBFC36F239EE1E6 /* StitchCore-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4247960A7BDF11C422AAE34CCF289A52 /* ProviderCapabilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51693F6B6EFA701E5E7B11C132F4DCC8 /* ProviderCapabilities.swift */; };
-		44DC7C0B322E26E1D9556D3799D4E709 /* AnonymousAuthProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2879E6AAC327318E28A61ED36396623D /* AnonymousAuthProvider.swift */; };
-		4722C5DEE25D3E985171335ACA706849 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E5C6467495727A5ABDCBF761158C518 /* Foundation.framework */; };
-		4BC10991471F719CE3EFD2F3377E4E3B /* StitchCoreRemoteMongoDBService.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C3BB29E0708F01026F0BE9B6607B83F /* StitchCoreRemoteMongoDBService.framework */; };
-		4C59F74E67089B6D9FE8E4ACF74A4F55 /* UserAPIKeyCredential.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7431CC501F46116762B20CF572E704A /* UserAPIKeyCredential.swift */; };
-		4E1A913EFB404FB11524718FF0298EFE /* Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82743A2F7280170D4366EF015CE2A972 /* Alamofire.swift */; };
-		4F5EC4879A9365C5DC8A3F982D7254AC /* StitchRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 765FA04D3B52718DC834D4554E41E148 /* StitchRequest.swift */; };
-		4F7C886C03E419A609A4BF90C24A91D7 /* TwilioServiceClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 549FAB4883D1761901655CFC5F8A0960 /* TwilioServiceClient.swift */; };
-		500C8EDA60C07B0F127C7FC385E17D38 /* Notifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BCCF78B103E24876469A3FC1F636ACB /* Notifications.swift */; };
-		5191A333D5D04B61E1F90F2CAFE046FB /* Stitch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B9A196CB9C88AD7FF11BF3E6F4663D4 /* Stitch.swift */; };
-		52237C35642089F77DD4D723CEB25737 /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BDF4941BCA387A5381A0B067B4C7A2E /* Response.swift */; };
-		52C0F4700AB21101BCD169DCD631E8EB /* StitchCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DAB1D1E883502D37C478720BD797732 /* StitchCore.framework */; };
-		52FAE7EC3E5EDA6B1A2F246872F06160 /* StitchCoreSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFA319A0B6339D14990FFD97367984E0 /* StitchCoreSDK.framework */; };
-		5463DC13C96369337D093B1F8A4C0A98 /* StitchCoreTwilioService.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECFBDB630CD12A8032B770D0CBD3A609 /* StitchCoreTwilioService.framework */; };
-		55002B10F77900CA1322B14B36671E2B /* CoreStitchPushClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DA2610EB34438A53145504BD86F8E4A /* CoreStitchPushClient.swift */; };
-		56A50544CD10474AA43D07B771266BD1 /* AnonymousCredential.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64E7CD43A3F0E1C805955CD29DB7513D /* AnonymousCredential.swift */; };
-		5798D847252D8C78522D958D9B530794 /* CoreStitchUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AA1ABE834F96C3CBB939E55D86C5A82 /* CoreStitchUser.swift */; };
-		58A9719584AFA2D108D9E5C585A79329 /* Validation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 138CC9485387839D2857E09009F01767 /* Validation.swift */; };
-		5A3BE30385A653A076E1E92DBCC821D6 /* CoreRemoteMongoCursor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51B62E492B91B6819D555DA324A536EA /* CoreRemoteMongoCursor.swift */; };
-		5ACB8D2FDD4D7ACC5802DA471D45EBCE /* RemoteMongoReadOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD4A5DC564E352C00650AC0306678AD3 /* RemoteMongoReadOperation.swift */; };
-		5CCBE286C585F96580A4F47EC8A9937A /* CoreRemoteMongoReadOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38348974776C419DFE9EC9E84C9357C5 /* CoreRemoteMongoReadOperation.swift */; };
-		5DA612A45357DFF5C5C3117A5C5B92C8 /* StitchUserProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB374FD9CBDE84E51F7516E351E4D4DB /* StitchUserProfile.swift */; };
-		5EE5FED83B90A606A763CF1114D1D6FB /* ResponseSerialization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F721F736A040B48934B86C7F2AF4EE3 /* ResponseSerialization.swift */; };
-		645885C1AB88D28DE3F784FE3C4421DE /* RemoteMongoCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BD8AA8A97341C80E3CED9EC0AE04D28 /* RemoteMongoCollection.swift */; };
-		64BE78E80E82B516C6B2FA29918A028B /* ContentType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01854B7A554017E427178DDF87857B94 /* ContentType.swift */; };
-		657B2903216717A1F3676A581FC5A833 /* StitchCoreTwilioService-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A9FE21B65A968EDE0B6AD68DD6EC3146 /* StitchCoreTwilioService-dummy.m */; };
-		67866F3E868716A594EF348B9B1B224C /* RemoteCountOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9132514BEFFF1D3BC81FFE18ED205DB3 /* RemoteCountOptions.swift */; };
-		6BEA14EC335E07C7063CD1383C0C443C /* ServerTrustPolicy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ACE00D7DDF0BD70849F2CCDE8C6659D /* ServerTrustPolicy.swift */; };
-		6C155902FC6C2D82333B9C8825F908D0 /* StitchResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF2520C4FC93E07DB27C5B379FE509F1 /* StitchResult.swift */; };
-		6D2D5826148190C5F09D5BE4C3AA35F3 /* StitchPushImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2142086D7B4A9B4FE3E6DC6881BCAFF3 /* StitchPushImpl.swift */; };
-		6D87979413E1A260D6E3A15CC993B300 /* APIAuthInfoImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = B271078290A98E3BD92FF62E9EC8F338 /* APIAuthInfoImpl.swift */; };
-		6E9463686E0B5C058779EDC9A773E7C6 /* StitchCoreSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFA319A0B6339D14990FFD97367984E0 /* StitchCoreSDK.framework */; };
-		6F2F5C1CDE011CCD4A8737BDE090594A /* RemoteFindOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E11C975F6432994C479ED0847624454 /* RemoteFindOptions.swift */; };
-		7068E8A7DDC1424EE8F24BC77E8746F4 /* SessionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AB5CA4F8CBDC871F232B15448470E08 /* SessionManager.swift */; };
-		710C509164498D41FBE636EF57D17D43 /* StitchPush.swift in Sources */ = {isa = PBXBuildFile; fileRef = 356503CFBD0FD5743E13E1E6BAFEB6A2 /* StitchPush.swift */; };
-		73C3F2FDDD6202E4F49F78D054410770 /* StitchUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CE7F416E7613C8DC9E05E94E2AE462E /* StitchUser.swift */; };
-		740BFF11CF8BBBF4C08998E4E72879B0 /* CustomCredential.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92373B6323420B807E87AA0B29265624 /* CustomCredential.swift */; };
-		747B074A02879C7D89D7A3105F17C758 /* StitchUserFactoryImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = B47A6652F94250A911A39D39ADF52538 /* StitchUserFactoryImpl.swift */; };
-		766216B10ABA62775C330F4F57277ABE /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8389E1DBC6F36505F822CDCFB1278960 /* Request.swift */; };
-		796177DE2762F24DAC16A709FD954838 /* ParameterEncoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13E8FAE5AEE34F3877F1A58C79E12F82 /* ParameterEncoding.swift */; };
-		79BE0737F2C790E222D87268A1F035A4 /* Pods-CLDangerZone-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DA5EF7B689D4F633318015042E379DC2 /* Pods-CLDangerZone-dummy.m */; };
-		7B9C565975482062112C297456D3B3DB /* NamedAuthProviderClientFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F6587E86B405BA99275981CA605D397 /* NamedAuthProviderClientFactory.swift */; };
-		7EB719F1440181C039490A87C1BF05DD /* Transport.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFFDCFE8F865EFBCCC0CECF6C09F8F11 /* Transport.swift */; };
-		7F73823B5A82AA44287E62D39D139905 /* StitchPushClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CDE57A137693A3D25839EE7AD9F47A6 /* StitchPushClient.swift */; };
-		7FB14DA6B87710C1F4A060B5CCA8A798 /* StitchPushClientImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7F14D03EE0440B340C84D03D18066E3 /* StitchPushClientImpl.swift */; };
-		802BEC8D75C44754FCBEAC481F89AB01 /* CoreAuthProviderClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = C057E4CA8779691C7921F04A1E770E8D /* CoreAuthProviderClient.swift */; };
-		8127A0769DAB3E2E8C17771F6317C356 /* Storage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E5177602DDA9C54C6547C4D2760672B /* Storage.swift */; };
-		830332A8F7DB206FC752B1E65FDBD307 /* DeviceField.swift in Sources */ = {isa = PBXBuildFile; fileRef = E98701CB0E75ED675916B45F96A0F86E /* DeviceField.swift */; };
-		83681C6636862A2C468A1DF6CB9BC76C /* UserPasswordAuthProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9938FCF807B6CE5554FAD327160369D /* UserPasswordAuthProvider.swift */; };
-		86C6169558AB963997386E956D8F1A30 /* StitchAuth.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6430AAF84E3163A308C140B02E0CC8E2 /* StitchAuth.swift */; };
-		880DDF657149F29EFA742BB63323BFAD /* UserPasswordCredential.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52967D2288BE8201E65AF4A59D42F997 /* UserPasswordCredential.swift */; };
-		8AD9B16B81D5B0C65BD4DA0D356C42E5 /* CoreUserAPIKeyAuthProviderClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3428285A0214112A0A3C58CA7E80047 /* CoreUserAPIKeyAuthProviderClient.swift */; };
-		8AE61C66754C111E092C23AA992587F3 /* StitchRemoteMongoDBServiceExports.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C62BDA4F7AED00D3A788B10C0B751BC /* StitchRemoteMongoDBServiceExports.swift */; };
-		8B8D2B4F84408BA591C53C9D98B64340 /* FacebookAuthProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DC7A2006EEFBF00FFF0F6254FAAB110 /* FacebookAuthProvider.swift */; };
-		8BE943AB1744A3C290ADE2BD90F5C0C6 /* StitchAuthDocRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86189327998A63C08C62369D3BD91DFB /* StitchAuthDocRequest.swift */; };
-		8FF7DE660A026FFAECFE020FA91F06CC /* StitchTwilioService-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B9004E557A12DB4CD3DE9F08121E9A0 /* StitchTwilioService-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		90CD9A6F22EF2DD3A95802309CEEF38A /* StitchCoreSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFA319A0B6339D14990FFD97367984E0 /* StitchCoreSDK.framework */; };
-		9306BD6DDEDF2086DE42AF0E68D73BB4 /* StitchUserImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E7593C6B8306BC24245BB22E2F6EE12 /* StitchUserImpl.swift */; };
-		9330D394AD3253BB8843564BA4F84213 /* AuthStateHolder.swift in Sources */ = {isa = PBXBuildFile; fileRef = D17B5F3F53FDDB4958FAAA4BF5C2FD15 /* AuthStateHolder.swift */; };
-		951E169B2FD3B24F3C16D4916F4A5800 /* CoreStitchServiceClientImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AD7C469BB42FAC518D1C61072C63787 /* CoreStitchServiceClientImpl.swift */; };
-		9581FA4DBB0E3221A946FD9B40629F90 /* ThrowingServiceClientFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 789EF7CD4D4E68ED652A6353DCD01594 /* ThrowingServiceClientFactory.swift */; };
-		965DACF3DC02857ECBE66C5CBA3DA5D4 /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = B26E3520B9513B8A4E5A6869CCC70F83 /* Request.swift */; };
-		9691152DE1B6E6AE47AB4B9924F016BD /* RemoteMongoCursor.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA4BACF55907800824E9633E96488A45 /* RemoteMongoCursor.swift */; };
-		9719061322CF8F5A5C55357745D50C7E /* CoreUserPasswordAuthProviderClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA94B37F2232603BC03837D2BCCF5F99 /* CoreUserPasswordAuthProviderClient.swift */; };
-		985A1FE33D6CFF5253A4E032418BCA8A /* APICoreUserProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = A857A1D3B2ADD0227E3E28C6B76F12B4 /* APICoreUserProfile.swift */; };
-		9B42D1D5E337330CD11C50120F38C0CB /* ServerAPIKeyAuthProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46B376ECA5BA0306DBCC39A3954AE1D /* ServerAPIKeyAuthProvider.swift */; };
-		9FF59145AF923D928E29788D7E255D1C /* CoreStitchServiceClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41162D60B01336404056A55898964770 /* CoreStitchServiceClient.swift */; };
-		A02BAF3247472F07316724ABDE67AA96 /* StitchTwilioService-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 55A9996D31341EE6D1058F763CB63489 /* StitchTwilioService-dummy.m */; };
-		A2DE543041DF4CFAE889545C02BF268B /* StitchCore-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 19ABED7531CB86E827449B27B4897977 /* StitchCore-dummy.m */; };
-		A6D843B246746C5EC54BCD8882DF6EF8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E5C6467495727A5ABDCBF761158C518 /* Foundation.framework */; };
-		A8FEA15E6D201A52537CE73925F67725 /* GoogleAuthProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9152329462210E1B6567B107501A8CD /* GoogleAuthProvider.swift */; };
-		ADFFE707C571516BD4A57E83B29ED5C1 /* ImmutableStitchAppClientConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B60CAB6B061F5F92CF66DD75C92C1E2 /* ImmutableStitchAppClientConfiguration.swift */; };
-		B13B82F8C872FFF5F93D5CB3919EA4C9 /* RemoteInsertManyResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F0F95AA48541651471B67554B8491B1 /* RemoteInsertManyResult.swift */; };
-		B2B7930E80BE426ECB30D011E9BA8B23 /* UserPasswordAuthProviderClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 309FC18577C0929026EF411352ED8EAB /* UserPasswordAuthProviderClient.swift */; };
-		B424F524BBBE34E685129945993809A8 /* Timeline.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E1FA7099A84244F9C6B6713789E76CC /* Timeline.swift */; };
-		B6B8A77D948D48A8F53A70F1F58B51C7 /* RemoteUpdateOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78B8624BAC81DBBBA1D91F0E9CABC1F8 /* RemoteUpdateOptions.swift */; };
-		B6E943391B712933C77E46449FE48A90 /* StitchPushRoutes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 302A5978C42C6B8CDC1E88FB2F1AF89C /* StitchPushRoutes.swift */; };
-		B77705737566AE83ED7E448923D7FA60 /* NetworkReachabilityManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F141398C462ED3386D113847EE6A06CB /* NetworkReachabilityManager.swift */; };
-		BC16EB6DCC4E46701E4DB272FF195B7E /* CoreStitchAuth+StitchAuthRequestClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78E47FCA9830B8C18AF9191F78A44C44 /* CoreStitchAuth+StitchAuthRequestClient.swift */; };
-		BE4BA1EDE444A770F834605F4B65348E /* AFError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F7CAF5468C6317968AFDCE5C073F171 /* AFError.swift */; };
-		C11EAF7E17DA6220BBBFE7D74304B154 /* FacebookCredential.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C33F1CB358505A0B934EDA7C725B43A /* FacebookCredential.swift */; };
-		C772F22A9D2F6B8941D8BA48E2815EAB /* StitchCoreSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFA319A0B6339D14990FFD97367984E0 /* StitchCoreSDK.framework */; };
-		C7A2E6F73E874D57AE48AA17E94A8B03 /* CoreStitchUserImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E53FCFAB5D084595F4C521437B39631 /* CoreStitchUserImpl.swift */; };
-		CB2158C87BF9048C7D066635537D27CC /* StitchAppClientConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BCAACE584EE0F181123F7284BF5C7E4 /* StitchAppClientConfiguration.swift */; };
-		CCDF6F71F21107AF2FF10F7F6284F7D1 /* Headers.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0CA82F50F7EAEF01D43F831000F1D3B /* Headers.swift */; };
-		CE47D309353917509EC2DA543F048B70 /* CoreStitchAppClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1558EDC19B50DF5711D419236FFE3E /* CoreStitchAppClient.swift */; };
-		D4C3899574E9D5DF5E5DA52310560BCC /* Alamofire-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A5953AB96CC6FC394EAFB45C52B77D7 /* Alamofire-dummy.m */; };
-		D855912ED2C83FCF4CA98013F8FA43C9 /* RemoteMongoClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B59EE492772EEF68D53527110178922 /* RemoteMongoClient.swift */; };
-		D87DBC45D08005C8DDDE40FBD8C995AF /* Method.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C0EA9AFFFBA50D7015C22091C4A5EB8 /* Method.swift */; };
-		D8EC5B74B9B5DC842F4179D19E6DE6D4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E5C6467495727A5ABDCBF761158C518 /* Foundation.framework */; };
-		D93467C320D6273A8A972B4706C8B934 /* StitchAppRoutes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4576C0B4B88839337F8D8756B9DA42F6 /* StitchAppRoutes.swift */; };
-		DBE6E2E4D205545E7988CFA5057C31D6 /* DispatchQueue+Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E3E46C5DCB58C6BCA2E7067110CD37C /* DispatchQueue+Alamofire.swift */; };
-		DC73D8B33391388C6E911235E9313F99 /* StitchProviderType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1585E69B7DDC6171117695522219F1FD /* StitchProviderType.swift */; };
-		DCB0918C79BC9BE7063DBFC48673A933 /* StitchAuthRequestClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6C6800CB0FC065A074D846BACA89ACB /* StitchAuthRequestClient.swift */; };
-		E1C82F0E92408213B60E61A582B7F581 /* AccessTokenRefresher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E3B28B25EBBBE76CCB10371479A5965 /* AccessTokenRefresher.swift */; };
-		E393113D92F877C416ACF52E77C23CB4 /* StitchRemoteMongoDBService-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7633D83FAD175A94381610877C5CB32F /* StitchRemoteMongoDBService-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E47E5358E8BD18AFB2D0988BAE413273 /* StitchCredential.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75A0CECFC588774E3D2BCA09D98A9F02 /* StitchCredential.swift */; };
-		E49F8FF6363C2916B84573AE6CC4F686 /* StitchServiceClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B0EC36912F041BB741A1267D171A37C /* StitchServiceClient.swift */; };
-		E4F9E2384F4D26846C44228074393C03 /* StitchCoreRemoteMongoDBService-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8DD80D6508AA7951B378FE4633EB4C20 /* StitchCoreRemoteMongoDBService-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E5A48A7966AE377FCA4317E3E108DFEB /* StitchCoreSDK-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3CA570585680DACEEAB47D521CA18051 /* StitchCoreSDK-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E60D4568B6D41DAA06CF39D9A6BC5F27 /* StoreStitchUserIdentity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EDA54E99FC94BC94BDC7F5247A5AF2C /* StoreStitchUserIdentity.swift */; };
-		E8F76C048332393E3ACBCFE2A845F109 /* RemoteMongoDatabase.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF0B0FCBEBBC8D260E57261176EAA765 /* RemoteMongoDatabase.swift */; };
-		E934AD9CFF47DE07813573F6797C6DC5 /* StitchCoreTwilioService-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 726380C51373BE210595CFD53477BB7D /* StitchCoreTwilioService-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		EA3F806C2308C075F4061C2C7105B3FE /* ImplFailureFatalErrors.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1EF88BEC6E67C9054D4DC698F2A2E12 /* ImplFailureFatalErrors.swift */; };
-		EAFFB26DDF10F548D36BE2B3ACA3B14D /* TwilioServiceClientImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CF68E855AE01EF98A3671333DF2AC7F /* TwilioServiceClientImpl.swift */; };
-		EB26C43DAC33936EBD4958FBE0466658 /* StitchAppClientImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 812F83C6FAA73617C2DB5DF643FCBFBD /* StitchAppClientImpl.swift */; };
-		EF1461221681BCA12A4147900A704727 /* Alamofire-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 24F8EA7A347059CD567690F46B8DD815 /* Alamofire-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F02F5B7B7E7780093AA6CD08AD7C8F09 /* CustomAuthProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69DEE407708E39F6361A4C8F7D65F13C /* CustomAuthProvider.swift */; };
-		F1D9D6343E80DF51C7ED88B4032CE275 /* AuthProviderClientFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8C846B5F515EAD729DF84A780ADD4B4 /* AuthProviderClientFactory.swift */; };
-		F77025217D6064B987D3F13F5787B44E /* Pods-CLDangerZone-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B4B6CF0434804E8ADDE7DDC8D24071E /* Pods-CLDangerZone-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F84EB137C10F4B6B084C7326754BE95E /* CoreRemoteMongoDatabase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65EFF056694967EDABFC2C60A6DF25FA /* CoreRemoteMongoDatabase.swift */; };
-		F8FB8DF755B584CD9E5821B5560D205C /* StitchRemoteMongoDBService-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BCB717FC7F51A9961A2CD20DD8974A8E /* StitchRemoteMongoDBService-dummy.m */; };
-		F95273BEC38D2028DCF90D233DC455B3 /* StitchCoreRemoteMongoDBService-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BBCF6FB30235E9C1A928D242CBF421B /* StitchCoreRemoteMongoDBService-dummy.m */; };
-		F9EA61D484CC15FDDAB0D8C0D26D7949 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EA420E36758E400F593E5EE02153726 /* Result.swift */; };
-		F9F8BF28E5F7A000776C2F18483F551A /* FoundationHTTPTransport.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC6049B833E73BA9B1825A8F1A6F8CAE /* FoundationHTTPTransport.swift */; };
-		FA1560E17ECEE8ECD4AAD1775AEC799F /* APIStitchUserIdentity.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6FED36AF917AEDD33FAEFA80806895E /* APIStitchUserIdentity.swift */; };
-		FB229EFE25ED5DC5AB9C5D725CED11A0 /* StitchCoreSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFA319A0B6339D14990FFD97367984E0 /* StitchCoreSDK.framework */; };
-		FC1766D7A8ECBF544DAC3B450A166BC3 /* StitchCoreExports.swift in Sources */ = {isa = PBXBuildFile; fileRef = D25A73BB604B6A13E232CD974494CA8B /* StitchCoreExports.swift */; };
-		FDBEDF16C7D4007EF44BFF6D7CE5BD10 /* StitchClientConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = C19F2F43A0AABD9CE9D91C120187F5D4 /* StitchClientConfiguration.swift */; };
-		FF9C7BC64DB23D2CED48197DE67F0335 /* MultipartFormData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FC8BC51B629FE1DDB99C5152A1FFAA5 /* MultipartFormData.swift */; };
-		FFB181BCEDCB48A922A344BB596E3381 /* JWT.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EB08610C669B7B1724A544596CBE747 /* JWT.swift */; };
+		067645459ED9B705FB58910B8CC7A164 /* UserAPIKeyCredential.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7431CC501F46116762B20CF572E704A /* UserAPIKeyCredential.swift */; };
+		07AABFA499C8E9694CD5887BC99801D2 /* StoreStitchUserIdentity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EDA54E99FC94BC94BDC7F5247A5AF2C /* StoreStitchUserIdentity.swift */; };
+		0824040DA244A9F99D7392A1026E2A24 /* StitchAuthDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3FE8C197DC8AE51385661C354D64317 /* StitchAuthDelegate.swift */; };
+		0830E1CD4AFE26BEA83F6E9014BD0C4C /* RemoteMongoCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BD8AA8A97341C80E3CED9EC0AE04D28 /* RemoteMongoCollection.swift */; };
+		09E5B38BD858425B6078897656337EDF /* StitchCoreSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFA319A0B6339D14990FFD97367984E0 /* StitchCoreSDK.framework */; };
+		0A4F194F91330A6E0088DB5682C59AF9 /* CoreUserAPIKeyAuthProviderClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3428285A0214112A0A3C58CA7E80047 /* CoreUserAPIKeyAuthProviderClient.swift */; };
+		0BCEBCAFEAEF4313C36DA956DDD4E1A5 /* StitchCore-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 19ABED7531CB86E827449B27B4897977 /* StitchCore-dummy.m */; };
+		0DC5212228C4D05A781D2C8E1003460C /* AnonymousCredential.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64E7CD43A3F0E1C805955CD29DB7513D /* AnonymousCredential.swift */; };
+		0E1C1E17B9FDFDDBFFB1ACF6C27354DE /* RemoteCountOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9132514BEFFF1D3BC81FFE18ED205DB3 /* RemoteCountOptions.swift */; };
+		0FD8B619042A05F7F518CE691AAE9167 /* CoreStitchUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AA1ABE834F96C3CBB939E55D86C5A82 /* CoreStitchUser.swift */; };
+		10EB23E9ECC4B33E16933BB1EA560B6A /* Timeline.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E1FA7099A84244F9C6B6713789E76CC /* Timeline.swift */; };
+		11EC86ECEB4C1536A8947C473930D52C /* RemoteMongoReadOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD4A5DC564E352C00650AC0306678AD3 /* RemoteMongoReadOperation.swift */; };
+		137068BE6EE290D2821A4C14D2E1FC50 /* StitchCoreExports.swift in Sources */ = {isa = PBXBuildFile; fileRef = D25A73BB604B6A13E232CD974494CA8B /* StitchCoreExports.swift */; };
+		185F53FD9E41D76827F71EF3613B24DA /* Pods-CLDangerZone-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DA5EF7B689D4F633318015042E379DC2 /* Pods-CLDangerZone-dummy.m */; };
+		18E8D0835C177CCC0F033671D5D946F5 /* StitchRemoteMongoDBService-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7633D83FAD175A94381610877C5CB32F /* StitchRemoteMongoDBService-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		19FBECB57268872296020463B611664A /* GoogleAuthProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9152329462210E1B6567B107501A8CD /* GoogleAuthProvider.swift */; };
+		1AF6696B32C09505A52BDAF2505CEA5D /* AuthInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1328C6F938DA475F56878D3F02CEC796 /* AuthInfo.swift */; };
+		1B7289EC225FC79C1B4166CD001CADEE /* CoreRemoteMongoReadOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38348974776C419DFE9EC9E84C9357C5 /* CoreRemoteMongoReadOperation.swift */; };
+		1B9EDEDC964E6B08F78920B4F4B9DB84 /* Alamofire-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 24F8EA7A347059CD567690F46B8DD815 /* Alamofire-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		22965C8DCA093464A289F079A437FE7B /* StitchError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46622C4AEAD50237E18EF8523D108FB1 /* StitchError.swift */; };
+		2305330AE2A953A88AD0DCF908B4E050 /* StitchAuthRequestClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6C6800CB0FC065A074D846BACA89ACB /* StitchAuthRequestClient.swift */; };
+		232B097508215B707A26955FBA9BC44C /* AnonymousAuthProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2879E6AAC327318E28A61ED36396623D /* AnonymousAuthProvider.swift */; };
+		2338E56C547983D389F349497150C60E /* StitchServiceClientImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93332D0F53AD0F3F016432DF521EAA19 /* StitchServiceClientImpl.swift */; };
+		275BF891C7B568DB77B5893FEA65D602 /* StitchCoreSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFA319A0B6339D14990FFD97367984E0 /* StitchCoreSDK.framework */; };
+		27FAA188225CDCC3FC3D3EABAD6FEF92 /* CustomAuthProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69DEE407708E39F6361A4C8F7D65F13C /* CustomAuthProvider.swift */; };
+		28C443EA3BF1DB961D477575E952BD7E /* StitchUserFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E48FF549100E0F43B523CA574D75243 /* StitchUserFactory.swift */; };
+		2A426A3541B998706B5DB3CA032370BD /* StitchCoreTwilioService.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECFBDB630CD12A8032B770D0CBD3A609 /* StitchCoreTwilioService.framework */; };
+		2AC4142F0A5BE528B6333ABF528B251A /* Pods-CLDangerZone-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B4B6CF0434804E8ADDE7DDC8D24071E /* Pods-CLDangerZone-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2E2790FB70181BD9E3CB6B7971BBFCAD /* AccessTokenRefresher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E3B28B25EBBBE76CCB10371479A5965 /* AccessTokenRefresher.swift */; };
+		34027190870A867B74100C17288D716E /* DeviceField.swift in Sources */ = {isa = PBXBuildFile; fileRef = E98701CB0E75ED675916B45F96A0F86E /* DeviceField.swift */; };
+		3626B94094672CB1C9DEA32B9F9502E1 /* TaskDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0377E01C6E9498823146833A02521E25 /* TaskDelegate.swift */; };
+		37E7C154E516EFF85CEB3C37B42557D3 /* CoreStitchServiceClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41162D60B01336404056A55898964770 /* CoreStitchServiceClient.swift */; };
+		388E2FEA5D515041357B0C95D4DC6B54 /* CoreStitchAuth.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE76FA3E66834F7EA6BE9610805C097 /* CoreStitchAuth.swift */; };
+		39B4E7DCFA36AB300BECE276A04B51FC /* StitchUserProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB374FD9CBDE84E51F7516E351E4D4DB /* StitchUserProfile.swift */; };
+		3C5CFAD5E7A230A34980D2E8AC4092DD /* StitchCoreSDK-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0176B9E4CC39D520D345BACA453A8C1C /* StitchCoreSDK-dummy.m */; };
+		3DDEA8FF73E22244C7DDE244563AF355 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E5C6467495727A5ABDCBF761158C518 /* Foundation.framework */; };
+		406F039777B9BD2AF4511D201BE3E65C /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8389E1DBC6F36505F822CDCFB1278960 /* Request.swift */; };
+		43AEAE4EB5EB043B392815A54C47B49D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E5C6467495727A5ABDCBF761158C518 /* Foundation.framework */; };
+		5062500FFEF0543E18F0E2E051CADDD8 /* StitchPush.swift in Sources */ = {isa = PBXBuildFile; fileRef = 356503CFBD0FD5743E13E1E6BAFEB6A2 /* StitchPush.swift */; };
+		5387216E723A3C68E851CA15573CDD71 /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = B26E3520B9513B8A4E5A6869CCC70F83 /* Request.swift */; };
+		546FF903663D05667B941AE0221D2B7F /* RemoteMongoClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B59EE492772EEF68D53527110178922 /* RemoteMongoClient.swift */; };
+		56995B5C173672580E0449477C74EE57 /* OperationDispatcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2E50E7CE94A1EC12B101F79457F76DF /* OperationDispatcher.swift */; };
+		571B25C556DAB4455FBE5C7017C3BB25 /* StitchUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CE7F416E7613C8DC9E05E94E2AE462E /* StitchUser.swift */; };
+		58C305B88A4D35D5E58B0F86488C7D4B /* StitchUserFactoryImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = B47A6652F94250A911A39D39ADF52538 /* StitchUserFactoryImpl.swift */; };
+		59BCD184ED4E9B300F11D5A1D984D83C /* JWT.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EB08610C669B7B1724A544596CBE747 /* JWT.swift */; };
+		5CC8DE4774C310065E302784265EE927 /* StitchCredential.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75A0CECFC588774E3D2BCA09D98A9F02 /* StitchCredential.swift */; };
+		5DC33ACDCA66361974B73486B37728E8 /* Method.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C0EA9AFFFBA50D7015C22091C4A5EB8 /* Method.swift */; };
+		5E07234218E3309098395A8F1AB0B0B6 /* ServerAPIKeyCredential.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AF7F8180A67D1D22A817D3355B02603 /* ServerAPIKeyCredential.swift */; };
+		5F66EB51C7C8D7D50F9303411ECE5D66 /* UserAPIKeyAuthProviderClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2469F016200370EF0BCD806156D921F8 /* UserAPIKeyAuthProviderClient.swift */; };
+		61200D01A1855D7920CEF835C8BE00B0 /* DispatchQueue+Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E3E46C5DCB58C6BCA2E7067110CD37C /* DispatchQueue+Alamofire.swift */; };
+		612F52574DCF4526572D2AEC7FE1EA38 /* StitchCoreSDK-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3CA570585680DACEEAB47D521CA18051 /* StitchCoreSDK-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		61B233A1344E6B975291D078EDBF047C /* StitchAuthDocRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86189327998A63C08C62369D3BD91DFB /* StitchAuthDocRequest.swift */; };
+		62CB1CBD583784E1DC829241D7A72F51 /* APIStitchUserIdentity.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6FED36AF917AEDD33FAEFA80806895E /* APIStitchUserIdentity.swift */; };
+		62F65AD8DC4F0F9610F4B8B4738EC094 /* ServerTrustPolicy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ACE00D7DDF0BD70849F2CCDE8C6659D /* ServerTrustPolicy.swift */; };
+		633768B96369F100D25D4B3929B21FD7 /* APIAccessToken.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B8ECDDD58968A84046A9E87EDDE84CF /* APIAccessToken.swift */; };
+		6668C8CD0AC3D8523A389055936DFC37 /* CoreStitchPushClientImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3EE1B20E6F17D3B146270C8FA3DFF11 /* CoreStitchPushClientImpl.swift */; };
+		666B8DB71BF97D549B4CB716D665B695 /* Stitch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B9A196CB9C88AD7FF11BF3E6F4663D4 /* Stitch.swift */; };
+		671771F35A9095F6E2363497D4D3DC53 /* StitchUserIdentity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FB31653EE132216C9510DE4FEBB9325 /* StitchUserIdentity.swift */; };
+		687E40895572E0229219959540F68A2A /* StitchDocRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8419BD6198E4DDC40C740D0D90896C4 /* StitchDocRequest.swift */; };
+		6B1895F12939FDCC2123645C1642D1DB /* StitchPushImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2142086D7B4A9B4FE3E6DC6881BCAFF3 /* StitchPushImpl.swift */; };
+		6B772477518B9405D129671D3D20CA16 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E5C6467495727A5ABDCBF761158C518 /* Foundation.framework */; };
+		6BABDC4A9FEBD84022EA2283C01437A1 /* RemoteInsertManyResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F0F95AA48541651471B67554B8491B1 /* RemoteInsertManyResult.swift */; };
+		6D427B2F305E89B1160DE4FAE1A6E3FD /* StitchPushClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CDE57A137693A3D25839EE7AD9F47A6 /* StitchPushClient.swift */; };
+		6DB0C942B599BAD9495B582E97B04CC4 /* CoreUserPasswordAuthProviderClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA94B37F2232603BC03837D2BCCF5F99 /* CoreUserPasswordAuthProviderClient.swift */; };
+		6EF02254C86A91EAFC6F64DC832B341C /* StitchUserImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E7593C6B8306BC24245BB22E2F6EE12 /* StitchUserImpl.swift */; };
+		6F3D250954F8D6BCC39F2B44932C7262 /* Headers.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0CA82F50F7EAEF01D43F831000F1D3B /* Headers.swift */; };
+		6FB7E01D81AE8E0F8C6EEBE8B5CF9B28 /* StitchCoreRemoteMongoDBService-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8DD80D6508AA7951B378FE4633EB4C20 /* StitchCoreRemoteMongoDBService-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		719FA62129E08EE0A33F6D22CFD43AD6 /* Transport.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFFDCFE8F865EFBCCC0CECF6C09F8F11 /* Transport.swift */; };
+		72600186BD3E813D9A9F20A9EB4B60FC /* StitchCoreRemoteMongoDBService.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C3BB29E0708F01026F0BE9B6607B83F /* StitchCoreRemoteMongoDBService.framework */; };
+		7272981A72569D34CD9EC573FEB72DD2 /* Storage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E5177602DDA9C54C6547C4D2760672B /* Storage.swift */; };
+		75B93B115391B32D31775EE5E37A5EE7 /* StitchRemoteMongoDBServiceExports.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C62BDA4F7AED00D3A788B10C0B751BC /* StitchRemoteMongoDBServiceExports.swift */; };
+		761E71137FB61521BD916CC0A3107FFF /* ServerAPIKeyAuthProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46B376ECA5BA0306DBCC39A3954AE1D /* ServerAPIKeyAuthProvider.swift */; };
+		7B5FE28C7EA4122B0598738E54DBEBD8 /* SessionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE0F0FF73B1CCDB32F7CF4169DD8462B /* SessionDelegate.swift */; };
+		7CB1760145045DFB358CFF43EE31404A /* NamedAuthProviderClientFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F6587E86B405BA99275981CA605D397 /* NamedAuthProviderClientFactory.swift */; };
+		7D8CC01E8C9EFFF9F4D65406CDE0AB66 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EA420E36758E400F593E5EE02153726 /* Result.swift */; };
+		7ED11E4B6960883A8B736A96056C7BD0 /* StitchTwilioService-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B9004E557A12DB4CD3DE9F08121E9A0 /* StitchTwilioService-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8131EC3151619A5E977913AFF8008551 /* CoreRemoteMongoClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0E86221E82FDBAAD841642F0D702B57 /* CoreRemoteMongoClient.swift */; };
+		81A4C1D9FF7722AD8CCF0A89F9050B21 /* StitchRequestClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 499003E8EDA823DE39F07E158AAC7594 /* StitchRequestClient.swift */; };
+		834F4D9819C6010E611A7E151B8899C3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E5C6467495727A5ABDCBF761158C518 /* Foundation.framework */; };
+		842F729F2A8DEC147F30F3C23721749D /* ImplFailureFatalErrors.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1EF88BEC6E67C9054D4DC698F2A2E12 /* ImplFailureFatalErrors.swift */; };
+		884AEEC4B8C6AC1C00351F99312A9B8A /* StitchResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF2520C4FC93E07DB27C5B379FE509F1 /* StitchResult.swift */; };
+		8C94789DE68924314F3AF145839F8520 /* StitchAppRoutes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4576C0B4B88839337F8D8756B9DA42F6 /* StitchAppRoutes.swift */; };
+		8EF5CCCA9F23D250F64845F334620222 /* StitchCoreRemoteMongoDBService-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BBCF6FB30235E9C1A928D242CBF421B /* StitchCoreRemoteMongoDBService-dummy.m */; };
+		904894DA0A9D578164E138F45ACA58E2 /* FacebookAuthProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DC7A2006EEFBF00FFF0F6254FAAB110 /* FacebookAuthProvider.swift */; };
+		92439DA875D401A6EB1676574BA3EF1F /* TwilioServiceClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 549FAB4883D1761901655CFC5F8A0960 /* TwilioServiceClient.swift */; };
+		9302B877A4130B45B6F2ECE891B84F20 /* StoreAuthInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1015667635D5279E98D83860D9CD3188 /* StoreAuthInfo.swift */; };
+		98ADD14635D3B1DD525C658158EE4F15 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E5C6467495727A5ABDCBF761158C518 /* Foundation.framework */; };
+		9BAEC9BFCAC65DF20A9F8CC9C1BC61AC /* ContentType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01854B7A554017E427178DDF87857B94 /* ContentType.swift */; };
+		9ED2BB2981896E0A39EFA365503F58CE /* AFError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F7CAF5468C6317968AFDCE5C073F171 /* AFError.swift */; };
+		A02875352D14F02335C89BB2DF13B473 /* StitchRemoteMongoDBService-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BCB717FC7F51A9961A2CD20DD8974A8E /* StitchRemoteMongoDBService-dummy.m */; };
+		A07DCA73124D6C0D96AC6A307DF68913 /* RemoteMongoDatabase.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF0B0FCBEBBC8D260E57261176EAA765 /* RemoteMongoDatabase.swift */; };
+		A0E282AE261F2F94C2AEAFDD503C5023 /* StitchProviderType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1585E69B7DDC6171117695522219F1FD /* StitchProviderType.swift */; };
+		A13793863D9A0F1E59BBF81ABFB5662B /* RemoteUpdateResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD90C7830487521F21962FEA589630A3 /* RemoteUpdateResult.swift */; };
+		A2A6F71B727312BD45CC7A4AAD7B0AB7 /* NetworkReachabilityManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F141398C462ED3386D113847EE6A06CB /* NetworkReachabilityManager.swift */; };
+		A3434F328A2E5B1B2D6A174A36E2913B /* StitchAuth.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6430AAF84E3163A308C140B02E0CC8E2 /* StitchAuth.swift */; };
+		A590B659CE24517297CA71F48BD1D1A9 /* StitchAuthRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 112765016F5F1918BED7D85C3A0EA66D /* StitchAuthRequest.swift */; };
+		A592E5B3B5A477E8568770F6013AEF65 /* AuthStateHolder.swift in Sources */ = {isa = PBXBuildFile; fileRef = D17B5F3F53FDDB4958FAAA4BF5C2FD15 /* AuthStateHolder.swift */; };
+		A5BE05FCC5B41CEE2F7A5089F7976403 /* StitchCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DAB1D1E883502D37C478720BD797732 /* StitchCore.framework */; };
+		A785FA70D62FE5A22358E65AB7DB992E /* StitchAppClientInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE9B2DD55CD8C61717082A01606186F9 /* StitchAppClientInfo.swift */; };
+		A79FBF3F06B14D5DC8B8362BF6349B24 /* CustomCredential.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92373B6323420B807E87AA0B29265624 /* CustomCredential.swift */; };
+		A9EEEA7477981DEEBC72432DE9990A4B /* Alamofire-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A5953AB96CC6FC394EAFB45C52B77D7 /* Alamofire-dummy.m */; };
+		AB4EE9F154339E78B3AB1761DA386EE9 /* StitchAppClientConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BCAACE584EE0F181123F7284BF5C7E4 /* StitchAppClientConfiguration.swift */; };
+		AE1EF48399533730D0066E04B22CA2D6 /* SessionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AB5CA4F8CBDC871F232B15448470E08 /* SessionManager.swift */; };
+		B2D8BD42D133A1A8E13D13D04D24089A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E5C6467495727A5ABDCBF761158C518 /* Foundation.framework */; };
+		B3D89BDEE89B9ABB07E8D49D0A7CB1DA /* CoreRemoteMongoDatabase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65EFF056694967EDABFC2C60A6DF25FA /* CoreRemoteMongoDatabase.swift */; };
+		B4728FCC3A1BD07BA909D2F37AABA1B5 /* StitchPushRoutes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 302A5978C42C6B8CDC1E88FB2F1AF89C /* StitchPushRoutes.swift */; };
+		B5733613BDCA4BB702D8C7645BA24FAA /* AuthProviderClientFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8C846B5F515EAD729DF84A780ADD4B4 /* AuthProviderClientFactory.swift */; };
+		B62F6299BFF83F3A876EA6DAB2037A70 /* StitchCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DAB1D1E883502D37C478720BD797732 /* StitchCore.framework */; };
+		B65FCF589DA398C3EFE0128064E510EC /* MultipartFormData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FC8BC51B629FE1DDB99C5152A1FFAA5 /* MultipartFormData.swift */; };
+		B89BF9E0C9E70918AC57DFE2B33470CF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E5C6467495727A5ABDCBF761158C518 /* Foundation.framework */; };
+		BBEFE2F9CEB73DC7BD97FFA66A0D9D4F /* Validation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 138CC9485387839D2857E09009F01767 /* Validation.swift */; };
+		BE4CC370ACD03571CEAF6B63A1FC79F1 /* RemoteDeleteResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC4C68E4DA52A45B16E432D5B3105B28 /* RemoteDeleteResult.swift */; };
+		BE5C67A07E289FE1F9BE27335B159997 /* ParameterEncoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13E8FAE5AEE34F3877F1A58C79E12F82 /* ParameterEncoding.swift */; };
+		BEBB1BF8D98BFE1F25B72F204BFBAAE1 /* RemoteUpdateOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78B8624BAC81DBBBA1D91F0E9CABC1F8 /* RemoteUpdateOptions.swift */; };
+		C0C0325C2AFAEBB8C3B33B904511B350 /* NamedPushClientFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2056406B54C4394BB5967D0EE652D3DC /* NamedPushClientFactory.swift */; };
+		C1763A793F288DC66CF8E392FFBD3761 /* APICoreUserProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = A857A1D3B2ADD0227E3E28C6B76F12B4 /* APICoreUserProfile.swift */; };
+		C2FF4AA47EDC7EEC624DA98255506B2C /* RemoteInsertOneResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 936A1C239C2287FD4565FD35C19E7102 /* RemoteInsertOneResult.swift */; };
+		C32C58D4528F6D92187426EE855B51B1 /* CoreStitchUserImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E53FCFAB5D084595F4C521437B39631 /* CoreStitchUserImpl.swift */; };
+		C625ED103CCB14AB20864ABD96FC6F65 /* CoreTwilioServiceClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45051856BE0C6D5EB49554E41FBC27C4 /* CoreTwilioServiceClient.swift */; };
+		C66508645EFD5055EA6164ED573F37C7 /* StitchAuthImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843899169CF5207C92CCC752BC1ABCC6 /* StitchAuthImpl.swift */; };
+		C6959AB8B442469DB4BCC19F7F89F9EB /* StitchAppClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48E0C5F6932E971CE7B9ED9089C08DE7 /* StitchAppClient.swift */; };
+		C702FF9C3DDA360602D8302961EFCC15 /* FoundationHTTPTransport.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC6049B833E73BA9B1825A8F1A6F8CAE /* FoundationHTTPTransport.swift */; };
+		C70670025B88B25D592C20941A34350F /* ImmutableStitchAppClientConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B60CAB6B061F5F92CF66DD75C92C1E2 /* ImmutableStitchAppClientConfiguration.swift */; };
+		C784886EC99FF053E17AB30A08A07323 /* CoreStitchAppClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1558EDC19B50DF5711D419236FFE3E /* CoreStitchAppClient.swift */; };
+		C9652490C73DEB2A4302502390A1FA5D /* CoreStitchAuth+StitchAuthRequestClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78E47FCA9830B8C18AF9191F78A44C44 /* CoreStitchAuth+StitchAuthRequestClient.swift */; };
+		CB6D60925223897FFA2662667DF83E8A /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BDF4941BCA387A5381A0B067B4C7A2E /* Response.swift */; };
+		CB71C7AB629A51AA922DE08062B08E1B /* ProviderCapabilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51693F6B6EFA701E5E7B11C132F4DCC8 /* ProviderCapabilities.swift */; };
+		CC292F3EFCDEAA1C2005DBA150720D2F /* RemoteMongoCursor.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA4BACF55907800824E9633E96488A45 /* RemoteMongoCursor.swift */; };
+		CD70D541C77E2EFF983972D0D1B53168 /* GoogleCredential.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB8B4BB7B505F4D93E653B4074106CFB /* GoogleCredential.swift */; };
+		CF267294D27303E206C5D12285449C40 /* CoreAuthProviderClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = C057E4CA8779691C7921F04A1E770E8D /* CoreAuthProviderClient.swift */; };
+		CFA8F08CDFB56FBD1EDA3605F92482AF /* CoreStitchServiceClientImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AD7C469BB42FAC518D1C61072C63787 /* CoreStitchServiceClientImpl.swift */; };
+		D07E3682DAEC9CC25829C815AE366834 /* ServiceClientFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4674EA0B03CB300626D57890B7A4A2B9 /* ServiceClientFactory.swift */; };
+		D1669AF1516767046945DB2B65E527DB /* StitchServiceClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B0EC36912F041BB741A1267D171A37C /* StitchServiceClient.swift */; };
+		D70AB7E7F9BCE2EFEB058EB32FF0BDAA /* StoreCoreUserProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD3C0194018F92CFF1FA9EB350BACA60 /* StoreCoreUserProfile.swift */; };
+		D777ADBF1BC0671F4CAF6A7E281D7611 /* StitchCore-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 82BB48727A11D959FFBFC36F239EE1E6 /* StitchCore-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D998D8BA1E978126ECE7E3EAD5C17A44 /* StitchCoreSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFA319A0B6339D14990FFD97367984E0 /* StitchCoreSDK.framework */; };
+		DAF59D5E38970E969C3D1D587531E0C8 /* StitchPushClientImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7F14D03EE0440B340C84D03D18066E3 /* StitchPushClientImpl.swift */; };
+		DB46D8860093B8D84E959A1E7742B595 /* RemoteFindOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E11C975F6432994C479ED0847624454 /* RemoteFindOptions.swift */; };
+		DC908B1D08E1B228406B9BF85471B628 /* UserPasswordAuthProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9938FCF807B6CE5554FAD327160369D /* UserPasswordAuthProvider.swift */; };
+		DE19319CF52FB3CB7D9C48B236493BB8 /* FacebookCredential.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C33F1CB358505A0B934EDA7C725B43A /* FacebookCredential.swift */; };
+		E029136C4DB789DF0CA559482758F2ED /* StitchCoreSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFA319A0B6339D14990FFD97367984E0 /* StitchCoreSDK.framework */; };
+		E03526D5A6A0397018AE4A6390EC1867 /* UserAPIKeyAuthProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE7EF93D48F88CF30D4B3F5563E8D931 /* UserAPIKeyAuthProvider.swift */; };
+		E0AB020FED0A71724972B86D4E3E98A9 /* StitchRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 765FA04D3B52718DC834D4554E41E148 /* StitchRequest.swift */; };
+		E0EA828B88634AE083D1C73AD26884FC /* NamedServiceClientFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 672C9B6BDA77DA6A2DBCECA55107D602 /* NamedServiceClientFactory.swift */; };
+		E25146B4DC967AB362FFD44E1F09D91B /* StitchAppClientImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 812F83C6FAA73617C2DB5DF643FCBFBD /* StitchAppClientImpl.swift */; };
+		E298FCCEB4356C9B195963C031F608FB /* StitchCoreSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFA319A0B6339D14990FFD97367984E0 /* StitchCoreSDK.framework */; };
+		E481D44CA86CA85310435966AFB8BCB7 /* CoreRemoteMongoCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = F84703D65004DF93373CED1065744056 /* CoreRemoteMongoCollection.swift */; };
+		E5437B0E077A8D8D9BF7933A1BDEFEC6 /* CoreRemoteMongoCursor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51B62E492B91B6819D555DA324A536EA /* CoreRemoteMongoCursor.swift */; };
+		E75D8C1385B7CB63815A713E70838AA7 /* CoreStitchPushClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DA2610EB34438A53145504BD86F8E4A /* CoreStitchPushClient.swift */; };
+		E86630CB831D713DA26D79196ADBA6B8 /* UserPasswordAuthProviderClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 309FC18577C0929026EF411352ED8EAB /* UserPasswordAuthProviderClient.swift */; };
+		EC5AF348F8AFCF209521A3904CE6F0F6 /* StitchTwilioService-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 55A9996D31341EE6D1058F763CB63489 /* StitchTwilioService-dummy.m */; };
+		EFD264FC408EBF3BA2528E70B08DDD94 /* Notifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BCCF78B103E24876469A3FC1F636ACB /* Notifications.swift */; };
+		F02F0FDF307D5C859C9D89393729C287 /* StitchCoreTwilioService-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 726380C51373BE210595CFD53477BB7D /* StitchCoreTwilioService-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F049752247DDEF7D11DF9C7F57741E06 /* TwilioServiceClientImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CF68E855AE01EF98A3671333DF2AC7F /* TwilioServiceClientImpl.swift */; };
+		F1CF54902C9F3759C9C78DC970FAD72D /* StitchCoreTwilioService-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A9FE21B65A968EDE0B6AD68DD6EC3146 /* StitchCoreTwilioService-dummy.m */; };
+		F40F2EA57BCE7C9E312EF291A271A49D /* StitchClientConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = C19F2F43A0AABD9CE9D91C120187F5D4 /* StitchClientConfiguration.swift */; };
+		F65887A6DE3B81F33451EDCA0AAEBE97 /* UserPasswordCredential.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52967D2288BE8201E65AF4A59D42F997 /* UserPasswordCredential.swift */; };
+		F6BECD98B97CBFEBE2C96F0E9E72A6C0 /* ResponseSerialization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F721F736A040B48934B86C7F2AF4EE3 /* ResponseSerialization.swift */; };
+		F6D0A9A6000DA887E21B46325C22306A /* ThrowingServiceClientFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 789EF7CD4D4E68ED652A6353DCD01594 /* ThrowingServiceClientFactory.swift */; };
+		F8B3D3092ED0417E8CDF32033F6122F5 /* Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82743A2F7280170D4366EF015CE2A972 /* Alamofire.swift */; };
+		FB9506A0BE30D966BA260937705E0A0D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E5C6467495727A5ABDCBF761158C518 /* Foundation.framework */; };
+		FDF7598C27E99639EBD9F353C0F86FE5 /* APIAuthInfoImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = B271078290A98E3BD92FF62E9EC8F338 /* APIAuthInfoImpl.swift */; };
+		FF43555E0185263355CE89E3B8550742 /* UserAPIKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF3EC78F42C307B2AA1F9FBB20EECE05 /* UserAPIKey.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		0BDABFB6B55A6447BA81DC89D863F794 /* PBXContainerItemProxy */ = {
+		0D4171FAE20AA0F38142E1780357B4FE /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 9528976E666F2CD3D82BA69876154B78;
+			remoteGlobalIDString = C4C3B4F976596000B4494825682345C3;
 			remoteInfo = StitchCoreSDK;
 		};
-		26A5A3903CD3527FABB26583DC91AEB7 /* PBXContainerItemProxy */ = {
+		0DAA34A045587DD18D4C74000A53961C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 9528976E666F2CD3D82BA69876154B78;
-			remoteInfo = StitchCoreSDK;
+			remoteGlobalIDString = 2A45F374ACA6BB84EBF73C2CD5EBD906;
+			remoteInfo = StitchCoreTwilioService;
 		};
-		26CAE36CCEABE06B4D5D036A6E401E11 /* PBXContainerItemProxy */ = {
+		1D21E9A38E719E2FA80ABD37F8939B56 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 6368CF3AA9142418FC0D7901151EBC49;
+			remoteGlobalIDString = 74E6F08313C39DB94C6AA190E998B908;
 			remoteInfo = StitchTwilioService;
 		};
-		422B978755D06F3A7652D18D8A408BE0 /* PBXContainerItemProxy */ = {
+		2733976BDE51E6C3F87155E6664F33CA /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = A25BE0B7537592CAB1163F1CEBCA1BC9;
-			remoteInfo = StitchCore;
-		};
-		4C0EF93DABACE7429CC69262E14FF11A /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = F937273E7AA43F4EA5B450A095658AB6;
-			remoteInfo = StitchCoreRemoteMongoDBService;
-		};
-		58B8DCAF9F50EF5B4CA257C1F37B7EE5 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 9528976E666F2CD3D82BA69876154B78;
+			remoteGlobalIDString = C4C3B4F976596000B4494825682345C3;
 			remoteInfo = StitchCoreSDK;
 		};
-		70C30CC83B0CB0EAF9086EE51147648E /* PBXContainerItemProxy */ = {
+		41A46B8D48B30D0E365F68ACC3FA17F0 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = C4354FC83DB55AF4D744FC8F8FECBA79;
+			remoteGlobalIDString = 2A45F374ACA6BB84EBF73C2CD5EBD906;
 			remoteInfo = StitchCoreTwilioService;
 		};
-		78A93B808BB513DE99AD2B37239163B7 /* PBXContainerItemProxy */ = {
+		5443A52C23F790C4BCC252B41F0BD8E7 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 9528976E666F2CD3D82BA69876154B78;
-			remoteInfo = StitchCoreSDK;
-		};
-		89C5C5613A0E9442A5D6211AE8C0891B /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = E76458C58C9140B6A16D60547E68E80C;
-			remoteInfo = Alamofire;
-		};
-		8EEF481083A3D0143500AF86C2368713 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 9528976E666F2CD3D82BA69876154B78;
-			remoteInfo = StitchCoreSDK;
-		};
-		A2C1CBD685AD9396DCCE841BA1FE39E1 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = A25BE0B7537592CAB1163F1CEBCA1BC9;
-			remoteInfo = StitchCore;
-		};
-		CB094503B6D9C945751CB4C89B5B45F0 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 9528976E666F2CD3D82BA69876154B78;
-			remoteInfo = StitchCoreSDK;
-		};
-		D9B9F08FCE32131C75198846C1E13C0C /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = F937273E7AA43F4EA5B450A095658AB6;
+			remoteGlobalIDString = ED1B8F875E1822B39D414F31087BCFE4;
 			remoteInfo = StitchCoreRemoteMongoDBService;
 		};
-		EABE46FE4A1AD2A422F43DD80C12502E /* PBXContainerItemProxy */ = {
+		78FB8BA1518FD7DEF5E8BDB37A578103 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = C4354FC83DB55AF4D744FC8F8FECBA79;
-			remoteInfo = StitchCoreTwilioService;
+			remoteGlobalIDString = ED1B8F875E1822B39D414F31087BCFE4;
+			remoteInfo = StitchCoreRemoteMongoDBService;
 		};
-		F064697EBB07052831D21BE23EEDE4AF /* PBXContainerItemProxy */ = {
+		81235D42F066C7DA86BB1720267ACD45 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = E3EA7E488C8C6F00E0C159DDF1F927B4;
+			remoteGlobalIDString = A0AC58296946745B0225925891C21B53;
+			remoteInfo = StitchCore;
+		};
+		89C399844302E287E1D264074C05863E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A0AC58296946745B0225925891C21B53;
+			remoteInfo = StitchCore;
+		};
+		9A9C3E357805D3FB65A183EED39BC54E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E8406CAF3F114B90B1769062E653A05B;
 			remoteInfo = StitchRemoteMongoDBService;
 		};
-		F464FA2268C6E5CCAFE80EBEEFF1F5BF /* PBXContainerItemProxy */ = {
+		9BC00F097E94AB62E3B95B251D5DCF8C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = A25BE0B7537592CAB1163F1CEBCA1BC9;
+			remoteGlobalIDString = A0AC58296946745B0225925891C21B53;
 			remoteInfo = StitchCore;
+		};
+		A2AF855F11460BE06F424D6D524199E0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C4C3B4F976596000B4494825682345C3;
+			remoteInfo = StitchCoreSDK;
+		};
+		CA264DB562FBA4EF494DF29C2A0EAFFC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C4C3B4F976596000B4494825682345C3;
+			remoteInfo = StitchCoreSDK;
+		};
+		D4F60C748333F9F6931CF98048C1F41C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C4C3B4F976596000B4494825682345C3;
+			remoteInfo = StitchCoreSDK;
+		};
+		D84E2B1C19F46DFCD352698D4734B1BB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 88E9EC28B8B46C3631E6B242B50F4442;
+			remoteInfo = Alamofire;
+		};
+		F80512FC859C1B91082BF7C71A11E1E0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C4C3B4F976596000B4494825682345C3;
+			remoteInfo = StitchCoreSDK;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -490,76 +490,76 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		1933F6BDBCE843CB2FF3C9FDD47F525B /* Frameworks */ = {
+		09F06833E97FDB6C7AEBA8C4C2644AC3 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				131D596333D231B116C3F1379229F31C /* Foundation.framework in Frameworks */,
-				FB229EFE25ED5DC5AB9C5D725CED11A0 /* StitchCoreSDK.framework in Frameworks */,
+				43AEAE4EB5EB043B392815A54C47B49D /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		1BE68FE337938B304C5717323ADB46BC /* Frameworks */ = {
+		2B0ABB4B47DE10A7F01B12156D4D4530 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0AE02C676A1A7D54910820DD83D8C0ED /* Foundation.framework in Frameworks */,
-				C772F22A9D2F6B8941D8BA48E2815EAB /* StitchCoreSDK.framework in Frameworks */,
+				98ADD14635D3B1DD525C658158EE4F15 /* Foundation.framework in Frameworks */,
+				A5BE05FCC5B41CEE2F7A5089F7976403 /* StitchCore.framework in Frameworks */,
+				72600186BD3E813D9A9F20A9EB4B60FC /* StitchCoreRemoteMongoDBService.framework in Frameworks */,
+				D998D8BA1E978126ECE7E3EAD5C17A44 /* StitchCoreSDK.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		20B008F8924AFAEAAA9F29D615BE6CD2 /* Frameworks */ = {
+		3E89A9E6B23225288010BE8060237CA7 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4722C5DEE25D3E985171335ACA706849 /* Foundation.framework in Frameworks */,
+				B2D8BD42D133A1A8E13D13D04D24089A /* Foundation.framework in Frameworks */,
+				09E5B38BD858425B6078897656337EDF /* StitchCoreSDK.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5839ABF8C35B815673DC5DE1E8ADB25A /* Frameworks */ = {
+		802AE39400181ED8BEFF119317787E32 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				002608F6158001F3FAD582DFFDF9C7CB /* Foundation.framework in Frameworks */,
-				0948F66EF0AE1D363C5238C2DE28C23C /* StitchCore.framework in Frameworks */,
-				4BC10991471F719CE3EFD2F3377E4E3B /* StitchCoreRemoteMongoDBService.framework in Frameworks */,
-				90CD9A6F22EF2DD3A95802309CEEF38A /* StitchCoreSDK.framework in Frameworks */,
+				B89BF9E0C9E70918AC57DFE2B33470CF /* Foundation.framework in Frameworks */,
+				275BF891C7B568DB77B5893FEA65D602 /* StitchCoreSDK.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6E8AF668A2161F7D6F680F721DB65D2D /* Frameworks */ = {
+		99195E4207764744AEC07ECCBCD550EB /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D8EC5B74B9B5DC842F4179D19E6DE6D4 /* Foundation.framework in Frameworks */,
+				834F4D9819C6010E611A7E151B8899C3 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7BC12F5C4FE275AA2A418BD3F0FA4599 /* Frameworks */ = {
+		9EDBDA46F489CA08C0C5211EBB4840A4 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A6D843B246746C5EC54BCD8882DF6EF8 /* Foundation.framework in Frameworks */,
-				6E9463686E0B5C058779EDC9A773E7C6 /* StitchCoreSDK.framework in Frameworks */,
+				FB9506A0BE30D966BA260937705E0A0D /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		81249F1FEC2CF1DCB0367422527CBCB6 /* Frameworks */ = {
+		DBE19B1D2336A8A255BF8AD29B63F380 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				13914170E269FD6668FEB28EDE8DC6B6 /* Foundation.framework in Frameworks */,
-				52C0F4700AB21101BCD169DCD631E8EB /* StitchCore.framework in Frameworks */,
-				52FAE7EC3E5EDA6B1A2F246872F06160 /* StitchCoreSDK.framework in Frameworks */,
-				5463DC13C96369337D093B1F8A4C0A98 /* StitchCoreTwilioService.framework in Frameworks */,
+				3DDEA8FF73E22244C7DDE244563AF355 /* Foundation.framework in Frameworks */,
+				B62F6299BFF83F3A876EA6DAB2037A70 /* StitchCore.framework in Frameworks */,
+				E029136C4DB789DF0CA559482758F2ED /* StitchCoreSDK.framework in Frameworks */,
+				2A426A3541B998706B5DB3CA032370BD /* StitchCoreTwilioService.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B2AC69B6DEA78A11A1537D14757F58A6 /* Frameworks */ = {
+		E299F9934F65645EDF98125BA3BBAA85 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				12D6797ECA28E9CCC3D84A6E2A8370F3 /* Foundation.framework in Frameworks */,
+				6B772477518B9405D129671D3D20CA16 /* Foundation.framework in Frameworks */,
+				E298FCCEB4356C9B195963C031F608FB /* StitchCoreSDK.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -966,204 +966,118 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		862BA444C9421A757DABEEDD63C0B1BD /* Headers */ = {
+		0C78B90EDAF995772EBEB01C29FF9B27 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8FF7DE660A026FFAECFE020FA91F06CC /* StitchTwilioService-umbrella.h in Headers */,
+				18E8D0835C177CCC0F033671D5D946F5 /* StitchRemoteMongoDBService-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		889E637DF1B5BCD0D154C79020D297E4 /* Headers */ = {
+		2541B0F9CAE9C7FBF98868BEB4866878 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E934AD9CFF47DE07813573F6797C6DC5 /* StitchCoreTwilioService-umbrella.h in Headers */,
+				612F52574DCF4526572D2AEC7FE1EA38 /* StitchCoreSDK-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A061AEBA2B8943560810CB2B5278E9C9 /* Headers */ = {
+		2B61DEF706D31CA4DA7ED61B192F7F6A /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E393113D92F877C416ACF52E77C23CB4 /* StitchRemoteMongoDBService-umbrella.h in Headers */,
+				7ED11E4B6960883A8B736A96056C7BD0 /* StitchTwilioService-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A6A607506FEAAC7C41268D3E5CF4E5FE /* Headers */ = {
+		3A0481B8496F8ED0AA9A468D9330A842 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EF1461221681BCA12A4147900A704727 /* Alamofire-umbrella.h in Headers */,
+				F02F0FDF307D5C859C9D89393729C287 /* StitchCoreTwilioService-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B17C0FE7B4EAA415C78D7AA296141B31 /* Headers */ = {
+		3A15BD45EDF123130E181BBA62E5338C /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E4F9E2384F4D26846C44228074393C03 /* StitchCoreRemoteMongoDBService-umbrella.h in Headers */,
+				6FB7E01D81AE8E0F8C6EEBE8B5CF9B28 /* StitchCoreRemoteMongoDBService-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E25AFB09601C57B9A3E519AD4F559813 /* Headers */ = {
+		ADA476C2344C9BEA59D9C3033187C475 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E5A48A7966AE377FCA4317E3E108DFEB /* StitchCoreSDK-umbrella.h in Headers */,
+				2AC4142F0A5BE528B6333ABF528B251A /* Pods-CLDangerZone-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EDDDF270DC91562EEABC44171645230F /* Headers */ = {
+		B4002B6E97835FDCCAA5963EFE09A3E0 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4204A3C3DF321442AC6554F0BBFFB03F /* StitchCore-umbrella.h in Headers */,
+				1B9EDEDC964E6B08F78920B4F4B9DB84 /* Alamofire-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FE04DFA488C72FE61C2DA5AEBE7FEC4E /* Headers */ = {
+		BFB5C5411834174720F8C9DCE9CA2AA6 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F77025217D6064B987D3F13F5787B44E /* Pods-CLDangerZone-umbrella.h in Headers */,
+				D777ADBF1BC0671F4CAF6A7E281D7611 /* StitchCore-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		6368CF3AA9142418FC0D7901151EBC49 /* StitchTwilioService */ = {
+		2A45F374ACA6BB84EBF73C2CD5EBD906 /* StitchCoreTwilioService */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 856A6906B17DED8C24ADE8E92E2CB9D6 /* Build configuration list for PBXNativeTarget "StitchTwilioService" */;
+			buildConfigurationList = 9966CE2346932A270E64149A2BD3A946 /* Build configuration list for PBXNativeTarget "StitchCoreTwilioService" */;
 			buildPhases = (
-				862BA444C9421A757DABEEDD63C0B1BD /* Headers */,
-				D4B6FA5597EFC4CFA2D6079B3D4F4FDF /* Sources */,
-				81249F1FEC2CF1DCB0367422527CBCB6 /* Frameworks */,
-				D407C972F5FED3C2F1288CE0A820193A /* Resources */,
+				31F703D4799F099FE47B07194F9A09EC /* Sources */,
+				802AE39400181ED8BEFF119317787E32 /* Frameworks */,
+				3A0481B8496F8ED0AA9A468D9330A842 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				C85B449351EA7103DF6404F0FC2CF6F0 /* PBXTargetDependency */,
-				7B961291424A44E7E75533138587CEBA /* PBXTargetDependency */,
-				9A55FFAC3AF359AF74DA73B5B19B564B /* PBXTargetDependency */,
-			);
-			name = StitchTwilioService;
-			productName = StitchTwilioService;
-			productReference = FA8270DF8549198E0224AD8863FF1EFA /* StitchTwilioService.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		841676D35594664FD1649A4A2EF55D73 /* Pods-CLDangerZone */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 7F0B1B01D0936455BA9522F6902EEB8D /* Build configuration list for PBXNativeTarget "Pods-CLDangerZone" */;
-			buildPhases = (
-				FE04DFA488C72FE61C2DA5AEBE7FEC4E /* Headers */,
-				698711A0121FE6FC3CA78430452E9379 /* Sources */,
-				20B008F8924AFAEAAA9F29D615BE6CD2 /* Frameworks */,
-				59F40F8499B38259FA0811BDEC7166F8 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				6639C7A8E0C00D9162250DF20A1D73E3 /* PBXTargetDependency */,
-				45501F742CF0B207BE603E39CCCA4391 /* PBXTargetDependency */,
-				EB8C42B08919E1F4290ECA70F4F247CB /* PBXTargetDependency */,
-				B826A1B246E2A5A05464C8BB6CB5BF9F /* PBXTargetDependency */,
-				4A56984151AEB6B0B4485EDD20E8596D /* PBXTargetDependency */,
-				530AC6485C9B38E5A68FAB3F71DAA5DC /* PBXTargetDependency */,
-				21F3F273ECB1D5DB1624A05F19439B7D /* PBXTargetDependency */,
-			);
-			name = "Pods-CLDangerZone";
-			productName = "Pods-CLDangerZone";
-			productReference = 205E1D8C749B07437EAE35421388AD73 /* Pods_CLDangerZone.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		9528976E666F2CD3D82BA69876154B78 /* StitchCoreSDK */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 66215053749D0CD13EEEF4BD8BD01EA6 /* Build configuration list for PBXNativeTarget "StitchCoreSDK" */;
-			buildPhases = (
-				E25AFB09601C57B9A3E519AD4F559813 /* Headers */,
-				E2C24E1BBA11B81D4DFA63F698A3FD7C /* Sources */,
-				B2AC69B6DEA78A11A1537D14757F58A6 /* Frameworks */,
-				3769F8AECD703550740A1DA6423E46EA /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = StitchCoreSDK;
-			productName = StitchCoreSDK;
-			productReference = 27ADD494E055410C8C9480601707730E /* StitchCoreSDK.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		A25BE0B7537592CAB1163F1CEBCA1BC9 /* StitchCore */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 597E3FDAE975B2C65D718FA84EAFEC8A /* Build configuration list for PBXNativeTarget "StitchCore" */;
-			buildPhases = (
-				EDDDF270DC91562EEABC44171645230F /* Headers */,
-				B8358BAC324461D6613301D966005404 /* Sources */,
-				7BC12F5C4FE275AA2A418BD3F0FA4599 /* Frameworks */,
-				B0D917DBF9371FDE37F1FE087E9C424B /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				0976709A8FCBE19F0E2228E42440440A /* PBXTargetDependency */,
-			);
-			name = StitchCore;
-			productName = StitchCore;
-			productReference = 3BDCBA099542C5E770CC6AD05B21D187 /* StitchCore.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		C4354FC83DB55AF4D744FC8F8FECBA79 /* StitchCoreTwilioService */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 286B7DF972213B7003EB9C0FC2953E2C /* Build configuration list for PBXNativeTarget "StitchCoreTwilioService" */;
-			buildPhases = (
-				889E637DF1B5BCD0D154C79020D297E4 /* Headers */,
-				610E7E3648F0001FF370567343796B03 /* Sources */,
-				1933F6BDBCE843CB2FF3C9FDD47F525B /* Frameworks */,
-				154F4D1F252D368A839E0721F98F6D6D /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				6D058616DF1115612201EC072600A7E9 /* PBXTargetDependency */,
+				070C6C3C469259C1EC8FE9FC1AF34A9D /* PBXTargetDependency */,
 			);
 			name = StitchCoreTwilioService;
 			productName = StitchCoreTwilioService;
 			productReference = 05755E0718A0E962B24FAB915CF6FE3C /* StitchCoreTwilioService.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		E3EA7E488C8C6F00E0C159DDF1F927B4 /* StitchRemoteMongoDBService */ = {
+		74E6F08313C39DB94C6AA190E998B908 /* StitchTwilioService */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 157FD5C1BD4DE0AF26A3C5090838C14B /* Build configuration list for PBXNativeTarget "StitchRemoteMongoDBService" */;
+			buildConfigurationList = 97413F435FEBD5B2EE3606AF022FE297 /* Build configuration list for PBXNativeTarget "StitchTwilioService" */;
 			buildPhases = (
-				A061AEBA2B8943560810CB2B5278E9C9 /* Headers */,
-				9DDCD65A6117A31156D032391EC50952 /* Sources */,
-				5839ABF8C35B815673DC5DE1E8ADB25A /* Frameworks */,
-				85AD7D64BDA5DF1103EA9D6AE62D48A9 /* Resources */,
+				A2A0F056A97934306489B6CD8206035A /* Sources */,
+				DBE19B1D2336A8A255BF8AD29B63F380 /* Frameworks */,
+				2B61DEF706D31CA4DA7ED61B192F7F6A /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				83D01BAA9BC84DDECF92FFBEFE8BF3A1 /* PBXTargetDependency */,
-				3B53FE09B7D64B886A142A91E09F0208 /* PBXTargetDependency */,
-				9FE3CBF2FE4415774635EA3382B21117 /* PBXTargetDependency */,
+				E7671E3348C56EF48242B851A80F2F82 /* PBXTargetDependency */,
+				FDF02AED935A128224D599AA3D24E732 /* PBXTargetDependency */,
+				0A651520B13CAC4316B3E4F83DDAC594 /* PBXTargetDependency */,
 			);
-			name = StitchRemoteMongoDBService;
-			productName = StitchRemoteMongoDBService;
-			productReference = 0876BEB1CC587599B36501F9B899053C /* StitchRemoteMongoDBService.framework */;
+			name = StitchTwilioService;
+			productName = StitchTwilioService;
+			productReference = FA8270DF8549198E0224AD8863FF1EFA /* StitchTwilioService.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		E76458C58C9140B6A16D60547E68E80C /* Alamofire */ = {
+		88E9EC28B8B46C3631E6B242B50F4442 /* Alamofire */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 427F0F003A1AD80AE00155AFCDEFAC20 /* Build configuration list for PBXNativeTarget "Alamofire" */;
+			buildConfigurationList = 419E5D95491847CD79841B971A8A3277 /* Build configuration list for PBXNativeTarget "Alamofire" */;
 			buildPhases = (
-				A6A607506FEAAC7C41268D3E5CF4E5FE /* Headers */,
-				CC399CEC576B42C962CEB290481CAF95 /* Sources */,
-				6E8AF668A2161F7D6F680F721DB65D2D /* Frameworks */,
-				3DDB7E21141D7764AE4658D5B6AFF8C6 /* Resources */,
+				32B9974868188C4803318E36329C87FE /* Sources */,
+				99195E4207764744AEC07ECCBCD550EB /* Frameworks */,
+				B4002B6E97835FDCCAA5963EFE09A3E0 /* Headers */,
 			);
 			buildRules = (
 			);
@@ -1174,23 +1088,101 @@
 			productReference = 42A4EA711C5FF6893148717A0E41C9C2 /* Alamofire.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		F937273E7AA43F4EA5B450A095658AB6 /* StitchCoreRemoteMongoDBService */ = {
+		A0AC58296946745B0225925891C21B53 /* StitchCore */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 929EC3CFB40714BFBD18D621D3DC77FC /* Build configuration list for PBXNativeTarget "StitchCoreRemoteMongoDBService" */;
+			buildConfigurationList = 1FBA4C1BFC680F5E6C24EE781F171B49 /* Build configuration list for PBXNativeTarget "StitchCore" */;
 			buildPhases = (
-				B17C0FE7B4EAA415C78D7AA296141B31 /* Headers */,
-				06BA2C679B80158166ED7BF8BDA7BAEF /* Sources */,
-				1BE68FE337938B304C5717323ADB46BC /* Frameworks */,
-				29C9E563D5AD247F2CD654E26042A967 /* Resources */,
+				45A89AEFE78AA71B33CCFC6BB6127799 /* Sources */,
+				3E89A9E6B23225288010BE8060237CA7 /* Frameworks */,
+				BFB5C5411834174720F8C9DCE9CA2AA6 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				D0B05ED39AF01861E8E11059772DF855 /* PBXTargetDependency */,
+				89A935661ED80699327CD2775CD7B961 /* PBXTargetDependency */,
+			);
+			name = StitchCore;
+			productName = StitchCore;
+			productReference = 3BDCBA099542C5E770CC6AD05B21D187 /* StitchCore.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C4C3B4F976596000B4494825682345C3 /* StitchCoreSDK */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6F6E95401D06ABC52FAADA69DA626F37 /* Build configuration list for PBXNativeTarget "StitchCoreSDK" */;
+			buildPhases = (
+				DA3002EBE2B9D86B41722404B85602F1 /* Sources */,
+				9EDBDA46F489CA08C0C5211EBB4840A4 /* Frameworks */,
+				2541B0F9CAE9C7FBF98868BEB4866878 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = StitchCoreSDK;
+			productName = StitchCoreSDK;
+			productReference = 27ADD494E055410C8C9480601707730E /* StitchCoreSDK.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E8406CAF3F114B90B1769062E653A05B /* StitchRemoteMongoDBService */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E68FF3E730DACDE09333B8A8C81462E4 /* Build configuration list for PBXNativeTarget "StitchRemoteMongoDBService" */;
+			buildPhases = (
+				DFDE61DB5F83B6BB9D72A676ABE0B93F /* Sources */,
+				2B0ABB4B47DE10A7F01B12156D4D4530 /* Frameworks */,
+				0C78B90EDAF995772EBEB01C29FF9B27 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CC9FD1A83417F66F7B5DE24E0966951B /* PBXTargetDependency */,
+				50EAA2CEBE73C01AE45BA141E27EDB24 /* PBXTargetDependency */,
+				4ABD659A035D87B7B9DB2270058957C2 /* PBXTargetDependency */,
+			);
+			name = StitchRemoteMongoDBService;
+			productName = StitchRemoteMongoDBService;
+			productReference = 0876BEB1CC587599B36501F9B899053C /* StitchRemoteMongoDBService.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		ED1B8F875E1822B39D414F31087BCFE4 /* StitchCoreRemoteMongoDBService */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 89988233DA132B08189104762B3C2DEC /* Build configuration list for PBXNativeTarget "StitchCoreRemoteMongoDBService" */;
+			buildPhases = (
+				86CA64822B2DBCF982E300C9E7009828 /* Sources */,
+				E299F9934F65645EDF98125BA3BBAA85 /* Frameworks */,
+				3A15BD45EDF123130E181BBA62E5338C /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E106D1A63FA79CAC41F61DE29AE64367 /* PBXTargetDependency */,
 			);
 			name = StitchCoreRemoteMongoDBService;
 			productName = StitchCoreRemoteMongoDBService;
 			productReference = 9F740415380F14FCAD2B6A275CCEFEAC /* StitchCoreRemoteMongoDBService.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		EE492D8A23485867AF633573CD99ECC5 /* Pods-CLDangerZone */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7063551EAE035BC987C3F3D25FBAD2F9 /* Build configuration list for PBXNativeTarget "Pods-CLDangerZone" */;
+			buildPhases = (
+				F508A58C2B38255C6305D1667E03B1C2 /* Sources */,
+				09F06833E97FDB6C7AEBA8C4C2644AC3 /* Frameworks */,
+				ADA476C2344C9BEA59D9C3033187C475 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				919662100DD87B91E4BBB1B8DCD25903 /* PBXTargetDependency */,
+				F46462EC1E64C092C5F8A503D45139B0 /* PBXTargetDependency */,
+				67E6261098466B08627C29DAA6B98D60 /* PBXTargetDependency */,
+				27E9BB68C33A41658BCAB18ACE821B9E /* PBXTargetDependency */,
+				24C1E17F13A4F625851F0A2313A05C35 /* PBXTargetDependency */,
+				1EB87BDAC5AFF2A8D9F0C94C54F7605C /* PBXTargetDependency */,
+				9B6CC97D555F0DB32F31230002BB1DDD /* PBXTargetDependency */,
+			);
+			name = "Pods-CLDangerZone";
+			productName = "Pods-CLDangerZone";
+			productReference = 205E1D8C749B07437EAE35421388AD73 /* Pods_CLDangerZone.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -1214,378 +1206,320 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				E76458C58C9140B6A16D60547E68E80C /* Alamofire */,
-				841676D35594664FD1649A4A2EF55D73 /* Pods-CLDangerZone */,
-				A25BE0B7537592CAB1163F1CEBCA1BC9 /* StitchCore */,
-				F937273E7AA43F4EA5B450A095658AB6 /* StitchCoreRemoteMongoDBService */,
-				9528976E666F2CD3D82BA69876154B78 /* StitchCoreSDK */,
-				C4354FC83DB55AF4D744FC8F8FECBA79 /* StitchCoreTwilioService */,
-				E3EA7E488C8C6F00E0C159DDF1F927B4 /* StitchRemoteMongoDBService */,
-				6368CF3AA9142418FC0D7901151EBC49 /* StitchTwilioService */,
+				88E9EC28B8B46C3631E6B242B50F4442 /* Alamofire */,
+				EE492D8A23485867AF633573CD99ECC5 /* Pods-CLDangerZone */,
+				A0AC58296946745B0225925891C21B53 /* StitchCore */,
+				ED1B8F875E1822B39D414F31087BCFE4 /* StitchCoreRemoteMongoDBService */,
+				C4C3B4F976596000B4494825682345C3 /* StitchCoreSDK */,
+				2A45F374ACA6BB84EBF73C2CD5EBD906 /* StitchCoreTwilioService */,
+				E8406CAF3F114B90B1769062E653A05B /* StitchRemoteMongoDBService */,
+				74E6F08313C39DB94C6AA190E998B908 /* StitchTwilioService */,
 			);
 		};
 /* End PBXProject section */
 
-/* Begin PBXResourcesBuildPhase section */
-		154F4D1F252D368A839E0721F98F6D6D /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		29C9E563D5AD247F2CD654E26042A967 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		3769F8AECD703550740A1DA6423E46EA /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		3DDB7E21141D7764AE4658D5B6AFF8C6 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		59F40F8499B38259FA0811BDEC7166F8 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		85AD7D64BDA5DF1103EA9D6AE62D48A9 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		B0D917DBF9371FDE37F1FE087E9C424B /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D407C972F5FED3C2F1288CE0A820193A /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXResourcesBuildPhase section */
-
 /* Begin PBXSourcesBuildPhase section */
-		06BA2C679B80158166ED7BF8BDA7BAEF /* Sources */ = {
+		31F703D4799F099FE47B07194F9A09EC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				19ADB8AEED8E67196516AF3DB40341F1 /* CoreRemoteMongoClient.swift in Sources */,
-				223192C57309CDF378F1884BC5F5FC98 /* CoreRemoteMongoCollection.swift in Sources */,
-				5A3BE30385A653A076E1E92DBCC821D6 /* CoreRemoteMongoCursor.swift in Sources */,
-				F84EB137C10F4B6B084C7326754BE95E /* CoreRemoteMongoDatabase.swift in Sources */,
-				5CCBE286C585F96580A4F47EC8A9937A /* CoreRemoteMongoReadOperation.swift in Sources */,
-				67866F3E868716A594EF348B9B1B224C /* RemoteCountOptions.swift in Sources */,
-				0210225D49CEAA39B098F8B94085A025 /* RemoteDeleteResult.swift in Sources */,
-				6F2F5C1CDE011CCD4A8737BDE090594A /* RemoteFindOptions.swift in Sources */,
-				B13B82F8C872FFF5F93D5CB3919EA4C9 /* RemoteInsertManyResult.swift in Sources */,
-				3FC0F6F9911035F0BF97FAE6D6D6F290 /* RemoteInsertOneResult.swift in Sources */,
-				B6B8A77D948D48A8F53A70F1F58B51C7 /* RemoteUpdateOptions.swift in Sources */,
-				2413400A9B099E6D3B840B39CEDE74EA /* RemoteUpdateResult.swift in Sources */,
-				F95273BEC38D2028DCF90D233DC455B3 /* StitchCoreRemoteMongoDBService-dummy.m in Sources */,
+				C625ED103CCB14AB20864ABD96FC6F65 /* CoreTwilioServiceClient.swift in Sources */,
+				F1CF54902C9F3759C9C78DC970FAD72D /* StitchCoreTwilioService-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		610E7E3648F0001FF370567343796B03 /* Sources */ = {
+		32B9974868188C4803318E36329C87FE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0A926DA2FA36F69FE012B428DD03F545 /* CoreTwilioServiceClient.swift in Sources */,
-				657B2903216717A1F3676A581FC5A833 /* StitchCoreTwilioService-dummy.m in Sources */,
+				9ED2BB2981896E0A39EFA365503F58CE /* AFError.swift in Sources */,
+				A9EEEA7477981DEEBC72432DE9990A4B /* Alamofire-dummy.m in Sources */,
+				F8B3D3092ED0417E8CDF32033F6122F5 /* Alamofire.swift in Sources */,
+				61200D01A1855D7920CEF835C8BE00B0 /* DispatchQueue+Alamofire.swift in Sources */,
+				B65FCF589DA398C3EFE0128064E510EC /* MultipartFormData.swift in Sources */,
+				A2A6F71B727312BD45CC7A4AAD7B0AB7 /* NetworkReachabilityManager.swift in Sources */,
+				EFD264FC408EBF3BA2528E70B08DDD94 /* Notifications.swift in Sources */,
+				BE5C67A07E289FE1F9BE27335B159997 /* ParameterEncoding.swift in Sources */,
+				5387216E723A3C68E851CA15573CDD71 /* Request.swift in Sources */,
+				CB6D60925223897FFA2662667DF83E8A /* Response.swift in Sources */,
+				F6BECD98B97CBFEBE2C96F0E9E72A6C0 /* ResponseSerialization.swift in Sources */,
+				7D8CC01E8C9EFFF9F4D65406CDE0AB66 /* Result.swift in Sources */,
+				62F65AD8DC4F0F9610F4B8B4738EC094 /* ServerTrustPolicy.swift in Sources */,
+				7B5FE28C7EA4122B0598738E54DBEBD8 /* SessionDelegate.swift in Sources */,
+				AE1EF48399533730D0066E04B22CA2D6 /* SessionManager.swift in Sources */,
+				3626B94094672CB1C9DEA32B9F9502E1 /* TaskDelegate.swift in Sources */,
+				10EB23E9ECC4B33E16933BB1EA560B6A /* Timeline.swift in Sources */,
+				BBEFE2F9CEB73DC7BD97FFA66A0D9D4F /* Validation.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		698711A0121FE6FC3CA78430452E9379 /* Sources */ = {
+		45A89AEFE78AA71B33CCFC6BB6127799 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				79BE0737F2C790E222D87268A1F035A4 /* Pods-CLDangerZone-dummy.m in Sources */,
+				B5733613BDCA4BB702D8C7645BA24FAA /* AuthProviderClientFactory.swift in Sources */,
+				C70670025B88B25D592C20941A34350F /* ImmutableStitchAppClientConfiguration.swift in Sources */,
+				7CB1760145045DFB358CFF43EE31404A /* NamedAuthProviderClientFactory.swift in Sources */,
+				C0C0325C2AFAEBB8C3B33B904511B350 /* NamedPushClientFactory.swift in Sources */,
+				E0EA828B88634AE083D1C73AD26884FC /* NamedServiceClientFactory.swift in Sources */,
+				56995B5C173672580E0449477C74EE57 /* OperationDispatcher.swift in Sources */,
+				D07E3682DAEC9CC25829C815AE366834 /* ServiceClientFactory.swift in Sources */,
+				666B8DB71BF97D549B4CB716D665B695 /* Stitch.swift in Sources */,
+				C6959AB8B442469DB4BCC19F7F89F9EB /* StitchAppClient.swift in Sources */,
+				E25146B4DC967AB362FFD44E1F09D91B /* StitchAppClientImpl.swift in Sources */,
+				A3434F328A2E5B1B2D6A174A36E2913B /* StitchAuth.swift in Sources */,
+				0824040DA244A9F99D7392A1026E2A24 /* StitchAuthDelegate.swift in Sources */,
+				C66508645EFD5055EA6164ED573F37C7 /* StitchAuthImpl.swift in Sources */,
+				0BCEBCAFEAEF4313C36DA956DDD4E1A5 /* StitchCore-dummy.m in Sources */,
+				137068BE6EE290D2821A4C14D2E1FC50 /* StitchCoreExports.swift in Sources */,
+				5062500FFEF0543E18F0E2E051CADDD8 /* StitchPush.swift in Sources */,
+				6D427B2F305E89B1160DE4FAE1A6E3FD /* StitchPushClient.swift in Sources */,
+				DAF59D5E38970E969C3D1D587531E0C8 /* StitchPushClientImpl.swift in Sources */,
+				6B1895F12939FDCC2123645C1642D1DB /* StitchPushImpl.swift in Sources */,
+				884AEEC4B8C6AC1C00351F99312A9B8A /* StitchResult.swift in Sources */,
+				D1669AF1516767046945DB2B65E527DB /* StitchServiceClient.swift in Sources */,
+				2338E56C547983D389F349497150C60E /* StitchServiceClientImpl.swift in Sources */,
+				571B25C556DAB4455FBE5C7017C3BB25 /* StitchUser.swift in Sources */,
+				58C305B88A4D35D5E58B0F86488C7D4B /* StitchUserFactoryImpl.swift in Sources */,
+				6EF02254C86A91EAFC6F64DC832B341C /* StitchUserImpl.swift in Sources */,
+				F6D0A9A6000DA887E21B46325C22306A /* ThrowingServiceClientFactory.swift in Sources */,
+				5F66EB51C7C8D7D50F9303411ECE5D66 /* UserAPIKeyAuthProviderClient.swift in Sources */,
+				E86630CB831D713DA26D79196ADBA6B8 /* UserPasswordAuthProviderClient.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9DDCD65A6117A31156D032391EC50952 /* Sources */ = {
+		86CA64822B2DBCF982E300C9E7009828 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D855912ED2C83FCF4CA98013F8FA43C9 /* RemoteMongoClient.swift in Sources */,
-				645885C1AB88D28DE3F784FE3C4421DE /* RemoteMongoCollection.swift in Sources */,
-				9691152DE1B6E6AE47AB4B9924F016BD /* RemoteMongoCursor.swift in Sources */,
-				E8F76C048332393E3ACBCFE2A845F109 /* RemoteMongoDatabase.swift in Sources */,
-				5ACB8D2FDD4D7ACC5802DA471D45EBCE /* RemoteMongoReadOperation.swift in Sources */,
-				F8FB8DF755B584CD9E5821B5560D205C /* StitchRemoteMongoDBService-dummy.m in Sources */,
-				8AE61C66754C111E092C23AA992587F3 /* StitchRemoteMongoDBServiceExports.swift in Sources */,
+				8131EC3151619A5E977913AFF8008551 /* CoreRemoteMongoClient.swift in Sources */,
+				E481D44CA86CA85310435966AFB8BCB7 /* CoreRemoteMongoCollection.swift in Sources */,
+				E5437B0E077A8D8D9BF7933A1BDEFEC6 /* CoreRemoteMongoCursor.swift in Sources */,
+				B3D89BDEE89B9ABB07E8D49D0A7CB1DA /* CoreRemoteMongoDatabase.swift in Sources */,
+				1B7289EC225FC79C1B4166CD001CADEE /* CoreRemoteMongoReadOperation.swift in Sources */,
+				0E1C1E17B9FDFDDBFFB1ACF6C27354DE /* RemoteCountOptions.swift in Sources */,
+				BE4CC370ACD03571CEAF6B63A1FC79F1 /* RemoteDeleteResult.swift in Sources */,
+				DB46D8860093B8D84E959A1E7742B595 /* RemoteFindOptions.swift in Sources */,
+				6BABDC4A9FEBD84022EA2283C01437A1 /* RemoteInsertManyResult.swift in Sources */,
+				C2FF4AA47EDC7EEC624DA98255506B2C /* RemoteInsertOneResult.swift in Sources */,
+				BEBB1BF8D98BFE1F25B72F204BFBAAE1 /* RemoteUpdateOptions.swift in Sources */,
+				A13793863D9A0F1E59BBF81ABFB5662B /* RemoteUpdateResult.swift in Sources */,
+				8EF5CCCA9F23D250F64845F334620222 /* StitchCoreRemoteMongoDBService-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B8358BAC324461D6613301D966005404 /* Sources */ = {
+		A2A0F056A97934306489B6CD8206035A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F1D9D6343E80DF51C7ED88B4032CE275 /* AuthProviderClientFactory.swift in Sources */,
-				ADFFE707C571516BD4A57E83B29ED5C1 /* ImmutableStitchAppClientConfiguration.swift in Sources */,
-				7B9C565975482062112C297456D3B3DB /* NamedAuthProviderClientFactory.swift in Sources */,
-				27E619795421A6F4128CB7338F303178 /* NamedPushClientFactory.swift in Sources */,
-				3368570D787BA9DF251F89CB53DF3B8F /* NamedServiceClientFactory.swift in Sources */,
-				012713681125C7695E5F85D67CADAC37 /* OperationDispatcher.swift in Sources */,
-				27DAEBC048ED5D1F368D7C8098509480 /* ServiceClientFactory.swift in Sources */,
-				5191A333D5D04B61E1F90F2CAFE046FB /* Stitch.swift in Sources */,
-				232186F2DA64B11B8089A89AEEB5BABB /* StitchAppClient.swift in Sources */,
-				EB26C43DAC33936EBD4958FBE0466658 /* StitchAppClientImpl.swift in Sources */,
-				86C6169558AB963997386E956D8F1A30 /* StitchAuth.swift in Sources */,
-				1A8348CD33D3034EAB19E430A6DC2903 /* StitchAuthDelegate.swift in Sources */,
-				06C9433A8D554EA8FABFDC1E6381B88A /* StitchAuthImpl.swift in Sources */,
-				A2DE543041DF4CFAE889545C02BF268B /* StitchCore-dummy.m in Sources */,
-				FC1766D7A8ECBF544DAC3B450A166BC3 /* StitchCoreExports.swift in Sources */,
-				710C509164498D41FBE636EF57D17D43 /* StitchPush.swift in Sources */,
-				7F73823B5A82AA44287E62D39D139905 /* StitchPushClient.swift in Sources */,
-				7FB14DA6B87710C1F4A060B5CCA8A798 /* StitchPushClientImpl.swift in Sources */,
-				6D2D5826148190C5F09D5BE4C3AA35F3 /* StitchPushImpl.swift in Sources */,
-				6C155902FC6C2D82333B9C8825F908D0 /* StitchResult.swift in Sources */,
-				E49F8FF6363C2916B84573AE6CC4F686 /* StitchServiceClient.swift in Sources */,
-				2C60883D8E319BD028D69BB370AC5DDF /* StitchServiceClientImpl.swift in Sources */,
-				73C3F2FDDD6202E4F49F78D054410770 /* StitchUser.swift in Sources */,
-				747B074A02879C7D89D7A3105F17C758 /* StitchUserFactoryImpl.swift in Sources */,
-				9306BD6DDEDF2086DE42AF0E68D73BB4 /* StitchUserImpl.swift in Sources */,
-				9581FA4DBB0E3221A946FD9B40629F90 /* ThrowingServiceClientFactory.swift in Sources */,
-				02465014D70320A54F4DF877FBD8614D /* UserAPIKeyAuthProviderClient.swift in Sources */,
-				B2B7930E80BE426ECB30D011E9BA8B23 /* UserPasswordAuthProviderClient.swift in Sources */,
+				EC5AF348F8AFCF209521A3904CE6F0F6 /* StitchTwilioService-dummy.m in Sources */,
+				92439DA875D401A6EB1676574BA3EF1F /* TwilioServiceClient.swift in Sources */,
+				F049752247DDEF7D11DF9C7F57741E06 /* TwilioServiceClientImpl.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CC399CEC576B42C962CEB290481CAF95 /* Sources */ = {
+		DA3002EBE2B9D86B41722404B85602F1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BE4BA1EDE444A770F834605F4B65348E /* AFError.swift in Sources */,
-				D4C3899574E9D5DF5E5DA52310560BCC /* Alamofire-dummy.m in Sources */,
-				4E1A913EFB404FB11524718FF0298EFE /* Alamofire.swift in Sources */,
-				DBE6E2E4D205545E7988CFA5057C31D6 /* DispatchQueue+Alamofire.swift in Sources */,
-				FF9C7BC64DB23D2CED48197DE67F0335 /* MultipartFormData.swift in Sources */,
-				B77705737566AE83ED7E448923D7FA60 /* NetworkReachabilityManager.swift in Sources */,
-				500C8EDA60C07B0F127C7FC385E17D38 /* Notifications.swift in Sources */,
-				796177DE2762F24DAC16A709FD954838 /* ParameterEncoding.swift in Sources */,
-				965DACF3DC02857ECBE66C5CBA3DA5D4 /* Request.swift in Sources */,
-				52237C35642089F77DD4D723CEB25737 /* Response.swift in Sources */,
-				5EE5FED83B90A606A763CF1114D1D6FB /* ResponseSerialization.swift in Sources */,
-				F9EA61D484CC15FDDAB0D8C0D26D7949 /* Result.swift in Sources */,
-				6BEA14EC335E07C7063CD1383C0C443C /* ServerTrustPolicy.swift in Sources */,
-				1FC3FD39157C2FFFF3869A1300730086 /* SessionDelegate.swift in Sources */,
-				7068E8A7DDC1424EE8F24BC77E8746F4 /* SessionManager.swift in Sources */,
-				36FF8853CB34A9297AFAA8F5F7456324 /* TaskDelegate.swift in Sources */,
-				B424F524BBBE34E685129945993809A8 /* Timeline.swift in Sources */,
-				58A9719584AFA2D108D9E5C585A79329 /* Validation.swift in Sources */,
+				2E2790FB70181BD9E3CB6B7971BBFCAD /* AccessTokenRefresher.swift in Sources */,
+				232B097508215B707A26955FBA9BC44C /* AnonymousAuthProvider.swift in Sources */,
+				0DC5212228C4D05A781D2C8E1003460C /* AnonymousCredential.swift in Sources */,
+				633768B96369F100D25D4B3929B21FD7 /* APIAccessToken.swift in Sources */,
+				FDF7598C27E99639EBD9F353C0F86FE5 /* APIAuthInfoImpl.swift in Sources */,
+				C1763A793F288DC66CF8E392FFBD3761 /* APICoreUserProfile.swift in Sources */,
+				62CB1CBD583784E1DC829241D7A72F51 /* APIStitchUserIdentity.swift in Sources */,
+				1AF6696B32C09505A52BDAF2505CEA5D /* AuthInfo.swift in Sources */,
+				A592E5B3B5A477E8568770F6013AEF65 /* AuthStateHolder.swift in Sources */,
+				9BAEC9BFCAC65DF20A9F8CC9C1BC61AC /* ContentType.swift in Sources */,
+				CF267294D27303E206C5D12285449C40 /* CoreAuthProviderClient.swift in Sources */,
+				C784886EC99FF053E17AB30A08A07323 /* CoreStitchAppClient.swift in Sources */,
+				C9652490C73DEB2A4302502390A1FA5D /* CoreStitchAuth+StitchAuthRequestClient.swift in Sources */,
+				388E2FEA5D515041357B0C95D4DC6B54 /* CoreStitchAuth.swift in Sources */,
+				E75D8C1385B7CB63815A713E70838AA7 /* CoreStitchPushClient.swift in Sources */,
+				6668C8CD0AC3D8523A389055936DFC37 /* CoreStitchPushClientImpl.swift in Sources */,
+				37E7C154E516EFF85CEB3C37B42557D3 /* CoreStitchServiceClient.swift in Sources */,
+				CFA8F08CDFB56FBD1EDA3605F92482AF /* CoreStitchServiceClientImpl.swift in Sources */,
+				0FD8B619042A05F7F518CE691AAE9167 /* CoreStitchUser.swift in Sources */,
+				C32C58D4528F6D92187426EE855B51B1 /* CoreStitchUserImpl.swift in Sources */,
+				0A4F194F91330A6E0088DB5682C59AF9 /* CoreUserAPIKeyAuthProviderClient.swift in Sources */,
+				6DB0C942B599BAD9495B582E97B04CC4 /* CoreUserPasswordAuthProviderClient.swift in Sources */,
+				27FAA188225CDCC3FC3D3EABAD6FEF92 /* CustomAuthProvider.swift in Sources */,
+				A79FBF3F06B14D5DC8B8362BF6349B24 /* CustomCredential.swift in Sources */,
+				34027190870A867B74100C17288D716E /* DeviceField.swift in Sources */,
+				904894DA0A9D578164E138F45ACA58E2 /* FacebookAuthProvider.swift in Sources */,
+				DE19319CF52FB3CB7D9C48B236493BB8 /* FacebookCredential.swift in Sources */,
+				C702FF9C3DDA360602D8302961EFCC15 /* FoundationHTTPTransport.swift in Sources */,
+				19FBECB57268872296020463B611664A /* GoogleAuthProvider.swift in Sources */,
+				CD70D541C77E2EFF983972D0D1B53168 /* GoogleCredential.swift in Sources */,
+				6F3D250954F8D6BCC39F2B44932C7262 /* Headers.swift in Sources */,
+				842F729F2A8DEC147F30F3C23721749D /* ImplFailureFatalErrors.swift in Sources */,
+				59BCD184ED4E9B300F11D5A1D984D83C /* JWT.swift in Sources */,
+				5DC33ACDCA66361974B73486B37728E8 /* Method.swift in Sources */,
+				CB71C7AB629A51AA922DE08062B08E1B /* ProviderCapabilities.swift in Sources */,
+				406F039777B9BD2AF4511D201BE3E65C /* Request.swift in Sources */,
+				761E71137FB61521BD916CC0A3107FFF /* ServerAPIKeyAuthProvider.swift in Sources */,
+				5E07234218E3309098395A8F1AB0B0B6 /* ServerAPIKeyCredential.swift in Sources */,
+				AB4EE9F154339E78B3AB1761DA386EE9 /* StitchAppClientConfiguration.swift in Sources */,
+				A785FA70D62FE5A22358E65AB7DB992E /* StitchAppClientInfo.swift in Sources */,
+				8C94789DE68924314F3AF145839F8520 /* StitchAppRoutes.swift in Sources */,
+				61B233A1344E6B975291D078EDBF047C /* StitchAuthDocRequest.swift in Sources */,
+				A590B659CE24517297CA71F48BD1D1A9 /* StitchAuthRequest.swift in Sources */,
+				2305330AE2A953A88AD0DCF908B4E050 /* StitchAuthRequestClient.swift in Sources */,
+				F40F2EA57BCE7C9E312EF291A271A49D /* StitchClientConfiguration.swift in Sources */,
+				3C5CFAD5E7A230A34980D2E8AC4092DD /* StitchCoreSDK-dummy.m in Sources */,
+				5CC8DE4774C310065E302784265EE927 /* StitchCredential.swift in Sources */,
+				687E40895572E0229219959540F68A2A /* StitchDocRequest.swift in Sources */,
+				22965C8DCA093464A289F079A437FE7B /* StitchError.swift in Sources */,
+				A0E282AE261F2F94C2AEAFDD503C5023 /* StitchProviderType.swift in Sources */,
+				B4728FCC3A1BD07BA909D2F37AABA1B5 /* StitchPushRoutes.swift in Sources */,
+				E0AB020FED0A71724972B86D4E3E98A9 /* StitchRequest.swift in Sources */,
+				81A4C1D9FF7722AD8CCF0A89F9050B21 /* StitchRequestClient.swift in Sources */,
+				28C443EA3BF1DB961D477575E952BD7E /* StitchUserFactory.swift in Sources */,
+				671771F35A9095F6E2363497D4D3DC53 /* StitchUserIdentity.swift in Sources */,
+				39B4E7DCFA36AB300BECE276A04B51FC /* StitchUserProfile.swift in Sources */,
+				7272981A72569D34CD9EC573FEB72DD2 /* Storage.swift in Sources */,
+				9302B877A4130B45B6F2ECE891B84F20 /* StoreAuthInfo.swift in Sources */,
+				D70AB7E7F9BCE2EFEB058EB32FF0BDAA /* StoreCoreUserProfile.swift in Sources */,
+				07AABFA499C8E9694CD5887BC99801D2 /* StoreStitchUserIdentity.swift in Sources */,
+				719FA62129E08EE0A33F6D22CFD43AD6 /* Transport.swift in Sources */,
+				FF43555E0185263355CE89E3B8550742 /* UserAPIKey.swift in Sources */,
+				E03526D5A6A0397018AE4A6390EC1867 /* UserAPIKeyAuthProvider.swift in Sources */,
+				067645459ED9B705FB58910B8CC7A164 /* UserAPIKeyCredential.swift in Sources */,
+				DC908B1D08E1B228406B9BF85471B628 /* UserPasswordAuthProvider.swift in Sources */,
+				F65887A6DE3B81F33451EDCA0AAEBE97 /* UserPasswordCredential.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D4B6FA5597EFC4CFA2D6079B3D4F4FDF /* Sources */ = {
+		DFDE61DB5F83B6BB9D72A676ABE0B93F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A02BAF3247472F07316724ABDE67AA96 /* StitchTwilioService-dummy.m in Sources */,
-				4F7C886C03E419A609A4BF90C24A91D7 /* TwilioServiceClient.swift in Sources */,
-				EAFFB26DDF10F548D36BE2B3ACA3B14D /* TwilioServiceClientImpl.swift in Sources */,
+				546FF903663D05667B941AE0221D2B7F /* RemoteMongoClient.swift in Sources */,
+				0830E1CD4AFE26BEA83F6E9014BD0C4C /* RemoteMongoCollection.swift in Sources */,
+				CC292F3EFCDEAA1C2005DBA150720D2F /* RemoteMongoCursor.swift in Sources */,
+				A07DCA73124D6C0D96AC6A307DF68913 /* RemoteMongoDatabase.swift in Sources */,
+				11EC86ECEB4C1536A8947C473930D52C /* RemoteMongoReadOperation.swift in Sources */,
+				A02875352D14F02335C89BB2DF13B473 /* StitchRemoteMongoDBService-dummy.m in Sources */,
+				75B93B115391B32D31775EE5E37A5EE7 /* StitchRemoteMongoDBServiceExports.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E2C24E1BBA11B81D4DFA63F698A3FD7C /* Sources */ = {
+		F508A58C2B38255C6305D1667E03B1C2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E1C82F0E92408213B60E61A582B7F581 /* AccessTokenRefresher.swift in Sources */,
-				44DC7C0B322E26E1D9556D3799D4E709 /* AnonymousAuthProvider.swift in Sources */,
-				56A50544CD10474AA43D07B771266BD1 /* AnonymousCredential.swift in Sources */,
-				40927656A7696005A1E7EDAD5ACE7DEC /* APIAccessToken.swift in Sources */,
-				6D87979413E1A260D6E3A15CC993B300 /* APIAuthInfoImpl.swift in Sources */,
-				985A1FE33D6CFF5253A4E032418BCA8A /* APICoreUserProfile.swift in Sources */,
-				FA1560E17ECEE8ECD4AAD1775AEC799F /* APIStitchUserIdentity.swift in Sources */,
-				3720585C1F327D490A29BF345394B558 /* AuthInfo.swift in Sources */,
-				9330D394AD3253BB8843564BA4F84213 /* AuthStateHolder.swift in Sources */,
-				64BE78E80E82B516C6B2FA29918A028B /* ContentType.swift in Sources */,
-				802BEC8D75C44754FCBEAC481F89AB01 /* CoreAuthProviderClient.swift in Sources */,
-				CE47D309353917509EC2DA543F048B70 /* CoreStitchAppClient.swift in Sources */,
-				BC16EB6DCC4E46701E4DB272FF195B7E /* CoreStitchAuth+StitchAuthRequestClient.swift in Sources */,
-				17DCFA1FFC6ABF37D9324E2CE22DC7D6 /* CoreStitchAuth.swift in Sources */,
-				55002B10F77900CA1322B14B36671E2B /* CoreStitchPushClient.swift in Sources */,
-				07A71A49D7264A89417B12D00399847E /* CoreStitchPushClientImpl.swift in Sources */,
-				9FF59145AF923D928E29788D7E255D1C /* CoreStitchServiceClient.swift in Sources */,
-				951E169B2FD3B24F3C16D4916F4A5800 /* CoreStitchServiceClientImpl.swift in Sources */,
-				5798D847252D8C78522D958D9B530794 /* CoreStitchUser.swift in Sources */,
-				C7A2E6F73E874D57AE48AA17E94A8B03 /* CoreStitchUserImpl.swift in Sources */,
-				8AD9B16B81D5B0C65BD4DA0D356C42E5 /* CoreUserAPIKeyAuthProviderClient.swift in Sources */,
-				9719061322CF8F5A5C55357745D50C7E /* CoreUserPasswordAuthProviderClient.swift in Sources */,
-				F02F5B7B7E7780093AA6CD08AD7C8F09 /* CustomAuthProvider.swift in Sources */,
-				740BFF11CF8BBBF4C08998E4E72879B0 /* CustomCredential.swift in Sources */,
-				830332A8F7DB206FC752B1E65FDBD307 /* DeviceField.swift in Sources */,
-				8B8D2B4F84408BA591C53C9D98B64340 /* FacebookAuthProvider.swift in Sources */,
-				C11EAF7E17DA6220BBBFE7D74304B154 /* FacebookCredential.swift in Sources */,
-				F9F8BF28E5F7A000776C2F18483F551A /* FoundationHTTPTransport.swift in Sources */,
-				A8FEA15E6D201A52537CE73925F67725 /* GoogleAuthProvider.swift in Sources */,
-				3DAE3F03E05237E1018B0C400231777B /* GoogleCredential.swift in Sources */,
-				CCDF6F71F21107AF2FF10F7F6284F7D1 /* Headers.swift in Sources */,
-				EA3F806C2308C075F4061C2C7105B3FE /* ImplFailureFatalErrors.swift in Sources */,
-				FFB181BCEDCB48A922A344BB596E3381 /* JWT.swift in Sources */,
-				D87DBC45D08005C8DDDE40FBD8C995AF /* Method.swift in Sources */,
-				4247960A7BDF11C422AAE34CCF289A52 /* ProviderCapabilities.swift in Sources */,
-				766216B10ABA62775C330F4F57277ABE /* Request.swift in Sources */,
-				9B42D1D5E337330CD11C50120F38C0CB /* ServerAPIKeyAuthProvider.swift in Sources */,
-				4199F8998C64A4BB9827C390E7FBBE48 /* ServerAPIKeyCredential.swift in Sources */,
-				CB2158C87BF9048C7D066635537D27CC /* StitchAppClientConfiguration.swift in Sources */,
-				0D80C95CCA0E5B6E566664E2D4802B8A /* StitchAppClientInfo.swift in Sources */,
-				D93467C320D6273A8A972B4706C8B934 /* StitchAppRoutes.swift in Sources */,
-				8BE943AB1744A3C290ADE2BD90F5C0C6 /* StitchAuthDocRequest.swift in Sources */,
-				3D39A924103BA47ABF473ECCF28DF064 /* StitchAuthRequest.swift in Sources */,
-				DCB0918C79BC9BE7063DBFC48673A933 /* StitchAuthRequestClient.swift in Sources */,
-				FDBEDF16C7D4007EF44BFF6D7CE5BD10 /* StitchClientConfiguration.swift in Sources */,
-				3FDE55A185AC405B1424B4613E90B717 /* StitchCoreSDK-dummy.m in Sources */,
-				E47E5358E8BD18AFB2D0988BAE413273 /* StitchCredential.swift in Sources */,
-				0D14211A18B5FAA25AB493D3652C8FC0 /* StitchDocRequest.swift in Sources */,
-				0AED370D0B47D47A05F15070D3CE412C /* StitchError.swift in Sources */,
-				DC73D8B33391388C6E911235E9313F99 /* StitchProviderType.swift in Sources */,
-				B6E943391B712933C77E46449FE48A90 /* StitchPushRoutes.swift in Sources */,
-				4F5EC4879A9365C5DC8A3F982D7254AC /* StitchRequest.swift in Sources */,
-				178FEA50AFCF9632C956868E7B9D9F9B /* StitchRequestClient.swift in Sources */,
-				365D01EBE52809311B845CEE02F66113 /* StitchUserFactory.swift in Sources */,
-				352D0AD68C243A3CF1BE78C99E2C463D /* StitchUserIdentity.swift in Sources */,
-				5DA612A45357DFF5C5C3117A5C5B92C8 /* StitchUserProfile.swift in Sources */,
-				8127A0769DAB3E2E8C17771F6317C356 /* Storage.swift in Sources */,
-				1AACF79B3900E726D1804232778C3F4C /* StoreAuthInfo.swift in Sources */,
-				2FC92ACBAA77CFF25DBD2545EDE27F2B /* StoreCoreUserProfile.swift in Sources */,
-				E60D4568B6D41DAA06CF39D9A6BC5F27 /* StoreStitchUserIdentity.swift in Sources */,
-				7EB719F1440181C039490A87C1BF05DD /* Transport.swift in Sources */,
-				35DF72092AAE09E737BCECF3C02DE270 /* UserAPIKey.swift in Sources */,
-				155FBFE3B4C1D20AAEC91DA45D147D10 /* UserAPIKeyAuthProvider.swift in Sources */,
-				4C59F74E67089B6D9FE8E4ACF74A4F55 /* UserAPIKeyCredential.swift in Sources */,
-				83681C6636862A2C468A1DF6CB9BC76C /* UserPasswordAuthProvider.swift in Sources */,
-				880DDF657149F29EFA742BB63323BFAD /* UserPasswordCredential.swift in Sources */,
+				185F53FD9E41D76827F71EF3613B24DA /* Pods-CLDangerZone-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		0976709A8FCBE19F0E2228E42440440A /* PBXTargetDependency */ = {
+		070C6C3C469259C1EC8FE9FC1AF34A9D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = StitchCoreSDK;
-			target = 9528976E666F2CD3D82BA69876154B78 /* StitchCoreSDK */;
-			targetProxy = 78A93B808BB513DE99AD2B37239163B7 /* PBXContainerItemProxy */;
+			target = C4C3B4F976596000B4494825682345C3 /* StitchCoreSDK */;
+			targetProxy = 0D4171FAE20AA0F38142E1780357B4FE /* PBXContainerItemProxy */;
 		};
-		21F3F273ECB1D5DB1624A05F19439B7D /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = StitchTwilioService;
-			target = 6368CF3AA9142418FC0D7901151EBC49 /* StitchTwilioService */;
-			targetProxy = 26CAE36CCEABE06B4D5D036A6E401E11 /* PBXContainerItemProxy */;
-		};
-		3B53FE09B7D64B886A142A91E09F0208 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = StitchCoreRemoteMongoDBService;
-			target = F937273E7AA43F4EA5B450A095658AB6 /* StitchCoreRemoteMongoDBService */;
-			targetProxy = D9B9F08FCE32131C75198846C1E13C0C /* PBXContainerItemProxy */;
-		};
-		45501F742CF0B207BE603E39CCCA4391 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = StitchCore;
-			target = A25BE0B7537592CAB1163F1CEBCA1BC9 /* StitchCore */;
-			targetProxy = 422B978755D06F3A7652D18D8A408BE0 /* PBXContainerItemProxy */;
-		};
-		4A56984151AEB6B0B4485EDD20E8596D /* PBXTargetDependency */ = {
+		0A651520B13CAC4316B3E4F83DDAC594 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = StitchCoreTwilioService;
-			target = C4354FC83DB55AF4D744FC8F8FECBA79 /* StitchCoreTwilioService */;
-			targetProxy = EABE46FE4A1AD2A422F43DD80C12502E /* PBXContainerItemProxy */;
+			target = 2A45F374ACA6BB84EBF73C2CD5EBD906 /* StitchCoreTwilioService */;
+			targetProxy = 0DAA34A045587DD18D4C74000A53961C /* PBXContainerItemProxy */;
 		};
-		530AC6485C9B38E5A68FAB3F71DAA5DC /* PBXTargetDependency */ = {
+		1EB87BDAC5AFF2A8D9F0C94C54F7605C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = StitchRemoteMongoDBService;
-			target = E3EA7E488C8C6F00E0C159DDF1F927B4 /* StitchRemoteMongoDBService */;
-			targetProxy = F064697EBB07052831D21BE23EEDE4AF /* PBXContainerItemProxy */;
+			target = E8406CAF3F114B90B1769062E653A05B /* StitchRemoteMongoDBService */;
+			targetProxy = 9A9C3E357805D3FB65A183EED39BC54E /* PBXContainerItemProxy */;
 		};
-		6639C7A8E0C00D9162250DF20A1D73E3 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = Alamofire;
-			target = E76458C58C9140B6A16D60547E68E80C /* Alamofire */;
-			targetProxy = 89C5C5613A0E9442A5D6211AE8C0891B /* PBXContainerItemProxy */;
-		};
-		6D058616DF1115612201EC072600A7E9 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = StitchCoreSDK;
-			target = 9528976E666F2CD3D82BA69876154B78 /* StitchCoreSDK */;
-			targetProxy = 0BDABFB6B55A6447BA81DC89D863F794 /* PBXContainerItemProxy */;
-		};
-		7B961291424A44E7E75533138587CEBA /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = StitchCoreSDK;
-			target = 9528976E666F2CD3D82BA69876154B78 /* StitchCoreSDK */;
-			targetProxy = 58B8DCAF9F50EF5B4CA257C1F37B7EE5 /* PBXContainerItemProxy */;
-		};
-		83D01BAA9BC84DDECF92FFBEFE8BF3A1 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = StitchCore;
-			target = A25BE0B7537592CAB1163F1CEBCA1BC9 /* StitchCore */;
-			targetProxy = F464FA2268C6E5CCAFE80EBEEFF1F5BF /* PBXContainerItemProxy */;
-		};
-		9A55FFAC3AF359AF74DA73B5B19B564B /* PBXTargetDependency */ = {
+		24C1E17F13A4F625851F0A2313A05C35 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = StitchCoreTwilioService;
-			target = C4354FC83DB55AF4D744FC8F8FECBA79 /* StitchCoreTwilioService */;
-			targetProxy = 70C30CC83B0CB0EAF9086EE51147648E /* PBXContainerItemProxy */;
+			target = 2A45F374ACA6BB84EBF73C2CD5EBD906 /* StitchCoreTwilioService */;
+			targetProxy = 41A46B8D48B30D0E365F68ACC3FA17F0 /* PBXContainerItemProxy */;
 		};
-		9FE3CBF2FE4415774635EA3382B21117 /* PBXTargetDependency */ = {
+		27E9BB68C33A41658BCAB18ACE821B9E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = StitchCoreSDK;
-			target = 9528976E666F2CD3D82BA69876154B78 /* StitchCoreSDK */;
-			targetProxy = CB094503B6D9C945751CB4C89B5B45F0 /* PBXContainerItemProxy */;
+			target = C4C3B4F976596000B4494825682345C3 /* StitchCoreSDK */;
+			targetProxy = A2AF855F11460BE06F424D6D524199E0 /* PBXContainerItemProxy */;
 		};
-		B826A1B246E2A5A05464C8BB6CB5BF9F /* PBXTargetDependency */ = {
+		4ABD659A035D87B7B9DB2270058957C2 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = StitchCoreSDK;
-			target = 9528976E666F2CD3D82BA69876154B78 /* StitchCoreSDK */;
-			targetProxy = 8EEF481083A3D0143500AF86C2368713 /* PBXContainerItemProxy */;
+			target = C4C3B4F976596000B4494825682345C3 /* StitchCoreSDK */;
+			targetProxy = 2733976BDE51E6C3F87155E6664F33CA /* PBXContainerItemProxy */;
 		};
-		C85B449351EA7103DF6404F0FC2CF6F0 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = StitchCore;
-			target = A25BE0B7537592CAB1163F1CEBCA1BC9 /* StitchCore */;
-			targetProxy = A2C1CBD685AD9396DCCE841BA1FE39E1 /* PBXContainerItemProxy */;
-		};
-		D0B05ED39AF01861E8E11059772DF855 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = StitchCoreSDK;
-			target = 9528976E666F2CD3D82BA69876154B78 /* StitchCoreSDK */;
-			targetProxy = 26A5A3903CD3527FABB26583DC91AEB7 /* PBXContainerItemProxy */;
-		};
-		EB8C42B08919E1F4290ECA70F4F247CB /* PBXTargetDependency */ = {
+		50EAA2CEBE73C01AE45BA141E27EDB24 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = StitchCoreRemoteMongoDBService;
-			target = F937273E7AA43F4EA5B450A095658AB6 /* StitchCoreRemoteMongoDBService */;
-			targetProxy = 4C0EF93DABACE7429CC69262E14FF11A /* PBXContainerItemProxy */;
+			target = ED1B8F875E1822B39D414F31087BCFE4 /* StitchCoreRemoteMongoDBService */;
+			targetProxy = 5443A52C23F790C4BCC252B41F0BD8E7 /* PBXContainerItemProxy */;
+		};
+		67E6261098466B08627C29DAA6B98D60 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = StitchCoreRemoteMongoDBService;
+			target = ED1B8F875E1822B39D414F31087BCFE4 /* StitchCoreRemoteMongoDBService */;
+			targetProxy = 78FB8BA1518FD7DEF5E8BDB37A578103 /* PBXContainerItemProxy */;
+		};
+		89A935661ED80699327CD2775CD7B961 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = StitchCoreSDK;
+			target = C4C3B4F976596000B4494825682345C3 /* StitchCoreSDK */;
+			targetProxy = D4F60C748333F9F6931CF98048C1F41C /* PBXContainerItemProxy */;
+		};
+		919662100DD87B91E4BBB1B8DCD25903 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Alamofire;
+			target = 88E9EC28B8B46C3631E6B242B50F4442 /* Alamofire */;
+			targetProxy = D84E2B1C19F46DFCD352698D4734B1BB /* PBXContainerItemProxy */;
+		};
+		9B6CC97D555F0DB32F31230002BB1DDD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = StitchTwilioService;
+			target = 74E6F08313C39DB94C6AA190E998B908 /* StitchTwilioService */;
+			targetProxy = 1D21E9A38E719E2FA80ABD37F8939B56 /* PBXContainerItemProxy */;
+		};
+		CC9FD1A83417F66F7B5DE24E0966951B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = StitchCore;
+			target = A0AC58296946745B0225925891C21B53 /* StitchCore */;
+			targetProxy = 9BC00F097E94AB62E3B95B251D5DCF8C /* PBXContainerItemProxy */;
+		};
+		E106D1A63FA79CAC41F61DE29AE64367 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = StitchCoreSDK;
+			target = C4C3B4F976596000B4494825682345C3 /* StitchCoreSDK */;
+			targetProxy = CA264DB562FBA4EF494DF29C2A0EAFFC /* PBXContainerItemProxy */;
+		};
+		E7671E3348C56EF48242B851A80F2F82 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = StitchCore;
+			target = A0AC58296946745B0225925891C21B53 /* StitchCore */;
+			targetProxy = 81235D42F066C7DA86BB1720267ACD45 /* PBXContainerItemProxy */;
+		};
+		F46462EC1E64C092C5F8A503D45139B0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = StitchCore;
+			target = A0AC58296946745B0225925891C21B53 /* StitchCore */;
+			targetProxy = 89C399844302E287E1D264074C05863E /* PBXContainerItemProxy */;
+		};
+		FDF02AED935A128224D599AA3D24E732 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = StitchCoreSDK;
+			target = C4C3B4F976596000B4494825682345C3 /* StitchCoreSDK */;
+			targetProxy = F80512FC859C1B91082BF7C71A11E1E0 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		11501F35A84F5D7DD09552223A70AEB4 /* Release */ = {
+		004B70B907F8C6848E4D660480BAD14D /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 30556E1285512FDF2545C8B78D5769F7 /* Alamofire.xcconfig */;
+			baseConfigurationReference = F436BA39EF7D2C1908C9F362C55FA820 /* StitchCoreTwilioService.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -1595,23 +1529,22 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/Alamofire/Alamofire-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Alamofire/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/StitchCoreTwilioService/StitchCoreTwilioService-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/StitchCoreTwilioService/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MODULEMAP_FILE = "Target Support Files/Alamofire/Alamofire.modulemap";
-				PRODUCT_MODULE_NAME = Alamofire;
-				PRODUCT_NAME = Alamofire;
+				MODULEMAP_FILE = "Target Support Files/StitchCoreTwilioService/StitchCoreTwilioService.modulemap";
+				PRODUCT_MODULE_NAME = StitchCoreTwilioService;
+				PRODUCT_NAME = StitchCoreTwilioService;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
@@ -1620,7 +1553,217 @@
 			};
 			name = Release;
 		};
-		135655DF9663CEEE9812CE4764ADEB7D /* Debug */ = {
+		08638A96A528B1EC32DE62F8A728389D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		233CB4CCE033C9825657D379D6B9743C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 68786448718B60FA73D95F15BAF10856 /* StitchTwilioService.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/StitchTwilioService/StitchTwilioService-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/StitchTwilioService/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/StitchTwilioService/StitchTwilioService.modulemap";
+				PRODUCT_MODULE_NAME = StitchTwilioService;
+				PRODUCT_NAME = StitchTwilioService;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		24A11DF3D567AB5390B7F10B97BC3CC7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2CF2D7E2E4A6A537B34834DBA51638F2 /* Pods-CLDangerZone.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-CLDangerZone/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CLDangerZone/Pods-CLDangerZone.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		2B31EE21FA4A566197451A3683D9F26B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 282C4A0DB2C3808A6F153470A5C28322 /* StitchCore.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/StitchCore/StitchCore-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/StitchCore/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/StitchCore/StitchCore.modulemap";
+				PRODUCT_MODULE_NAME = StitchCore;
+				PRODUCT_NAME = StitchCore;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		514753B27F6F7700773D3A4D997DBC65 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 282C4A0DB2C3808A6F153470A5C28322 /* StitchCore.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/StitchCore/StitchCore-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/StitchCore/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/StitchCore/StitchCore.modulemap";
+				PRODUCT_MODULE_NAME = StitchCore;
+				PRODUCT_NAME = StitchCore;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		55D05A0357E39359476718078D8246E9 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 2889C7505BA6AFEC3904CCF8FE5174BB /* StitchRemoteMongoDBService.xcconfig */;
 			buildSettings = {
@@ -1657,9 +1800,9 @@
 			};
 			name = Debug;
 		};
-		1827D5716D3427F400A4636118B3608B /* Debug */ = {
+		5CB85736CD737A7CC0059095330CE63B /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 68786448718B60FA73D95F15BAF10856 /* StitchTwilioService.xcconfig */;
+			baseConfigurationReference = 299117C8F8B19F212CCA2A6A407689C2 /* StitchCoreRemoteMongoDBService.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -1671,8 +1814,8 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/StitchTwilioService/StitchTwilioService-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/StitchTwilioService/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/StitchCoreRemoteMongoDBService/StitchCoreRemoteMongoDBService-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/StitchCoreRemoteMongoDBService/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -1680,9 +1823,9 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MODULEMAP_FILE = "Target Support Files/StitchTwilioService/StitchTwilioService.modulemap";
-				PRODUCT_MODULE_NAME = StitchTwilioService;
-				PRODUCT_NAME = StitchTwilioService;
+				MODULEMAP_FILE = "Target Support Files/StitchCoreRemoteMongoDBService/StitchCoreRemoteMongoDBService.modulemap";
+				PRODUCT_MODULE_NAME = StitchCoreRemoteMongoDBService;
+				PRODUCT_NAME = StitchCoreRemoteMongoDBService;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
@@ -1694,122 +1837,7 @@
 			};
 			name = Debug;
 		};
-		3A231C069D3F35FBC3BD7D5787F0C7CC /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 282C4A0DB2C3808A6F153470A5C28322 /* StitchCore.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/StitchCore/StitchCore-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/StitchCore/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/StitchCore/StitchCore.modulemap";
-				PRODUCT_MODULE_NAME = StitchCore;
-				PRODUCT_NAME = StitchCore;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		42EAAF4FBB11796199B5638776902271 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 769FC393258D80971B3822DEA405ED54 /* StitchCoreSDK.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/StitchCoreSDK/StitchCoreSDK-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/StitchCoreSDK/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/StitchCoreSDK/StitchCoreSDK.modulemap";
-				PRODUCT_MODULE_NAME = StitchCoreSDK;
-				PRODUCT_NAME = StitchCoreSDK;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		4C822BE08DDBA4FFC10656DD0218F499 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 769FC393258D80971B3822DEA405ED54 /* StitchCoreSDK.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/StitchCoreSDK/StitchCoreSDK-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/StitchCoreSDK/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/StitchCoreSDK/StitchCoreSDK.modulemap";
-				PRODUCT_MODULE_NAME = StitchCoreSDK;
-				PRODUCT_NAME = StitchCoreSDK;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		805D9DBD3F4EB45FDB4EE757B40CBACD /* Release */ = {
+		68A899170B3F1199D6CFD19A020C3EED /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = A6FE9D9CA6CB127810B8FE9872112048 /* Pods-CLDangerZone.release.xcconfig */;
 			buildSettings = {
@@ -1841,8 +1869,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -1850,7 +1877,119 @@
 			};
 			name = Release;
 		};
-		8173C1311D08B36C7A48811938859CEA /* Release */ = {
+		767FF935C9B75E93709500C8B52C1362 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 769FC393258D80971B3822DEA405ED54 /* StitchCoreSDK.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/StitchCoreSDK/StitchCoreSDK-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/StitchCoreSDK/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/StitchCoreSDK/StitchCoreSDK.modulemap";
+				PRODUCT_MODULE_NAME = StitchCoreSDK;
+				PRODUCT_NAME = StitchCoreSDK;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7E97DAF137F02EEC9DF78D56C82603F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2889C7505BA6AFEC3904CCF8FE5174BB /* StitchRemoteMongoDBService.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/StitchRemoteMongoDBService/StitchRemoteMongoDBService-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/StitchRemoteMongoDBService/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/StitchRemoteMongoDBService/StitchRemoteMongoDBService.modulemap";
+				PRODUCT_MODULE_NAME = StitchRemoteMongoDBService;
+				PRODUCT_NAME = StitchRemoteMongoDBService;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8B853E0583D6D3171857310E64286B28 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F436BA39EF7D2C1908C9F362C55FA820 /* StitchCoreTwilioService.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/StitchCoreTwilioService/StitchCoreTwilioService-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/StitchCoreTwilioService/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/StitchCoreTwilioService/StitchCoreTwilioService.modulemap";
+				PRODUCT_MODULE_NAME = StitchCoreTwilioService;
+				PRODUCT_NAME = StitchCoreTwilioService;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8CE5AC173335754BB531B09FC9449841 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 68786448718B60FA73D95F15BAF10856 /* StitchTwilioService.xcconfig */;
 			buildSettings = {
@@ -1879,8 +2018,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
@@ -1889,7 +2027,7 @@
 			};
 			name = Release;
 		};
-		8C3D32AC054F4DBEE82EB2FD6A303D73 /* Debug */ = {
+		9DAE5233986C01ADB6E67169C53A3FD2 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -1943,8 +2081,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
-				MTL_FAST_MATH = YES;
+				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
@@ -1953,7 +2090,44 @@
 			};
 			name = Debug;
 		};
-		943EE3DCCA52B2D4708389B239FA38A0 /* Debug */ = {
+		A18C9CC7E37563F2891E7DC87F2DE6CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 30556E1285512FDF2545C8B78D5769F7 /* Alamofire.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Alamofire/Alamofire-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Alamofire/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Alamofire/Alamofire.modulemap";
+				PRODUCT_MODULE_NAME = Alamofire;
+				PRODUCT_NAME = Alamofire;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A58EC476309281EE85A61E34A0CD09C6 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 299117C8F8B19F212CCA2A6A407689C2 /* StitchCoreRemoteMongoDBService.xcconfig */;
 			buildSettings = {
@@ -1982,45 +2156,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		9E109040BDB52DE5C904D7766E20BA0A /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2889C7505BA6AFEC3904CCF8FE5174BB /* StitchRemoteMongoDBService.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/StitchRemoteMongoDBService/StitchRemoteMongoDBService-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/StitchRemoteMongoDBService/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/StitchRemoteMongoDBService/StitchRemoteMongoDBService.modulemap";
-				PRODUCT_MODULE_NAME = StitchRemoteMongoDBService;
-				PRODUCT_NAME = StitchRemoteMongoDBService;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
@@ -2029,70 +2165,10 @@
 			};
 			name = Release;
 		};
-		B751CA5B597BFC35A6C0287C65F9E2E1 /* Release */ = {
+		BC18B7AD2D60F48706A37977BA6E04DB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 769FC393258D80971B3822DEA405ED54 /* StitchCoreSDK.xcconfig */;
 			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_ENABLE_OBJC_WEAK = YES;
-				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_COMMA = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
-				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
-				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
-				CLANG_WARN_STRICT_PROTOTYPES = YES;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGNING_ALLOWED = NO;
-				CODE_SIGNING_REQUIRED = NO;
-				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				ENABLE_NS_ASSERTIONS = NO;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu11;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"POD_CONFIGURATION_RELEASE=1",
-					"$(inherited)",
-				);
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				MTL_FAST_MATH = YES;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				STRIP_INSTALLED_PRODUCT = NO;
-				SYMROOT = "${SRCROOT}/../build";
-			};
-			name = Release;
-		};
-		B94AD62BE351281DC152A1C68EC7E8A1 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2CF2D7E2E4A6A537B34834DBA51638F2 /* Pods-CLDangerZone.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -2103,7 +2179,8 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-CLDangerZone/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/StitchCoreSDK/StitchCoreSDK-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/StitchCoreSDK/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -2111,24 +2188,22 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-CLDangerZone/Pods-CLDangerZone.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				MODULEMAP_FILE = "Target Support Files/StitchCoreSDK/StitchCoreSDK.modulemap";
+				PRODUCT_MODULE_NAME = StitchCoreSDK;
+				PRODUCT_NAME = StitchCoreSDK;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
-		BC26ACE7A8E469B7CB4DF93AB98ED9BA /* Debug */ = {
+		EA0ADC75B20BB62958101306980460E6 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 30556E1285512FDF2545C8B78D5769F7 /* Alamofire.xcconfig */;
 			buildSettings = {
@@ -2164,175 +2239,14 @@
 			};
 			name = Debug;
 		};
-		CB1E5C78B1716D89788C862F90A34CBE /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = F436BA39EF7D2C1908C9F362C55FA820 /* StitchCoreTwilioService.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/StitchCoreTwilioService/StitchCoreTwilioService-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/StitchCoreTwilioService/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/StitchCoreTwilioService/StitchCoreTwilioService.modulemap";
-				PRODUCT_MODULE_NAME = StitchCoreTwilioService;
-				PRODUCT_NAME = StitchCoreTwilioService;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		E49D1B87DD151CC99A6B6B850E653C3F /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = F436BA39EF7D2C1908C9F362C55FA820 /* StitchCoreTwilioService.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/StitchCoreTwilioService/StitchCoreTwilioService-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/StitchCoreTwilioService/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/StitchCoreTwilioService/StitchCoreTwilioService.modulemap";
-				PRODUCT_MODULE_NAME = StitchCoreTwilioService;
-				PRODUCT_NAME = StitchCoreTwilioService;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		E555243AE061F89ACC7F317DD35F69A8 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 299117C8F8B19F212CCA2A6A407689C2 /* StitchCoreRemoteMongoDBService.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/StitchCoreRemoteMongoDBService/StitchCoreRemoteMongoDBService-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/StitchCoreRemoteMongoDBService/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/StitchCoreRemoteMongoDBService/StitchCoreRemoteMongoDBService.modulemap";
-				PRODUCT_MODULE_NAME = StitchCoreRemoteMongoDBService;
-				PRODUCT_NAME = StitchCoreRemoteMongoDBService;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		EFAECD6F5D25ACA61DD3E97D07CFEC17 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 282C4A0DB2C3808A6F153470A5C28322 /* StitchCore.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/StitchCore/StitchCore-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/StitchCore/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/StitchCore/StitchCore.modulemap";
-				PRODUCT_MODULE_NAME = StitchCore;
-				PRODUCT_NAME = StitchCore;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		157FD5C1BD4DE0AF26A3C5090838C14B /* Build configuration list for PBXNativeTarget "StitchRemoteMongoDBService" */ = {
+		1FBA4C1BFC680F5E6C24EE781F171B49 /* Build configuration list for PBXNativeTarget "StitchCore" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				135655DF9663CEEE9812CE4764ADEB7D /* Debug */,
-				9E109040BDB52DE5C904D7766E20BA0A /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		286B7DF972213B7003EB9C0FC2953E2C /* Build configuration list for PBXNativeTarget "StitchCoreTwilioService" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				E49D1B87DD151CC99A6B6B850E653C3F /* Debug */,
-				CB1E5C78B1716D89788C862F90A34CBE /* Release */,
+				2B31EE21FA4A566197451A3683D9F26B /* Debug */,
+				514753B27F6F7700773D3A4D997DBC65 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -2340,62 +2254,71 @@
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				8C3D32AC054F4DBEE82EB2FD6A303D73 /* Debug */,
-				B751CA5B597BFC35A6C0287C65F9E2E1 /* Release */,
+				9DAE5233986C01ADB6E67169C53A3FD2 /* Debug */,
+				08638A96A528B1EC32DE62F8A728389D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		427F0F003A1AD80AE00155AFCDEFAC20 /* Build configuration list for PBXNativeTarget "Alamofire" */ = {
+		419E5D95491847CD79841B971A8A3277 /* Build configuration list for PBXNativeTarget "Alamofire" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				BC26ACE7A8E469B7CB4DF93AB98ED9BA /* Debug */,
-				11501F35A84F5D7DD09552223A70AEB4 /* Release */,
+				EA0ADC75B20BB62958101306980460E6 /* Debug */,
+				A18C9CC7E37563F2891E7DC87F2DE6CE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		597E3FDAE975B2C65D718FA84EAFEC8A /* Build configuration list for PBXNativeTarget "StitchCore" */ = {
+		6F6E95401D06ABC52FAADA69DA626F37 /* Build configuration list for PBXNativeTarget "StitchCoreSDK" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				EFAECD6F5D25ACA61DD3E97D07CFEC17 /* Debug */,
-				3A231C069D3F35FBC3BD7D5787F0C7CC /* Release */,
+				767FF935C9B75E93709500C8B52C1362 /* Debug */,
+				BC18B7AD2D60F48706A37977BA6E04DB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		66215053749D0CD13EEEF4BD8BD01EA6 /* Build configuration list for PBXNativeTarget "StitchCoreSDK" */ = {
+		7063551EAE035BC987C3F3D25FBAD2F9 /* Build configuration list for PBXNativeTarget "Pods-CLDangerZone" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4C822BE08DDBA4FFC10656DD0218F499 /* Debug */,
-				42EAAF4FBB11796199B5638776902271 /* Release */,
+				24A11DF3D567AB5390B7F10B97BC3CC7 /* Debug */,
+				68A899170B3F1199D6CFD19A020C3EED /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7F0B1B01D0936455BA9522F6902EEB8D /* Build configuration list for PBXNativeTarget "Pods-CLDangerZone" */ = {
+		89988233DA132B08189104762B3C2DEC /* Build configuration list for PBXNativeTarget "StitchCoreRemoteMongoDBService" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B94AD62BE351281DC152A1C68EC7E8A1 /* Debug */,
-				805D9DBD3F4EB45FDB4EE757B40CBACD /* Release */,
+				5CB85736CD737A7CC0059095330CE63B /* Debug */,
+				A58EC476309281EE85A61E34A0CD09C6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		856A6906B17DED8C24ADE8E92E2CB9D6 /* Build configuration list for PBXNativeTarget "StitchTwilioService" */ = {
+		97413F435FEBD5B2EE3606AF022FE297 /* Build configuration list for PBXNativeTarget "StitchTwilioService" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				1827D5716D3427F400A4636118B3608B /* Debug */,
-				8173C1311D08B36C7A48811938859CEA /* Release */,
+				233CB4CCE033C9825657D379D6B9743C /* Debug */,
+				8CE5AC173335754BB531B09FC9449841 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		929EC3CFB40714BFBD18D621D3DC77FC /* Build configuration list for PBXNativeTarget "StitchCoreRemoteMongoDBService" */ = {
+		9966CE2346932A270E64149A2BD3A946 /* Build configuration list for PBXNativeTarget "StitchCoreTwilioService" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				943EE3DCCA52B2D4708389B239FA38A0 /* Debug */,
-				E555243AE061F89ACC7F317DD35F69A8 /* Release */,
+				8B853E0583D6D3171857310E64286B28 /* Debug */,
+				004B70B907F8C6848E4D660480BAD14D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E68FF3E730DACDE09333B8A8C81462E4 /* Build configuration list for PBXNativeTarget "StitchRemoteMongoDBService" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55D05A0357E39359476718078D8246E9 /* Debug */,
+				7E97DAF137F02EEC9DF78D56C82603F1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

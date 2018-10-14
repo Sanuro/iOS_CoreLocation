@@ -1,0 +1,388 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "APIExtendedUserProfileImpl"
+- "APICoreUserProfileImpl"
+provides-nominal:
+- "13StitchCoreSDK26APIExtendedUserProfileImplV"
+- "13StitchCoreSDK26APIExtendedUserProfileImplV10CodingKeysO"
+- "13StitchCoreSDK22APICoreUserProfileImplV"
+provides-member:
+- ["13StitchCoreSDK26APIExtendedUserProfileImplV", ""]
+- ["13StitchCoreSDK26APIExtendedUserProfileImplV10CodingKeysO", ""]
+- ["13StitchCoreSDK22APICoreUserProfileImplV", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "=="
+- "APICoreUserProfileImpl"
+- "APIExtendedUserProfileImpl"
+- "APIStitchUserIdentity"
+- "APIStitchUserProfile"
+- !private "Array"
+- "AssignmentPrecedence"
+- "Codable"
+- "CodingKey"
+- "ExtendedStitchUserProfile"
+- !private "FloatLiteralType"
+- "Int"
+- !private "IntegerLiteralType"
+- "String"
+- "StringLiteralType"
+- !private "_findStringSwitchCase"
+- !private "~="
+depends-member:
+- ["13StitchCoreSDK22APICoreUserProfileImplV", "APIExtendedUserProfileImpl"]
+- ["13StitchCoreSDK22APICoreUserProfileImplV", "APIStitchUserIdentity"]
+- ["13StitchCoreSDK22APICoreUserProfileImplV", "CodingKey"]
+- !private ["13StitchCoreSDK22APICoreUserProfileImplV", "CodingKeys"]
+- ["13StitchCoreSDK22APICoreUserProfileImplV", "String"]
+- !private ["13StitchCoreSDK22APICoreUserProfileImplV", "_findStringSwitchCase"]
+- ["13StitchCoreSDK22APICoreUserProfileImplV", "data"]
+- ["13StitchCoreSDK22APICoreUserProfileImplV", "deinit"]
+- ["13StitchCoreSDK22APICoreUserProfileImplV", "encode"]
+- ["13StitchCoreSDK22APICoreUserProfileImplV", "identities"]
+- ["13StitchCoreSDK22APICoreUserProfileImplV", "init"]
+- ["13StitchCoreSDK22APICoreUserProfileImplV", "userType"]
+- ["13StitchCoreSDK26APIExtendedUserProfileImplV", "CodingKey"]
+- ["13StitchCoreSDK26APIExtendedUserProfileImplV", "CodingKeys"]
+- ["13StitchCoreSDK26APIExtendedUserProfileImplV", "Int"]
+- ["13StitchCoreSDK26APIExtendedUserProfileImplV", "String"]
+- !private ["13StitchCoreSDK26APIExtendedUserProfileImplV", "_findStringSwitchCase"]
+- ["13StitchCoreSDK26APIExtendedUserProfileImplV", "birthday"]
+- ["13StitchCoreSDK26APIExtendedUserProfileImplV", "deinit"]
+- ["13StitchCoreSDK26APIExtendedUserProfileImplV", "email"]
+- ["13StitchCoreSDK26APIExtendedUserProfileImplV", "encode"]
+- ["13StitchCoreSDK26APIExtendedUserProfileImplV", "firstName"]
+- ["13StitchCoreSDK26APIExtendedUserProfileImplV", "gender"]
+- ["13StitchCoreSDK26APIExtendedUserProfileImplV", "init"]
+- ["13StitchCoreSDK26APIExtendedUserProfileImplV", "lastName"]
+- ["13StitchCoreSDK26APIExtendedUserProfileImplV", "maxAge"]
+- ["13StitchCoreSDK26APIExtendedUserProfileImplV", "minAge"]
+- ["13StitchCoreSDK26APIExtendedUserProfileImplV", "name"]
+- ["13StitchCoreSDK26APIExtendedUserProfileImplV", "pictureURL"]
+- ["13StitchCoreSDK21APIStitchUserIdentityV", "deinit"]
+- ["13StitchCoreSDK20APIStitchUserProfileP", ""]
+- !private ["13StitchCoreSDK20APIStitchUserProfileP", "_findStringSwitchCase"]
+- ["13StitchCoreSDK20APIStitchUserProfileP", "data"]
+- ["13StitchCoreSDK20APIStitchUserProfileP", "encode"]
+- ["13StitchCoreSDK20APIStitchUserProfileP", "identities"]
+- ["13StitchCoreSDK20APIStitchUserProfileP", "init"]
+- ["13StitchCoreSDK20APIStitchUserProfileP", "userType"]
+- ["SK", "init"]
+- ["SK", "init"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["10MongoSwift9BsonValueP", "_getBuiltinLogicValue"]
+- ["10MongoSwift9BsonValueP", "init"]
+- ["10MongoSwift9BsonValueP", "init"]
+- !private ["s7CVarArgP", "_getBuiltinLogicValue"]
+- ["s7CVarArgP", "init"]
+- ["s7CVarArgP", "init"]
+- ["s9CodingKeyP", "RawValue"]
+- ["s9CodingKeyP", ""]
+- ["s9CodingKeyP", "_Default_RawValue"]
+- !private ["s9CodingKeyP", "_findStringSwitchCase"]
+- ["s9CodingKeyP", "debugDescription"]
+- ["s9CodingKeyP", "description"]
+- ["s9CodingKeyP", "hash"]
+- ["s9CodingKeyP", "hashValue"]
+- ["s9CodingKeyP", "init"]
+- !private ["s9CodingKeyP", "init"]
+- ["s9CodingKeyP", "intValue"]
+- ["s9CodingKeyP", "rawValue"]
+- ["s9CodingKeyP", "stringValue"]
+- ["13StitchCoreSDK26APIExtendedUserProfileImplV10CodingKeysO", "RawValue"]
+- ["13StitchCoreSDK26APIExtendedUserProfileImplV10CodingKeysO", "_Default_RawValue"]
+- !private ["13StitchCoreSDK26APIExtendedUserProfileImplV10CodingKeysO", "_findStringSwitchCase"]
+- ["13StitchCoreSDK26APIExtendedUserProfileImplV10CodingKeysO", "birthday"]
+- ["13StitchCoreSDK26APIExtendedUserProfileImplV10CodingKeysO", "debugDescription"]
+- ["13StitchCoreSDK26APIExtendedUserProfileImplV10CodingKeysO", "deinit"]
+- ["13StitchCoreSDK26APIExtendedUserProfileImplV10CodingKeysO", "description"]
+- ["13StitchCoreSDK26APIExtendedUserProfileImplV10CodingKeysO", "email"]
+- ["13StitchCoreSDK26APIExtendedUserProfileImplV10CodingKeysO", "firstName"]
+- ["13StitchCoreSDK26APIExtendedUserProfileImplV10CodingKeysO", "gender"]
+- ["13StitchCoreSDK26APIExtendedUserProfileImplV10CodingKeysO", "hash"]
+- ["13StitchCoreSDK26APIExtendedUserProfileImplV10CodingKeysO", "hashValue"]
+- ["13StitchCoreSDK26APIExtendedUserProfileImplV10CodingKeysO", "init"]
+- !private ["13StitchCoreSDK26APIExtendedUserProfileImplV10CodingKeysO", "init"]
+- ["13StitchCoreSDK26APIExtendedUserProfileImplV10CodingKeysO", "intValue"]
+- ["13StitchCoreSDK26APIExtendedUserProfileImplV10CodingKeysO", "lastName"]
+- ["13StitchCoreSDK26APIExtendedUserProfileImplV10CodingKeysO", "maxAge"]
+- ["13StitchCoreSDK26APIExtendedUserProfileImplV10CodingKeysO", "minAge"]
+- ["13StitchCoreSDK26APIExtendedUserProfileImplV10CodingKeysO", "name"]
+- ["13StitchCoreSDK26APIExtendedUserProfileImplV10CodingKeysO", "pictureURL"]
+- ["13StitchCoreSDK26APIExtendedUserProfileImplV10CodingKeysO", "rawValue"]
+- ["13StitchCoreSDK26APIExtendedUserProfileImplV10CodingKeysO", "stringValue"]
+- ["Sl", "init"]
+- ["Sl", "init"]
+- ["SL", "init"]
+- ["SL", "init"]
+- ["s28CustomDebugStringConvertibleP", "RawValue"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- ["s28CustomDebugStringConvertibleP", "_Default_RawValue"]
+- !private ["s28CustomDebugStringConvertibleP", "_findStringSwitchCase"]
+- ["s28CustomDebugStringConvertibleP", "debugDescription"]
+- ["s28CustomDebugStringConvertibleP", "description"]
+- ["s28CustomDebugStringConvertibleP", "hash"]
+- ["s28CustomDebugStringConvertibleP", "hashValue"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- ["s28CustomDebugStringConvertibleP", "intValue"]
+- ["s28CustomDebugStringConvertibleP", "rawValue"]
+- ["s28CustomDebugStringConvertibleP", "stringValue"]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- ["s29CustomPlaygroundQuickLookableP", "init"]
+- ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- ["s17CustomReflectableP", "init"]
+- ["s17CustomReflectableP", "init"]
+- ["s23CustomStringConvertibleP", "RawValue"]
+- ["s23CustomStringConvertibleP", ""]
+- ["s23CustomStringConvertibleP", "_Default_RawValue"]
+- !private ["s23CustomStringConvertibleP", "_findStringSwitchCase"]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- ["s23CustomStringConvertibleP", "debugDescription"]
+- ["s23CustomStringConvertibleP", "description"]
+- ["s23CustomStringConvertibleP", "hash"]
+- ["s23CustomStringConvertibleP", "hashValue"]
+- ["s23CustomStringConvertibleP", "init"]
+- ["s23CustomStringConvertibleP", "init"]
+- ["s23CustomStringConvertibleP", "intValue"]
+- ["s23CustomStringConvertibleP", "rawValue"]
+- ["s23CustomStringConvertibleP", "stringValue"]
+- ["Se", ""]
+- !private ["Se", "_findStringSwitchCase"]
+- !private ["Se", "_getBuiltinLogicValue"]
+- ["Se", "birthday"]
+- ["Se", "data"]
+- ["Se", "email"]
+- ["Se", "encode"]
+- ["Se", "firstName"]
+- ["Se", "gender"]
+- ["Se", "identities"]
+- ["Se", "init"]
+- ["Se", "init"]
+- ["Se", "lastName"]
+- ["Se", "maxAge"]
+- ["Se", "minAge"]
+- ["Se", "name"]
+- ["Se", "pictureURL"]
+- ["Se", "userType"]
+- !private ["s7DecoderP", "container"]
+- ["SE", ""]
+- !private ["SE", "_findStringSwitchCase"]
+- !private ["SE", "_getBuiltinLogicValue"]
+- ["SE", "birthday"]
+- ["SE", "data"]
+- ["SE", "email"]
+- ["SE", "encode"]
+- ["SE", "firstName"]
+- ["SE", "gender"]
+- ["SE", "identities"]
+- ["SE", "init"]
+- ["SE", "init"]
+- ["SE", "lastName"]
+- ["SE", "maxAge"]
+- ["SE", "minAge"]
+- ["SE", "name"]
+- ["SE", "pictureURL"]
+- ["SE", "userType"]
+- !private ["s7EncoderP", "container"]
+- ["SQ", "RawValue"]
+- ["SQ", ""]
+- ["SQ", "_Default_RawValue"]
+- !private ["SQ", "_findStringSwitchCase"]
+- !private ["SQ", "_getBuiltinLogicValue"]
+- ["SQ", "debugDescription"]
+- ["SQ", "description"]
+- ["SQ", "hash"]
+- ["SQ", "hashValue"]
+- ["SQ", "init"]
+- ["SQ", "init"]
+- ["SQ", "intValue"]
+- ["SQ", "rawValue"]
+- ["SQ", "stringValue"]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- ["s26ExpressibleByStringLiteralP", "init"]
+- ["s26ExpressibleByStringLiteralP", "init"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- ["13StitchCoreSDK08ExtendedA11UserProfileP", ""]
+- !private ["13StitchCoreSDK08ExtendedA11UserProfileP", "_findStringSwitchCase"]
+- ["13StitchCoreSDK08ExtendedA11UserProfileP", "birthday"]
+- ["13StitchCoreSDK08ExtendedA11UserProfileP", "email"]
+- ["13StitchCoreSDK08ExtendedA11UserProfileP", "encode"]
+- ["13StitchCoreSDK08ExtendedA11UserProfileP", "firstName"]
+- ["13StitchCoreSDK08ExtendedA11UserProfileP", "gender"]
+- ["13StitchCoreSDK08ExtendedA11UserProfileP", "init"]
+- ["13StitchCoreSDK08ExtendedA11UserProfileP", "lastName"]
+- ["13StitchCoreSDK08ExtendedA11UserProfileP", "maxAge"]
+- ["13StitchCoreSDK08ExtendedA11UserProfileP", "minAge"]
+- ["13StitchCoreSDK08ExtendedA11UserProfileP", "name"]
+- ["13StitchCoreSDK08ExtendedA11UserProfileP", "pictureURL"]
+- ["SH", "RawValue"]
+- ["SH", ""]
+- ["SH", "_Default_RawValue"]
+- !private ["SH", "_findStringSwitchCase"]
+- !private ["SH", "_getBuiltinLogicValue"]
+- ["SH", "debugDescription"]
+- ["SH", "description"]
+- ["SH", "hash"]
+- ["SH", "hashValue"]
+- ["SH", "init"]
+- ["SH", "init"]
+- ["SH", "intValue"]
+- ["SH", "rawValue"]
+- ["SH", "stringValue"]
+- !private ["s6HasherV", "combine"]
+- !private ["s22KeyedDecodingContainerV", "decode"]
+- !private ["s22KeyedDecodingContainerV", "decodeIfPresent"]
+- !private ["s30KeyedDecodingContainerProtocolP", "decode"]
+- !private ["s30KeyedDecodingContainerProtocolP", "decodeIfPresent"]
+- !private ["s22KeyedEncodingContainerV", "encode"]
+- !private ["s22KeyedEncodingContainerV", "encodeIfPresent"]
+- !private ["s30KeyedEncodingContainerProtocolP", "encode"]
+- !private ["s30KeyedEncodingContainerProtocolP", "encodeIfPresent"]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- ["s25LosslessStringConvertibleP", "init"]
+- ["s25LosslessStringConvertibleP", "init"]
+- ["s10MirrorPathP", "init"]
+- ["s10MirrorPathP", "init"]
+- ["Sm", "init"]
+- ["Sm", "init"]
+- ["SY", "RawValue"]
+- ["SY", ""]
+- ["SY", "_Default_RawValue"]
+- !private ["SY", "_findStringSwitchCase"]
+- ["SY", "debugDescription"]
+- ["SY", "description"]
+- ["SY", "hash"]
+- ["SY", "hashValue"]
+- ["SY", "init"]
+- !private ["SY", "init"]
+- ["SY", "intValue"]
+- ["SY", "rawValue"]
+- ["SY", "stringValue"]
+- ["ST", "init"]
+- ["ST", "init"]
+- !private ["s12StaticStringV", "init"]
+- !private ["s12StaticStringV", "init"]
+- ["SS", "init"]
+- ["SS", "init"]
+- ["Sy", "init"]
+- ["Sy", "init"]
+- ["s16TextOutputStreamP", "init"]
+- ["s16TextOutputStreamP", "init"]
+- ["s20TextOutputStreamableP", "init"]
+- ["s20TextOutputStreamableP", "init"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- ["s33_ExpressibleByStringInterpolationP", "init"]
+- ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
+- ["s21_ObjectiveCBridgeableP", "init"]
+- ["s21_ObjectiveCBridgeableP", "init"]
+- ["s16_SwiftStringViewP", "init"]
+- ["s16_SwiftStringViewP", "init"]
+depends-nominal:
+- "13StitchCoreSDK22APICoreUserProfileImplV"
+- "13StitchCoreSDK26APIExtendedUserProfileImplV"
+- "13StitchCoreSDK21APIStitchUserIdentityV"
+- "13StitchCoreSDK20APIStitchUserProfileP"
+- "SK"
+- !private "Sb"
+- "10MongoSwift9BsonValueP"
+- "s7CVarArgP"
+- "s9CodingKeyP"
+- "13StitchCoreSDK26APIExtendedUserProfileImplV10CodingKeysO"
+- "13StitchCoreSDK26APIExtendedUserProfileImplV10CodingKeysO"
+- "13StitchCoreSDK26APIExtendedUserProfileImplV10CodingKeysO"
+- "13StitchCoreSDK26APIExtendedUserProfileImplV10CodingKeysO"
+- "13StitchCoreSDK26APIExtendedUserProfileImplV10CodingKeysO"
+- "13StitchCoreSDK26APIExtendedUserProfileImplV10CodingKeysO"
+- "13StitchCoreSDK26APIExtendedUserProfileImplV10CodingKeysO"
+- "13StitchCoreSDK26APIExtendedUserProfileImplV10CodingKeysO"
+- "13StitchCoreSDK26APIExtendedUserProfileImplV10CodingKeysO"
+- !private "13StitchCoreSDK26APIExtendedUserProfileImplV10CodingKeysO"
+- "13StitchCoreSDK26APIExtendedUserProfileImplV10CodingKeysO"
+- "13StitchCoreSDK26APIExtendedUserProfileImplV10CodingKeysO"
+- "13StitchCoreSDK26APIExtendedUserProfileImplV10CodingKeysO"
+- "Sl"
+- "SL"
+- "s28CustomDebugStringConvertibleP"
+- "s29CustomPlaygroundQuickLookableP"
+- "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- "Se"
+- !private "s7DecoderP"
+- "SE"
+- !private "s7EncoderP"
+- "SQ"
+- !private "s27ExpressibleByBooleanLiteralP"
+- "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- "s26ExpressibleByStringLiteralP"
+- "s33ExpressibleByUnicodeScalarLiteralP"
+- "13StitchCoreSDK08ExtendedA11UserProfileP"
+- "SH"
+- !private "s6HasherV"
+- !private "s22KeyedDecodingContainerV"
+- !private "s30KeyedDecodingContainerProtocolP"
+- !private "s22KeyedEncodingContainerV"
+- !private "s30KeyedEncodingContainerProtocolP"
+- "s25LosslessStringConvertibleP"
+- "s10MirrorPathP"
+- "Sm"
+- "SY"
+- "ST"
+- !private "s12StaticStringV"
+- "SS"
+- "Sy"
+- "s16TextOutputStreamP"
+- "s20TextOutputStreamableP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- "s34_ExpressibleByBuiltinStringLiteralP"
+- "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- "s33_ExpressibleByStringInterpolationP"
+- "s21_ObjectiveCBridgeableP"
+- "s16_SwiftStringViewP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Users/katielee/Desktop/iOS_CoreLocation/Pods/StitchCoreSDK/Frameworks/ios/MongoSwift.framework/Modules/MongoSwift.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/katielee/Desktop/iOS_CoreLocation/Pods/Target Support Files/StitchCoreSDK/StitchCoreSDK-umbrella.h"
+- "/Users/katielee/Desktop/iOS_CoreLocation/DerivedData/CLDangerZone/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/StitchCoreSDK.build/unextended-module.modulemap"
+- "/Users/katielee/Desktop/iOS_CoreLocation/Pods/StitchCoreSDK/Frameworks/ios/libmongoc.framework/Modules/module.modulemap"
+- "/Users/katielee/Desktop/iOS_CoreLocation/Pods/StitchCoreSDK/Frameworks/ios/libbson.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "84d683a2555c26cd37860e3da9e27c4d"

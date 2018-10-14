@@ -1,0 +1,146 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "Buildee"
+- "StitchClientConfiguration"
+- "StitchClientConfigurationError"
+- "StitchClientConfigurationBuilder"
+provides-nominal:
+- "13StitchCoreSDK7BuildeeP"
+- "13StitchCoreSDK0A19ClientConfigurationC"
+- "13StitchCoreSDK0A24ClientConfigurationErrorO"
+- "13StitchCoreSDK0A26ClientConfigurationBuilderC"
+provides-member:
+- ["13StitchCoreSDK7BuildeeP", ""]
+- ["13StitchCoreSDK0A19ClientConfigurationC", ""]
+- ["13StitchCoreSDK0A24ClientConfigurationErrorO", ""]
+- ["13StitchCoreSDK0A26ClientConfigurationBuilderC", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "=="
+- "AssignmentPrecedence"
+- "Buildee"
+- "Error"
+- !private "FloatLiteralType"
+- !private "IntegerLiteralType"
+- "StitchClientConfiguration"
+- "StitchClientConfigurationBuilder"
+- "StitchClientConfigurationError"
+- "Storage"
+- "String"
+- "TimeInterval"
+- "Transport"
+- "URL"
+depends-member:
+- ["13StitchCoreSDK7BuildeeP", "Builder"]
+- !private ["13StitchCoreSDK7BuildeeP", "StitchClientConfigurationBuilder"]
+- ["13StitchCoreSDK7BuildeeP", ""]
+- !private ["13StitchCoreSDK7BuildeeP", "baseURL"]
+- !private ["13StitchCoreSDK7BuildeeP", "dataDirectory"]
+- !private ["13StitchCoreSDK7BuildeeP", "defaultRequestTimeout"]
+- !private ["13StitchCoreSDK7BuildeeP", "init"]
+- !private ["13StitchCoreSDK7BuildeeP", "init"]
+- !private ["13StitchCoreSDK7BuildeeP", "storage"]
+- !private ["13StitchCoreSDK7BuildeeP", "transport"]
+- ["SQ", ""]
+- ["SQ", "_code"]
+- ["SQ", "_domain"]
+- ["SQ", "_getEmbeddedNSError"]
+- ["SQ", "_userInfo"]
+- ["SQ", "hash"]
+- ["SQ", "hashValue"]
+- ["s5ErrorP", ""]
+- ["s5ErrorP", "_code"]
+- ["s5ErrorP", "_domain"]
+- ["s5ErrorP", "_getEmbeddedNSError"]
+- ["s5ErrorP", "_userInfo"]
+- ["s5ErrorP", "hash"]
+- ["s5ErrorP", "hashValue"]
+- ["SH", ""]
+- ["SH", "_code"]
+- ["SH", "_domain"]
+- ["SH", "_getEmbeddedNSError"]
+- ["SH", "_userInfo"]
+- ["SH", "hash"]
+- ["SH", "hashValue"]
+- !private ["s6HasherV", "combine"]
+- ["13StitchCoreSDK0A19ClientConfigurationC", "Builder"]
+- ["13StitchCoreSDK0A19ClientConfigurationC", "StitchClientConfigurationBuilder"]
+- ["13StitchCoreSDK0A19ClientConfigurationC", "Storage"]
+- ["13StitchCoreSDK0A19ClientConfigurationC", "String"]
+- ["13StitchCoreSDK0A19ClientConfigurationC", "TimeInterval"]
+- ["13StitchCoreSDK0A19ClientConfigurationC", "Transport"]
+- ["13StitchCoreSDK0A19ClientConfigurationC", "URL"]
+- ["13StitchCoreSDK0A19ClientConfigurationC", "baseURL"]
+- ["13StitchCoreSDK0A19ClientConfigurationC", "builder"]
+- ["13StitchCoreSDK0A19ClientConfigurationC", "dataDirectory"]
+- ["13StitchCoreSDK0A19ClientConfigurationC", "defaultRequestTimeout"]
+- ["13StitchCoreSDK0A19ClientConfigurationC", "deinit"]
+- ["13StitchCoreSDK0A19ClientConfigurationC", "init"]
+- !private ["13StitchCoreSDK0A19ClientConfigurationC", "init"]
+- ["13StitchCoreSDK0A19ClientConfigurationC", "storage"]
+- ["13StitchCoreSDK0A19ClientConfigurationC", "transport"]
+- ["13StitchCoreSDK0A26ClientConfigurationBuilderC", "StitchClientConfiguration"]
+- ["13StitchCoreSDK0A26ClientConfigurationBuilderC", "Storage"]
+- ["13StitchCoreSDK0A26ClientConfigurationBuilderC", "String"]
+- ["13StitchCoreSDK0A26ClientConfigurationBuilderC", "TimeInterval"]
+- ["13StitchCoreSDK0A26ClientConfigurationBuilderC", "Transport"]
+- ["13StitchCoreSDK0A26ClientConfigurationBuilderC", "URL"]
+- ["13StitchCoreSDK0A26ClientConfigurationBuilderC", "baseURL"]
+- ["13StitchCoreSDK0A26ClientConfigurationBuilderC", "build"]
+- ["13StitchCoreSDK0A26ClientConfigurationBuilderC", "dataDirectory"]
+- ["13StitchCoreSDK0A26ClientConfigurationBuilderC", "defaultRequestTimeout"]
+- ["13StitchCoreSDK0A26ClientConfigurationBuilderC", "init"]
+- !private ["13StitchCoreSDK0A26ClientConfigurationBuilderC", "init"]
+- ["13StitchCoreSDK0A26ClientConfigurationBuilderC", "storage"]
+- ["13StitchCoreSDK0A26ClientConfigurationBuilderC", "transport"]
+- ["13StitchCoreSDK0A26ClientConfigurationBuilderC", "with"]
+- ["13StitchCoreSDK0A24ClientConfigurationErrorO", "__derived_enum_equals"]
+- ["13StitchCoreSDK0A24ClientConfigurationErrorO", "_code"]
+- ["13StitchCoreSDK0A24ClientConfigurationErrorO", "_domain"]
+- ["13StitchCoreSDK0A24ClientConfigurationErrorO", "_getEmbeddedNSError"]
+- ["13StitchCoreSDK0A24ClientConfigurationErrorO", "_userInfo"]
+- ["13StitchCoreSDK0A24ClientConfigurationErrorO", "deinit"]
+- ["13StitchCoreSDK0A24ClientConfigurationErrorO", "hash"]
+- ["13StitchCoreSDK0A24ClientConfigurationErrorO", "hashValue"]
+- ["13StitchCoreSDK0A24ClientConfigurationErrorO", "missingProperty"]
+depends-nominal:
+- "13StitchCoreSDK7BuildeeP"
+- "SQ"
+- "s5ErrorP"
+- "SH"
+- !private "s6HasherV"
+- "13StitchCoreSDK0A19ClientConfigurationC"
+- "13StitchCoreSDK0A26ClientConfigurationBuilderC"
+- "13StitchCoreSDK0A24ClientConfigurationErrorO"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Users/katielee/Desktop/iOS_CoreLocation/Pods/StitchCoreSDK/Frameworks/ios/MongoSwift.framework/Modules/MongoSwift.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/katielee/Desktop/iOS_CoreLocation/Pods/Target Support Files/StitchCoreSDK/StitchCoreSDK-umbrella.h"
+- "/Users/katielee/Desktop/iOS_CoreLocation/DerivedData/CLDangerZone/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/StitchCoreSDK.build/unextended-module.modulemap"
+- "/Users/katielee/Desktop/iOS_CoreLocation/Pods/StitchCoreSDK/Frameworks/ios/libmongoc.framework/Modules/module.modulemap"
+- "/Users/katielee/Desktop/iOS_CoreLocation/Pods/StitchCoreSDK/Frameworks/ios/libbson.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "8b0079ceddac2f994f0219983f5322cd"

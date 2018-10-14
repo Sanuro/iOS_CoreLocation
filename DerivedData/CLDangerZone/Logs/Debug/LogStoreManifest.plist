@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>logFormatVersion</key>
+	<integer>9</integer>
+	<key>logs</key>
+	<dict>
+		<key>19E1C6C2-C65B-4BC2-A184-9169A2C71FCC</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>19E1C6C2-C65B-4BC2-A184-9169A2C71FCC.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>S</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>CLDangerZone project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>CLDangerZone</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>0</integer>
+			<key>signature</key>
+			<string>Debug CLDangerZone</string>
+			<key>timeStartedRecording</key>
+			<real>561178571.83730805</real>
+			<key>timeStoppedRecording</key>
+			<real>561178633.125651</real>
+			<key>title</key>
+			<string>Debug CLDangerZone</string>
+			<key>uniqueIdentifier</key>
+			<string>19E1C6C2-C65B-4BC2-A184-9169A2C71FCC</string>
+		</dict>
+		<key>388F309E-E392-4C37-B3D3-6F3B9A82BE29</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>388F309E-E392-4C37-B3D3-6F3B9A82BE29.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>S</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>CLDangerZone project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>CLDangerZone</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>0</integer>
+			<key>signature</key>
+			<string>Debug CLDangerZone</string>
+			<key>timeStartedRecording</key>
+			<real>561175049.638327</real>
+			<key>timeStoppedRecording</key>
+			<real>561178393.120134</real>
+			<key>title</key>
+			<string>Debug CLDangerZone</string>
+			<key>uniqueIdentifier</key>
+			<string>388F309E-E392-4C37-B3D3-6F3B9A82BE29</string>
+		</dict>
+		<key>60D853A1-F6D7-4018-B475-11CBAE115156</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>60D853A1-F6D7-4018-B475-11CBAE115156.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>S</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>CLDangerZone project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>CLDangerZone</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>0</integer>
+			<key>signature</key>
+			<string>Debug CLDangerZone</string>
+			<key>timeStartedRecording</key>
+			<real>561178420.95501196</real>
+			<key>timeStoppedRecording</key>
+			<real>561178552.11763</real>
+			<key>title</key>
+			<string>Debug CLDangerZone</string>
+			<key>uniqueIdentifier</key>
+			<string>60D853A1-F6D7-4018-B475-11CBAE115156</string>
+		</dict>
+		<key>F16B3B26-0DFE-4099-8BCB-1C5898D12703</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>F16B3B26-0DFE-4099-8BCB-1C5898D12703.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>S</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>CLDangerZone project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>CLDangerZone</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>0</integer>
+			<key>signature</key>
+			<string>Debug CLDangerZone</string>
+			<key>timeStartedRecording</key>
+			<real>561174405.12440801</real>
+			<key>timeStoppedRecording</key>
+			<real>561175048.69460499</real>
+			<key>title</key>
+			<string>Debug CLDangerZone</string>
+			<key>uniqueIdentifier</key>
+			<string>F16B3B26-0DFE-4099-8BCB-1C5898D12703</string>
+		</dict>
+	</dict>
+</dict>
+</plist>
