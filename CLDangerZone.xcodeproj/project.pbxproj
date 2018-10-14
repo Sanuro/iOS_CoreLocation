@@ -144,6 +144,7 @@
 				TargetAttributes = {
 					FEB4368320FE93E800D62C04 = {
 						CreatedOnToolsVersion = 9.4.1;
+						LastSwiftMigration = 1000;
 					};
 				};
 			};
@@ -392,6 +393,7 @@
 			baseConfigurationReference = E512C8E182960C9541B5DB00 /* Pods-CLDangerZone.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = G2972WV9H7;
 				INFOPLIST_FILE = CLDangerZone/Info.plist;
@@ -402,6 +404,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.Jaewon.CLDangerZone;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -412,6 +415,7 @@
 			baseConfigurationReference = 7D4FE51E6ADDD8B40716AB5D /* Pods-CLDangerZone.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = G2972WV9H7;
 				INFOPLIST_FILE = CLDangerZone/Info.plist;

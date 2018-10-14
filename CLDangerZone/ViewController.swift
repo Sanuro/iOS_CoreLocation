@@ -15,7 +15,7 @@ import MessageUI
 import Contacts
 
 import Foundation
-import Alamofire
+//import Alamofire
 
 import StitchCore
 import StitchRemoteMongoDBService
@@ -24,10 +24,22 @@ import StitchRemoteMongoDBService
 
 
 
-class ViewController: UIViewController, MKMapViewDelegate, MFMessageComposeViewControllerDelegate {
+class ViewController: UIViewController, MKMapViewDelegate, MFMessageComposeViewControllerDelegate, UIPickerViewDelegate, UIPickerViewDataSource {
+    
     
     private lazy var stitchClient = Stitch.defaultAppClient!
     private var mongoClient: RemoteMongoClient?
+    
+    @IBOutlet weak var new_categoryView: UIView!
+    @IBOutlet weak var category: UIPickerView!
+    
+    let category_option = ["Theft","Assault","Sexual Assault","Shooting", "Vandalism", "Alcohol", "Other"]
+    var category_chosen = ""
+    var coordinate_to_save: CLLocationCoordinate2D?
+    var address_to_save: String?
+    var annotation_to_save: MKPointAnnotation?
+    
+    
     
     
     func messageComposeViewController(_ controller: MFMessageComposeViewController, didFinishWith result: MessageComposeResult) {
@@ -73,7 +85,7 @@ class ViewController: UIViewController, MKMapViewDelegate, MFMessageComposeViewC
         
         
         let coordinate = locationManager.location?.coordinate
-        
+        coordinate_to_save = coordinate
         let location = CLLocation(latitude: coordinate?.latitude ?? 0, longitude: coordinate?.longitude ?? 0)
         let geocoder = CLGeocoder()
         var whole_address = ""
@@ -116,8 +128,93 @@ class ViewController: UIViewController, MKMapViewDelegate, MFMessageComposeViewC
 //        }
     }
     @IBAction func callButtonPressed(_ sender: UIButton) {
-        let url: NSURL = URL(string: "TEL://119")! as NSURL
-        UIApplication.shared.open(url as URL, options: [:], completionHandler: nil)
+//        let url: NSURL = URL(string: "TEL://119")! as NSURL
+//        UIApplication.shared.open(url as URL, options: [:], completionHandler: nil)
+        
+        let coordinate = locationManager.location?.coordinate
+        coordinate_to_save = coordinate
+        let location = CLLocation(latitude: coordinate?.latitude ?? 0, longitude: coordinate?.longitude ?? 0)
+        let geocoder = CLGeocoder()
+        var whole_address = ""
+        geocoder.reverseGeocodeLocation(location) {(clPlacemarks, error) in
+            if error != nil{
+                print(error?.localizedDescription)
+            } else if let placemarks = clPlacemarks, placemarks.count > 0{
+                let placemark = placemarks[0]
+                whole_address = "\(placemark.postalAddress!.street), \(placemark.postalAddress!.city), \(placemark.postalAddress!.state),  \(placemark.postalAddress!.postalCode), \(placemark.postalAddress!.country)"
+                var potential_message = "Hello. I am Katie. I am in danger at " + whole_address
+                potential_message = potential_message.addingPercentEncoding(withAllowedCharacters: .urlHostAllowed) ?? ""
+                
+                var encoded_potential_msg_url = "https://danger-klee123.structure.sh/msg/" + potential_message
+                
+                let url = URL(string: encoded_potential_msg_url)
+                // create a URLSession to handle the request tasks
+                let session = URLSession.shared
+                // create a "data task" to make the request and run completion handler
+                let task = session.dataTask(with: url!, completionHandler: {
+                    // see: Swift closure expression syntax
+                    data, response, error in
+                    // data -> JSON data, response -> headers and other meta-information, error-> if one occurred
+                    // "do-try-catch" blocks execute a try statement and then use the catch statement for errors
+                    do {
+                        // try converting the JSON object to "Foundation Types" (NSDictionary, NSArray, NSString, etc.)
+//                        if let jsonResult = try JSONSerialization.jsonObject(with: data!, options: JSONSerialization.ReadingOptions.mutableContainers) as? NSDictionary {
+//                            print(jsonResult)
+//                        }
+                    } catch {
+                        print(error)
+                    }
+                })
+                // execute the task and then wait for the response
+                // to run the completion handler. This is async!
+                task.resume()
+                
+
+//                let url_call: NSURL = URL(string: encoded_potential_msg_url)! as NSURL
+//                // create a URLSession to handle the request tasks
+//                UIApplication.shared.open(url_call as URL, options: [:], completionHandler: nil)
+
+//                client.callFunction(withName: "sendlocation", withArgs: [whole_address], withRequestTimeout: 5.0
+//                ) { (result: StitchResult<String>) in
+//                    switch result {
+//                    case .success(let stringResult):
+//                        print("String result: \(stringResult)")
+//                    case .failure(let error):
+//                        print("Error retrieving String: \(String(describing: error))")
+//                    }
+//                }
+                //                    "Latitude: \(coordinate.latitude) Longitude: \(coordinate.longitude)"
+            }
+        }
+
+        
+        
+        
+        
+        
+//        let url_call: NSURL = URL(string: "https://dangerzone-klee123.structure.sh/msg/hello")! as NSURL
+//        // create a URLSession to handle the request tasks
+//        UIApplication.shared.open(url_call as URL, options: [:], completionHandler: nil)
+        
+//        let session = URLSession.shared
+//        // create a "data task" to make the request and run completion handler
+//        let task = session.dataTask(with: url_call!, completionHandler: {
+//            // see: Swift closure expression syntax
+//            data, response, error in
+//            // data -> JSON data, response -> headers and other meta-information, error-> if one occurred
+//            // "do-try-catch" blocks execute a try statement and then use the catch statement for errors
+//            do {
+//                // try converting the JSON object to "Foundation Types" (NSDictionary, NSArray, NSString, etc.)
+//                if let jsonResult = try JSONSerialization.jsonObject(with: data!, options: JSONSerialization.ReadingOptions.mutableContainers) as? NSDictionary {
+//                    print(jsonResult)
+//                }
+//            } catch {
+//                print(error)
+//            }
+//        })
+//        // execute the task and then wait for the response
+//        // to run the completion handler. This is async!
+//        task.resume()
     }
     @IBAction func swipeRightGesture(_ sender: UISwipeGestureRecognizer) {
         performSegue(withIdentifier: "swipeRightSegue", sender: sender)
@@ -149,7 +246,8 @@ class ViewController: UIViewController, MKMapViewDelegate, MFMessageComposeViewC
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
-
+        new_categoryView.isHidden = true
+        category_chosen = "Theft"
         enableBasicLocationServices()
 
         let longPressGesture = UILongPressGestureRecognizer(target: self, action: #selector(addAnnotationOnLongPress(gesture:)))
@@ -164,10 +262,9 @@ class ViewController: UIViewController, MKMapViewDelegate, MFMessageComposeViewC
         catch{
             print(error)
         }
-
-        
-        
-        
+//        pickerview is category
+        category.dataSource = self
+        category.delegate = self
 
     }
     
@@ -229,7 +326,6 @@ class ViewController: UIViewController, MKMapViewDelegate, MFMessageComposeViewC
             var annotation = MKPointAnnotation()
             annotation.coordinate = coordinate
             //Set title and subtitle if you want
-            annotation.title = "DANGER ZONE"
             
             let location = CLLocation(latitude: coordinate.latitude, longitude: coordinate.longitude)
             let geocoder = CLGeocoder()
@@ -239,30 +335,10 @@ class ViewController: UIViewController, MKMapViewDelegate, MFMessageComposeViewC
                 } else if let placemarks = clPlacemarks, placemarks.count > 0{
                     let placemark = placemarks[0]
                     annotation.subtitle = "\(placemark.postalAddress!.street), \(placemark.postalAddress!.city), \(placemark.postalAddress!.state),  \(placemark.postalAddress!.postalCode), \(placemark.postalAddress!.country)"
-                    client.callFunction(withName: "update_pin", withArgs: [annotation.subtitle ?? "UPDATE"], withRequestTimeout: 5.0
-                    ) { (result: StitchResult<String>) in
-                        switch result {
-                        case .success(let stringResult):
-                            print("Safely sent new danger zone")
-                        case .failure(let error):
-                            print("Error retrieving String: \(String(describing: error))")
-                        }
-                    }
-                
-                }
-            }
-        
-            let title = "Zone"
-            
-            
-            client.callFunction(withName: "add_danger", withArgs: [title, coordinate.latitude.description, coordinate.longitude.description], withRequestTimeout: 5.0
-            ) { (result: StitchResult<String>) in
-                switch result {
-                case .success(let stringResult):
-                    print("String result: \(stringResult)")
-                case .failure(let error):
-                    print("Error retrieving String: \(String(describing: error))")
-                }
+                    self.new_categoryView.isHidden = false
+                    self.address_to_save = annotation.subtitle
+                    self.annotation_to_save = annotation
+                } 
             }
             
             
@@ -272,9 +348,9 @@ class ViewController: UIViewController, MKMapViewDelegate, MFMessageComposeViewC
            
             
 //            annotation.subtitle = "Latitude: \(coordinate.latitude) Longitude: \(coordinate.longitude)"
-            
-            
-            self.mapView.addAnnotation(annotation)
+//            if (save_data) {
+//                self.mapView.addAnnotation(annotation)
+//            }
         }
     }
 //    func getPlacemarkFromLocation(location: CLLocation){
@@ -295,6 +371,63 @@ class ViewController: UIViewController, MKMapViewDelegate, MFMessageComposeViewC
         locationManager.startUpdatingHeading()
     }
     
+    @IBAction func cancelButtonPressed(_ sender: Any) {
+        new_categoryView.isHidden = true
+        
+    }
+    
+    @IBAction func saveButtonPressed(_ sender: UIButton) {
+        new_categoryView.isHidden = true
+        annotation_to_save?.title = category_chosen
+        self.mapView.addAnnotation(annotation_to_save!)
+        
+        
+        
+        let client = Stitch.defaultAppClient!
+        
+        client.auth.login(withCredential: AnonymousCredential()) { result in
+            switch result {
+            case .success(let user):
+                print("logged in anonymous as user \(user.id)")
+                DispatchQueue.main.async {
+                    // update UI accordingly
+                }
+            case .failure(let error):
+                print("Failed to log in: \(error)")
+            }
+        }
+        
+//      send text to others about update
+        client.callFunction(withName: "notify_others", withArgs: [category_chosen, address_to_save ?? "UPDATE"], withRequestTimeout: 5.0) { (result: StitchResult<String>) in
+            switch result {
+            case .success(let stringResult):
+                print("String result: \(stringResult)")
+            case .failure(let error):
+                print("Error retrieving String: \(String(describing: error))")
+            }
+        }
+        
+//        save to database
+        client.callFunction(withName: "add_danger", withArgs: [category_chosen, coordinate_to_save?.latitude.description ?? "0", coordinate_to_save?.longitude.description ?? "0"], withRequestTimeout: 5.0
+        ) { (result: StitchResult<String>) in
+            switch result {
+            case .success(let stringResult):
+                print("String result: \(stringResult)")
+            case .failure(let error):
+                print("Error retrieving String: \(String(describing: error))")
+            }
+        }
+        
+        
+    }
+    
+    func pickerView(_ pickerView: UIPickerView, didSelectRow row: Int, inComponent component: Int) {
+        category_chosen = category_option[row]
+    }
+    
+    
+    
+    
     @IBAction func longTouchPressed(_ sender: UILongPressGestureRecognizer) {
         
 //        let pinLocation = sender.location(in: self.mapView)
@@ -308,6 +441,12 @@ class ViewController: UIViewController, MKMapViewDelegate, MFMessageComposeViewC
 //
 //        self.mapView.addAnnotation(annotation)
     }
+    
+    
+    
+    
+    
+    
     
     
 }
@@ -353,6 +492,18 @@ extension ViewController: CLLocationManagerDelegate {
             let angle = newHeading.trueHeading // convert from degrees to radians
        //     print(angle)
         }
+    }
+    
+    
+    func numberOfComponents(in pickerView: UIPickerView) -> Int {
+        return 1
+    }
+    
+    func pickerView(_ pickerView: UIPickerView, numberOfRowsInComponent component: Int) -> Int {
+        return category_option.count
+    }
+    func pickerView(_ pickerView: UIPickerView, titleForRow row: Int, forComponent component: Int) -> String? {
+        return category_option[row]
     }
 }
 
