@@ -243,7 +243,7 @@ class ViewController: UIViewController, MKMapViewDelegate, MFMessageComposeViewC
                     ) { (result: StitchResult<String>) in
                         switch result {
                         case .success(let stringResult):
-                            print("String result: \(stringResult)")
+                            print("Safely sent new danger zone")
                         case .failure(let error):
                             print("Error retrieving String: \(String(describing: error))")
                         }
