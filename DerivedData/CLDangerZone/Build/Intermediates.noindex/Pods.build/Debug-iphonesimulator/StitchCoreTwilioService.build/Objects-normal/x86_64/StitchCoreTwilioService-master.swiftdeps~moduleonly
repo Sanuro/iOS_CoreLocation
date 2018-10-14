@@ -1,5 +1,0 @@
-version: "Apple Swift version 4.2 (swiftlang-1000.11.37.1 clang-1000.11.45.1)"
-options: "8cb03a0fe7539026bcc0df34c1446bbf"
-build_time: [1539479501, 831876000]
-inputs:
-  "/Users/katielee/Desktop/iOS_CoreLocation/Pods/StitchCoreTwilioService/Core/Services/StitchCoreTwilioService/Sources/StitchCoreTwilioService/CoreTwilioServiceClient.swift": [1539478926, 0]
